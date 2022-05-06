@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -12,21 +13,29 @@ public class CharacterMovement : MonoBehaviour
     private Transform tf;
     private Vector3 charPos;
     private Vector3 targetcharPos;
+    [SerializeField] private Transform plane;
     
     //private float time = 0;
     
     void Start()
     {
         tf = transform;
+        if (plane != null)
+        {
+            distance = (plane.localScale.z/3)* 10 ;
+        }
+
+        Debug.Log(distance);
     }
 
     void Update()
     {
-        MoveForward();
-        Debug.Log(line);
+        MoveForward(); // force ile yapabiliriz
         charPos = tf.position;
-        if (Input.GetKey(KeyCode.LeftArrow) && line > 0)
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && line > 0)
         {
+            //Daha yumuşak bir geçiş için force uygulanabilir
+            Debug.Log(line);
             targetcharPos = new Vector3(charPos.x - distance, charPos.y, charPos.z);
             transform.position = Vector3.Lerp(charPos, targetcharPos, 1.0f);
             line--;
@@ -34,10 +43,11 @@ public class CharacterMovement : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.RightArrow) && line < 2 )
+        if (Input.GetKeyDown(KeyCode.RightArrow) && line < 2 )
         {
+            Debug.Log(line);
             targetcharPos = new Vector3(charPos.x + distance, charPos.y, charPos.z);
-            transform.position = Vector3.Lerp(charPos, targetcharPos, 1.0f);
+            transform.position = targetcharPos; //Vector3.Lerp(charPos, targetcharPos, 1.0f);
             line++;
             
         }
