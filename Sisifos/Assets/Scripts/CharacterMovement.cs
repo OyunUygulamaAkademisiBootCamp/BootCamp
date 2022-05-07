@@ -80,18 +80,6 @@ public class CharacterMovement : MonoBehaviour
             }
             Debug.Log("Line: " + line);
         }
-        
-        // Vector3 targetPos = transform.position.x * Vector3.forward;
-        //
-        //
-        // if (line == 0)
-        // {
-        //     targetPos += Vector3.left * distance;
-        // }
-        // else if (line == 2)
-        // {
-        //     targetPos += Vector3.right * distance;
-        // }
-        //
+
     }
 }
