@@ -33,7 +33,7 @@ Unity 77
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVO3OfjiQ=/)
+-[Miro Backlog Board](https://miro.com/app/board/uXjVO3OfjiQ=/)
 
 ---
 
@@ -49,16 +49,16 @@ Unity 77
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/sntahmaz/BootCamp/blob/main/Tak%C4%B1m77-Daily%20Scrum.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp,Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği Word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/sntahmaz/BootCamp/blob/main/Tak%C4%B1m77-Daily%20Scrum.docx?raw=true)
 - [Takim 77 Miro](https://github.com/sntahmaz/BootCamp/blob/main/Tak%C4%B1m%2077-GAMZE%20KILI%C3%87.docx?raw=true)
 - **Sprint board update**: Sprint board screenshotları: 1
 ![Backlog 1](https://github.com/sntahmaz/BootCamp/blob/main/sprintBoard.png) 
 - **Ürün Durumu**: Ekran görüntüleri: 1
-![Screenshot 1](https://github.com/sntahmaz/BootCamp/blob/main/sisifos%20resmi.png)
+-![Screenshot 1](https://github.com/sntahmaz/BootCamp/blob/main/sisifos%20resmi.png)
   
 
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+- Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
 
 - **Sprint Retrospective:**
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
