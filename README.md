@@ -22,7 +22,7 @@ Unity 77
 
 ## Ürün Özellikleri
 
--
+-Hyper Casual
 - 
 - 
 
