@@ -5,19 +5,18 @@ using UnityEngine;
 
 public class PlaneController : MonoBehaviour
 {
+    private PlaneInst _planeInst;
+    
 
     private void Start()
     {
-
+        _planeInst = GameObject.FindObjectOfType<PlaneInst>();
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        Debug.Log(other.name);
-        if (other.CompareTag("Player"))
-        {
-            gameObject.SetActive(false);
-        }
+    private void OnBecameInvisible()
+    { 
+        //bilgisayarda scene sekmesi açıkken çalışmadı. hala visible sanıyor
+        _planeInst.RelocatePlane(this.gameObject);
     }
 }
      
