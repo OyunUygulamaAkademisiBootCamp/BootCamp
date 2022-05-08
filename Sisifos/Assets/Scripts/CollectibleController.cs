@@ -27,7 +27,7 @@ public class CollectibleController : MonoBehaviour
             _y = - (_z * yAngle) + distanceToRoad;
             _x = 1.5f* (1- i%3); 
             GameObject createdPlane =  Instantiate(collectibleObject, new Vector3(0,_y,_z),  Quaternion.Euler(new Vector3(0, 0, 0)));
-            createdPlane.GetComponent<Renderer>().material.color = colors[i];
+            createdPlane.GetComponent<Renderer>().material.color = colors[i-1];
             
         }
         
