@@ -22,7 +22,7 @@ Unity 77
 
 ## Ürün Özellikleri
 
--Hyper Casual
+- Hyper Casual
 - 
 - 
 
@@ -53,12 +53,11 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - [Takim 77 Miro](https://github.com/sntahmaz/BootCamp/blob/main/Tak%C4%B1m%2077-GAMZE%20KILI%C3%87.docx?raw=true)
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/sntahmaz/BootCamp/blob/main/sprintBoard.png) 
-![Backlog 2]() 
-![Backlog 3]()
+
 
 - **Ürün Durumu**: Ekran görüntüleri:
   ![Screenshot 1](https://github.com/sntahmaz/BootCamp/blob/main/sisifos%20resmi.png)
-  ![Screenshot 2]()
+  
 
 - **Sprint Review**: 
 Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
