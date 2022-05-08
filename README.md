@@ -50,6 +50,7 @@ Unity 77
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/sntahmaz/BootCamp/blob/main/Tak%C4%B1m77-Daily%20Scrum.docx?raw=true)
+- [Takim 77 Miro](https://github.com/sntahmaz/BootCamp/blob/main/Tak%C4%B1m%2077-GAMZE%20KILI%C3%87.docx?raw=true)
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://github.com/sntahmaz/BootCamp/blob/main/sprintBoard.png) 
 ![Backlog 2]() 
