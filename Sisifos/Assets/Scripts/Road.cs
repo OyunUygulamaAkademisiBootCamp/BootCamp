@@ -3,20 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlaneController : MonoBehaviour
+public class Road : MonoBehaviour
 {
-    private PlaneInst _planeInst;
+    private RoadController _roadController;
     
 
     private void Start()
     {
-        _planeInst = GameObject.FindObjectOfType<PlaneInst>();
+        _roadController = GameObject.FindObjectOfType<RoadController>();
     }
 
     private void OnBecameInvisible()
     { 
         //bilgisayarda scene sekmesi açıkken çalışmadı. hala visible sanıyor
-        _planeInst.RelocatePlane(this.gameObject);
+        _roadController.RelocatePlane(this.gameObject);
     }
 }
      

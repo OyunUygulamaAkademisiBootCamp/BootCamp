@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Microsoft.Win32.SafeHandles;
 using UnityEngine;
 
-public class PlaneInst : MonoBehaviour
+public class RoadController : MonoBehaviour
 {
 // Plane instantiation için yazıldı
     [SerializeField] private GameObject plane;

@@ -6,22 +6,26 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private  CollectibleController _collectibleController;
+    
 
-    // Update is called once per frame
-    void Update()
+    void Start()
+    
     {
-        
+        _collectibleController = GameObject.FindObjectOfType<CollectibleController>();
     }
+    
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            _collectibleController.relocateCollectible(this.gameObject);
         }
+    }
+
+    private void OnBecameInvisible()
+    {
+        _collectibleController.relocateCollectible(this.gameObject);
     }
 }
