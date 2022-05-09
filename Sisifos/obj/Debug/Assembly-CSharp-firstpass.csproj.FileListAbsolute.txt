@@ -1,0 +1,2 @@
+/Users/seyma/Documents/GitHub/BootCamp/Sisifos/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+/Users/seyma/Documents/GitHub/BootCamp/Sisifos/obj/Debug/Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
