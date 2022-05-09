@@ -7,7 +7,7 @@ Unity 77
 ## Takım Elemanları
 
 - Alptuğ İlgili:Product  Owner
-- Başak Dilara Çevik:Developer
+- Başak Dilara Çevik:Product  Owner
 - Eray Aybek: Developer 
 - Gamze Kılıç: Scrum Master
 - Şeyma Nur Tahmaz: Developer
@@ -52,20 +52,29 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp,Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği Word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/sntahmaz/BootCamp/blob/main/Tak%C4%B1m77-Daily%20Scrum.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshotları: 1
-![Backlog 1](https://github.com/sntahmaz/BootCamp/blob/main/sprintBoard.png) 
-- **Ürün Durumu**: Ekran görüntüleri: 1
+![Backlog 1](https://github.com/sntahmaz/BootCamp/blob/main/9%20may%C4%B1s%20ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC3.png) 
+![Backlog 2](https://github.com/sntahmaz/BootCamp/blob/main/9%20may%C4%B1s%20ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC2.png)
+-
+- **Ürün Durumu**: Ekran görüntüleri: 
+- 
 -![Screenshot 1](https://github.com/sntahmaz/BootCamp/blob/main/sisifos%20resmi.png)
 -![Screenshot 2](https://github.com/sntahmaz/BootCamp/blob/main/unity%20%C3%A7al%C4%B1%C5%9Fma%202.png)
 -![Screenshot 3](https://github.com/sntahmaz/BootCamp/blob/main/unity%20%C3%A7al%C4%B1%C5%9Fma1.png)
   
 
 - **Sprint Review**: 
-- Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+- Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: 
+- Başak Dilara Çevik:Product  Owner
+- Eray Aybek: Developer 
+- Gamze Kılıç: Scrum Master
+- Şeyma Nur Tahmaz: Developer
 
 - **Sprint Retrospective:**
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
+  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
   - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
+  - Zaman Planlaması Oluşturulmalıdır.
+  - a
+   
 
 -**Diğer Notlar**:
 - N/A
