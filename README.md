@@ -6,8 +6,8 @@ Unity 77
 
 ## Takım Elemanları
 
-- Alptuğ İlgili:Product  Owner
-- Başak Dilara Çevik:Product  Owner
+- Alptuğ İlgili:
+- Başak Dilara Çevik:Developer (Product Owner)
 - Eray Aybek: Developer 
 - Gamze Kılıç: Scrum Master
 - Şeyma Nur Tahmaz: Developer
@@ -65,17 +65,15 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   
 
 - **Sprint Review**: 
-- Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: 
-- Başak Dilara Çevik:Product  Owner
-- Eray Aybek: Developer 
-- Gamze Kılıç: Scrum Master
-- Şeyma Nur Tahmaz: Developer
+-  Güncel kararlar: Oyun için ön hazırlıklar başlamıştır. Assetlerin tasarımı hızlanmakla beraber  bölüm tasarımı ve seviye  genel konseptleri oluşturulacaktır. Ayrıca UI için taslaklar oluşturulacaktır.Yapılacak her işi ve fikri, unutmamak için detaylı olarak kaydetmeye karar verildi.Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir.github kullanımında daha ihtiyatlı commit atmaya özen gösterilecektir. Sprint Review katılımcıları: 
+- Başak Dilara Çevik, Eray Aybek, Gamze Kılıç, Şeyma Nur Tahmaz
 
 - **Sprint Retrospective:**
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
   - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
   - Zaman Planlaması Oluşturulmalıdır.
-  - a
+  -  projenin gidişatına göre Backlogun güncellenmelidir.
+  - 
    
 
 -**Diğer Notlar**:
