@@ -55,6 +55,8 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 ![Backlog 1](https://github.com/sntahmaz/BootCamp/blob/main/sprintBoard.png) 
 - **Ürün Durumu**: Ekran görüntüleri: 1
 -![Screenshot 1](https://github.com/sntahmaz/BootCamp/blob/main/sisifos%20resmi.png)
+-![Screenshot 2](https://github.com/sntahmaz/BootCamp/blob/main/unity%20%C3%A7al%C4%B1%C5%9Fma%202.png)
+-![Screenshot 3](https://github.com/sntahmaz/BootCamp/blob/main/unity%20%C3%A7al%C4%B1%C5%9Fma1.png)
   
 
 - **Sprint Review**: 
