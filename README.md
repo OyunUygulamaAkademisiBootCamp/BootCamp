@@ -14,17 +14,19 @@ Unity 77
 
 ## Ürün İsmi
 
---Sisifos --
+--Sisifos -- düzenlenecek
 
 ## Ürün Açıklaması
 
-- Sisifos oyunumuz ile 
+- Oyunumuz ile, karakter belli bir ağırlık aralığında , taşı yuvarlayarak engelleri geçmeye çalışıp seviyeyi tamamlayacaktır. 
 
 ## Ürün Özellikleri
 
 - Hyper Casual
 - [Takim 77 Miro](https://github.com/sntahmaz/BootCamp/blob/main/Tak%C4%B1m%2077-GAMZE%20KILI%C3%87.docx?raw=true)
-- 
+- Gittikçe zorlaşan leveller
+- karakterin koşma sırasında , toplanabilir objeleri toplaması ve
+- engellerden kaçınma
 
 ## Hedef Kitle
 
