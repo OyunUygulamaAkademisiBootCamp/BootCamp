@@ -29,7 +29,7 @@ Unity 77
 ## Hedef Kitle
 
 - Runner oyun sevenler
-- 13 - 65 yaş arası kullanıcılar
+- 10 - 65 yaş arası kullanıcılar
 
 ## Product Backlog URL
 
@@ -43,11 +43,11 @@ Unity 77
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in  100 ile başlaması gerektiğine karar verildi.
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+- **Backlog düzeni ve Story seçimleri**: Miroda Sprint Boarda görünen Backlog'umuz genel yapılacak işleri sarı renkte gösterilerek düzenlenmiştir.Yapılacaklar kısmı ise kırmızı renkte düzenlenmiş olmakla beraber Backlog'umuzda işlerin ayrıntılı halidir. . 
 
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken yeşil item'ler üzerinde çalışılan işleri (task) gösterirken, mavi item'lar tamamlanmış işleri temsil etmektedir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp,Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği Word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/sntahmaz/BootCamp/blob/main/Tak%C4%B1m77-Daily%20Scrum.docx?raw=true)
 
