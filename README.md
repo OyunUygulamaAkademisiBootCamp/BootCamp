@@ -47,9 +47,9 @@ Unity 77
 
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in  en az 75 ile başlaması gerektiğine karar verildi.
 
-- **Backlog düzeni ve Story seçimleri**: Miroda Sprint Boarda görünen Backlog'umuz genel yapılacak işleri sarı renkte gösterilerek düzenlenmiştir.Yapılacaklar kısmı ise kırmızı renkte düzenlenmiş olmakla beraber Backlog'umuzda işlerin ayrıntılı halidir. . 
+- **Backlog düzeni ve Story seçimleri**: Miro uygulamasında Sprint Boarda görünen Backlog'umuz genel yapılacak işleri sarı renkte gösterilmiştir. Yapılacaklar kısmı ise kırmızı renkte düzenlenmiş olmakla beraber sarı renkte düzenlenmiş Backlog'un, ayrıntılı halidir.Miro Board'da gözüken yeşil item'ler üzerinde çalışılan işleri (task) gösterirken, mavi item'lar tamamlanmış işleri temsil etmektedir.
 
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken yeşil item'ler üzerinde çalışılan işleri (task) gösterirken, mavi item'lar tamamlanmış işleri temsil etmektedir.
+Miro Uygulamasında, user story örneği bulunmaktadır.
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp,Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği Word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/sntahmaz/BootCamp/blob/main/Tak%C4%B1m77-Daily%20Scrum.docx?raw=true)
 
