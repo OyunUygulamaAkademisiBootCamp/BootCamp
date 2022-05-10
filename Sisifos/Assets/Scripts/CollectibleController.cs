@@ -6,14 +6,14 @@ using Random = System.Random;
 
 public class CollectibleController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    [SerializeField] private GameObject collectibleObject;
+    [SerializeField] private GameObject collectibleObject; // Toplanabilir GameObject tanımlandı.
     [SerializeField] private int collectibleCount;
-    private Color[] colors = new []{Color.black, Color.blue, Color.cyan, Color.green, Color.red,Color.magenta, Color.white, Color.blue, Color.cyan, Color.red};
-    public int distanceBtwCollectibles = 5;
+    private Color[] colors = new []{Color.black, Color.blue, Color.cyan, Color.green, Color.red,Color.magenta, Color.white, Color.blue, Color.cyan, Color.red}; // Toplanabilir GameObject'in renkleri belirlendi.
+    public int distanceBtwCollectibles = 5; // Toplanabilir GameObjectlerin instantiate aralığı belirlendi.
     public int distanceToRoad = 10;
     public int planeAngle = -20;
     private float _x, _y, _z, relocateDistanceX,relocateDistanceY,relocateDistanceZ; 
+    
     void Start()
     {
         _z = 20.0f;
@@ -21,6 +21,7 @@ public class CollectibleController : MonoBehaviour
         relocateDistanceY = -collectibleCount * Convert.ToSingle(distanceBtwCollectibles * Math.Sin(planeAngle * Math.PI / 180));
         relocateDistanceZ = collectibleCount * Convert.ToSingle(distanceBtwCollectibles * Math.Cos(planeAngle * Math.PI / 180));
         float yAngle = Convert.ToSingle(Math.Tan(planeAngle * Math.PI / 180));
+        
         for (int i = 1; i <= collectibleCount; i++)
         {
             _z *= i;
@@ -41,7 +42,7 @@ public class CollectibleController : MonoBehaviour
 
     public void relocateCollectible(GameObject _gameObject)
     {
-        relocateDistanceX = 1.5f * (1 - ((relocateDistanceX + _gameObject.transform.position.x /1.5f ) % 3));
+        relocateDistanceX = 1.5f * (1 - ((relocateDistanceX + _gameObject.transform.position.x / 1.5f ) % 3));
         _gameObject.transform.position += new Vector3(relocateDistanceX, relocateDistanceY+distanceToRoad, relocateDistanceZ);
     }
 }

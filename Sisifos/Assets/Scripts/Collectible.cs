@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Toolbars;
 using UnityEngine;
 
 public class Collectible : MonoBehaviour
@@ -20,12 +21,14 @@ public class Collectible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            _collectibleController.relocateCollectible(this.gameObject);
+            Destroy(gameObject);
         }
     }
-
-    private void OnBecameInvisible()
-    {
-        _collectibleController.relocateCollectible(this.gameObject);
-    }
+    
+    
+    //ToDo:On became invisible karakter collectible'ın üzerine geldiğinde hata veriyor.
+    //private void OnBecameInvisible()
+    //{
+    //    _collectibleController.relocateCollectible(this.gameObject);
+    //}
 }

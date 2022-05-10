@@ -7,13 +7,16 @@ using UnityEngine.UIElements;
 public class CharacterMovement : MonoBehaviour
 {
 
-    public float speed = 10;
+    public float speed = 10; // Hız değişkeni
     private int line = 1; // 0 = Left, 1 = Middle, 2 = Right
-    private float distance = 1.5f;
-    private Rigidbody _rigidbody;
-    private Transform tf;
-    private Vector3 charPos;
-    private Vector3 targetcharPos;
+    private float distance = 1.5f; // Mesafe değişkeni (Şuan kullanılmıyor)
+    
+    private Rigidbody _rigidbody; // Rigidbody değişkeni
+    private Transform tf; // Transform değişkeni
+    
+    private Vector3 charPos; 
+    private Vector3 targetcharPos; 
+    
     [SerializeField] private Transform plane;
 
     private Vector2 startPos, endPos;
