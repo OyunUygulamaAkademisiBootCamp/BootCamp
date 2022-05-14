@@ -13,7 +13,7 @@ public class Collectible : MonoBehaviour
     void Start()
     
     {
-        _collectibleController = GameObject.FindObjectOfType<CollectibleController>();
+        //_collectibleController = GameObject.FindObjectOfType<CollectibleController>();
     }
     
 
@@ -21,6 +21,7 @@ public class Collectible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("Collectible Toplandı!");
             Destroy(gameObject);
         }
     }
