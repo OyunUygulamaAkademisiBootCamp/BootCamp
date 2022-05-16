@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.PlayerLoop;
 using UnityEngine.TextCore.Text;
 using UnityEngine.UIElements;
@@ -25,9 +26,12 @@ public class CharacterMovement : MonoBehaviour
 
     private Vector2 startPos, endPos;
     
+    private Animator anim;
 
     public int pixelThreshold = 10;
     //private float time = 0;
+
+    private float trplayerX;
 
     void Start()
     {
@@ -37,17 +41,27 @@ public class CharacterMovement : MonoBehaviour
         //     distance = (plane.localScale.z / 3) * 10;
         // }
         _rigidbody = GetComponent<Rigidbody>();
+        anim = GetComponentInChildren<Animator>();
+
+    }
+
+    private void Update()
+    {
+        anim.SetBool("isRolling",true);
+        
         
     }
 
-    void Update()
+    void FixedUpdate()
     {
-
         transform.Translate(Vector3.forward * forwardSpeed);
-        
+
+
+
+
         //charPos = tf.position;
-        
-        
+
+
         //checkScreenInput(); //ToDo: ekrandan swipe'ı anlamamız gerekiyor
         // if (Input.GetKeyDown(KeyCode.LeftArrow) && line > 0)
         //  {
@@ -100,11 +114,7 @@ public class CharacterMovement : MonoBehaviour
     //     }
     //
     // }
-
-    private void FixedUpdate()
-    {
-        
-    }
+    
 
     private void checkScreenInput()
     {

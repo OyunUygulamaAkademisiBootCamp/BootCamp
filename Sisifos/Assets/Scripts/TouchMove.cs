@@ -41,14 +41,14 @@ public class TouchMove : MonoBehaviour
             i++;
         }
         
+        
+        
     }
     
     //Test için
     private void FixedUpdate()
     {
-        #if UNITY_EDITOR
-        RunCharacter(Input.GetAxis("Horizontal"));
-        #endif
+        
     }
 
     public void RunCharacter(float horizontalInput)

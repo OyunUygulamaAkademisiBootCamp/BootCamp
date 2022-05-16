@@ -2,144 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d302e1-22f3-4569-809c-7304a668859d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/BoudlerMiddle.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/BoudlerMiddle.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Probuilder Boulde.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Probuilder Boulde.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/boulderWalkingMoving.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/boulderWalkingMoving.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/boulderWalkingStable.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/boulderWalkingStable.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/familyAnimation.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/familyAnimation.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/familyobjectmesh.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/familyobjectmesh.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/lightningAnim.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/lightningAnim.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/virus.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/virus.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/virusanimation.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/virusanimation.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/zuusss 1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/zuusss 1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/zuusss.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/zuusss.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material Maps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material Maps/Rock_texturing_Material_AO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material Maps/Rock_texturing_Material_AO.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material Maps/Rock_texturing_Material_Metallic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material Maps/Rock_texturing_Material_Metallic.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material Maps/Rock_texturing_Material_Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material Maps/Rock_texturing_Material_Normal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material Maps/Rock_texturing_Material_Roughness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Material Maps/Rock_texturing_Material_Roughness.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Boulder.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Boulder.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Electricity arc 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Electricity arc 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Human Skin.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Human Skin.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Plastic Base 01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Plastic Base 01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/child.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/child.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/cloud.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/cloud.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/father.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/father.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/mom.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/mom.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/virusbody.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/virusbody.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/virusuc.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/virusuc.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/zuusdiffu.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/zuusdiffu.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/zuuss.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/zuuss.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Materials/EnergyExplosion.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Materials/EnergyExplosion.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Materials/EnergyShockwave.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Materials/EnergyShockwave.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Materials/Lightning.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Materials/Lightning.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Prefabs/EnergyExplosion.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Prefabs/EnergyExplosion.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Textures/EnergyEffect.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Textures/EnergyEffect.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Textures/Lightning.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Textures/Lightning.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Textures/LightningTrail.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Particles/Fire &amp; Explosion Effects/Textures/LightningTrail.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Boulder.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Boulder.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/familyobjectmesh.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/familyobjectmesh.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/virus.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/virus.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/zuusss.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/zuusss.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ProBuilder Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Material Palette.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Material Palette.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Recordings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Recordings/animation_zuusss_001.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Recordings/animation_zuusss_001.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Boulderanimasyon.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Boulderanimasyon.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SceneModellingBase.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SceneModellingBase.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/mixkit-distant-thunder-explosion-1278.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/mixkit-distant-thunder-explosion-1278.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/skin_color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/skin_color.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/skin_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/skin_normal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/skin_roughness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/skin_roughness.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/zuusdiffu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/zuusdiffu.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/zuuss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/zuuss.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Help_Icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/Help_Icon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/ReadmeLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/ReadmeLogo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/fam.blend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/fam.blend.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ssasdfsaa.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ssasdfsaa.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/virus.blend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/virus.blend.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/zuusss.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/zuusss.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Recordings/movie_002.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/newFamilyAnim.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/newFamilyAnim.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/NewPlayer_.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/NewPlayer_.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/BoudlerMiddle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/BoudlerMiddle.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Probuilder Boulde.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Probuilder Boulde.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/boulderWalkingMoving.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/boulderWalkingMoving.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/boulderWalkingStable.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/boulderWalkingStable.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/familyobjectmesh.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/familyobjectmesh.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Boulder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Boulder.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/familyobjectmesh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/familyobjectmesh.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boulderanimasyon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boulderanimasyon.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TouchMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TouchMove.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sisifos.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Sisifos.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,6 +125,7 @@
       <workItem from="1652177158438" duration="19000" />
       <workItem from="1652536388590" duration="13028000" />
       <workItem from="1652698810740" duration="516000" />
+      <workItem from="1652704756024" duration="8550000" />
     </task>
     <servers />
   </component>
