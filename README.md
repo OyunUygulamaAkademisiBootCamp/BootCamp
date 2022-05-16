@@ -6,7 +6,7 @@ Unity 77
 
 ## Takım Elemanları
 
-- Alptuğ İlgili:
+
 - Başak Dilara Çevik:Developer (Product Owner)
 - Eray Aybek: Developer 
 - Gamze Kılıç: Scrum Master
@@ -23,7 +23,6 @@ Unity 77
 ## Ürün Özellikleri
 
 - Hyper Casual
-- [Takim 77 Miro](https://github.com/sntahmaz/BootCamp/blob/main/Tak%C4%B1m%2077-GAMZE%20KILI%C3%87.docx?raw=true)
 - Gittikçe zorlaşan leveller
 - karakterin koşma sırasında , toplanabilir objeleri toplaması ve
 - engellerden kaçınma
