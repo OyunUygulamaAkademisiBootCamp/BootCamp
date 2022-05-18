@@ -8,7 +8,7 @@ using Vector3 = UnityEngine.Vector3;
 public class TouchMove : MonoBehaviour
 {
     //Değişkenler
-    public float moveSpeed = 300;
+    public float moveSpeed = 1000;
     public GameObject character;
 
     private Rigidbody characterBody;

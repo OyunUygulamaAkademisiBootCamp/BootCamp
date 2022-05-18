@@ -2,34 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d302e1-22f3-4569-809c-7304a668859d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/newFamilyAnim.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/newFamilyAnim.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/NewPlayer_.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/NewPlayer_.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FollowCamera.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/BoudlerMiddle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/BoudlerMiddle.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Probuilder Boulde.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Probuilder Boulde.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/boulderWalkingMoving.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/boulderWalkingMoving.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/boulderWalkingStable.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/boulderWalkingStable.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/familyobjectmesh.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/familyobjectmesh.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Boulder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Boulder.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/familyobjectmesh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/familyobjectmesh.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Boulderanimasyon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Boulderanimasyon.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Push (4).controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Push (4).controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Rolling.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Rolling.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewPlayer_.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewPlayer_.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TouchMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TouchMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sisifos.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Sisifos.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +108,7 @@
       <workItem from="1652536388590" duration="13028000" />
       <workItem from="1652698810740" duration="516000" />
       <workItem from="1652704756024" duration="8550000" />
+      <workItem from="1652833431040" duration="673000" />
     </task>
     <servers />
   </component>
