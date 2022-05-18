@@ -21,6 +21,8 @@ public class Collectible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            other.transform.localScale = new Vector3(other.transform.localScale.x+0.1f, other.transform.localScale.y+0.1f,
+                other.transform.localScale.z+0.1f);
             Debug.Log("Collectible Toplandı!");
             Destroy(gameObject);
         }
