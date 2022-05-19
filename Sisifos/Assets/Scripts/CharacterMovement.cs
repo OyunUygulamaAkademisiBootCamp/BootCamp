@@ -9,73 +9,72 @@ using UnityEngine.UIElements;
 
 public class CharacterMovement : MonoBehaviour
 {
-    private Vector3 direction;
-    private ConstantForce _constantForce;
+    public bool isGround;
+    public float forwardSpeed = 5; // Hız değişkeni
 
-    public float forwardSpeed; // Hız değişkeni
-    private int line = 1; // 0 = Left, 1 = Middle, 2 = Right
-
-    private float timer = 0.0f;
-    
-    private Rigidbody _rigidbody; // Rigidbody değişkeni
+    public Rigidbody rb; // Rigidbody değişkeni
     private Transform tf; // Transform değişkeni
     
-    private Vector3 charPos; 
-    private Vector3 targetcharPos; 
-    
-    [SerializeField] private Transform plane;
-
-    private Vector2 startPos, endPos;
-    
     private Animator anim;
-
-    private Boolean anyCol;
-
-    public int pixelThreshold = 10;
-    //private float time = 0;
-
-    private float trplayerX;
+    
+    public float horizontalSpeed = 1000;
+    private float ScreenWidth;
 
     void Start()
     {
-        
-        forwardSpeed = 0.01f;
-        transform.position = new Vector3(0, 0.1446f, 0.1371f);
-        // tf = transform;
-        // if (plane != null)
-        // {
-        //     distance = (plane.localScale.z / 3) * 10;
-        // }
-        _rigidbody = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
+
         anim = GetComponentInChildren<Animator>();
+        
+        ScreenWidth = Screen.width;
+
 
     }
 
     private void Update()
     {
-        
+        //transform.Translate(Vector3.forward * forwardSpeed);
+        if (isGround)
+        {
+            rb.velocity = new Vector3(0, 0, forwardSpeed);
 
+            int i = 0;
+            //loop over every touch found
+            while (i < Input.touchCount)
+            {
+                if (Input.GetTouch(i).position.x > ScreenWidth / 2)
+                {
+                    //move right
+                    RunCharacter(1.0f);
+                }
 
+                if (Input.GetTouch(i).position.x < ScreenWidth / 2)
+                {
+                    //move left
+                    RunCharacter(-1.0f);
+                }
+
+                i++;
+            }
+        }
     }
 
-    void FixedUpdate()
+    public void RunCharacter(float horizontalInput)
     {
-        transform.Translate(Vector3.forward * forwardSpeed);
+        //move player
         
-        //timer += Time.deltaTime;
-        //Debug.Log(timer);
-        //if (timer > 5)
-        //{
-        //    Debug.Log("TRANSLATE!");
-        //}
-
+        rb.AddForce(new Vector3(horizontalInput * horizontalSpeed * Time.deltaTime, 0, 0));
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            forwardSpeed = 0.03f;
+            isGround = true;
+        }
+        else
+        {
+            isGround = false;
         }
     }
 }

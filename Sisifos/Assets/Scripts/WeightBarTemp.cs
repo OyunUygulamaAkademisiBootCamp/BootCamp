@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class WeightBarTemp : MonoBehaviour
 {
-    //using Lerp
-    private float weight;
+    
+    public CollectibleController collectibleController;
+    
     private float lerpTimer;
     public float maxWeight = 100f;
     public float barSpeed = 1f;
@@ -16,29 +17,23 @@ public class WeightBarTemp : MonoBehaviour
 
     void Start()
     {
-        weight = maxWeight;
+        
     }
 
     void Update()
     {
-        weight = Mathf.Clamp(weight, 0, maxWeight);
+        
+        collectibleController.weight = Mathf.Clamp(collectibleController.weight, 0, maxWeight);
         UpdateWeightUI();
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            CarryObject(Random.Range(5, 10));
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            DropObject(Random.Range(5, 10));
-        }
+        
     }
 
     public void UpdateWeightUI()
     {
-        Debug.Log(weight);
+        Debug.Log(collectibleController.weight);
         float fillFront = FrontWtBar.fillAmount;
         float fillBack = BackWtBar.fillAmount;
-        float wRatio = weight / maxWeight;
+        float wRatio = collectibleController.weight / maxWeight;
         if(fillBack > wRatio)
         {
             FrontWtBar.fillAmount = wRatio;
@@ -59,15 +54,5 @@ public class WeightBarTemp : MonoBehaviour
             FrontWtBar.fillAmount = Mathf.Lerp(fillFront, BackWtBar.fillAmount, ratioAmount);
         }
     }
-
-    public void CarryObject(float objectWeight)
-    {
-        weight -= objectWeight;
-        lerpTimer = 0f;
-    }
-
-    public void DropObject(float objectAmount)
-    {
-        weight -= objectAmount;
-    }
+    
 }
