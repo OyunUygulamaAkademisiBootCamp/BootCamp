@@ -9,7 +9,7 @@ public class WeightBarTemp : MonoBehaviour
     private float weight;
     private float lerpTimer;
     public float maxWeight = 100f;
-    public float barSpeed = 1f;
+    public float barSpeed = 0.2f;
     
     public Image BackWtBar;
     public Image FrontWtBar;
