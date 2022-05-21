@@ -35,7 +35,7 @@ public class PlaneSpawner : MonoBehaviour
     void PlaneSpawning()
     {
         // Spawn olacak yeni Plane için position (Değerler sahnedeki plane'e göre yapıldı, gerekirse değişebilir.)
-        pos = new Vector3(_x, _y + 25, _z + 43.30127f); 
+        pos = new Vector3(_x, _y + 20, _z + 34.641f); 
         
         // Sonsuz spawndan kaçınmak için isCreated booleanı kullanıldı.
         if (isCreated == false)
@@ -46,7 +46,7 @@ public class PlaneSpawner : MonoBehaviour
                    100 birim olmasının sebebi ekrandan bakıldığından ufuktaki spawnın bariz belli olmamasıdır. 100 birim değişebilir.
                 */
                 
-                if (playerTransform.position.y >= pos.y - 100)
+                if (playerTransform.position.y >= pos.y - 40)
                 {
                     Instantiate(planeObj, pos, Quaternion.identity);
                     isCreated = true; //Plane oluştuktan sonra true çeviriliyor ve aynı plane sonsuza kadar oluşmuyor.

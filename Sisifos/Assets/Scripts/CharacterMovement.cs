@@ -34,8 +34,7 @@ public class CharacterMovement : MonoBehaviour
     private void Update()
     {
         //transform.Translate(Vector3.forward * forwardSpeed);
-        if (isGround)
-        {
+        
             rb.velocity = new Vector3(0, 0, forwardSpeed);
 
             int i = 0;
@@ -56,7 +55,7 @@ public class CharacterMovement : MonoBehaviour
 
                 i++;
             }
-        }
+        
     }
 
     public void RunCharacter(float horizontalInput)
@@ -68,13 +67,6 @@ public class CharacterMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGround = true;
-        }
-        else
-        {
-            isGround = false;
-        }
+       
     }
 }
