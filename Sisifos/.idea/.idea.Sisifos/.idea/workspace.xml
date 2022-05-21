@@ -69,7 +69,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -153,7 +154,7 @@
       <workItem from="1653066742287" duration="808000" />
       <workItem from="1653071481760" duration="2682000" />
       <workItem from="1653126276944" duration="642000" />
-      <workItem from="1653134706097" duration="3904000" />
+      <workItem from="1653134706097" duration="4519000" />
     </task>
     <servers />
   </component>
