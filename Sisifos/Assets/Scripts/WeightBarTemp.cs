@@ -9,7 +9,6 @@ public class WeightBarTemp : MonoBehaviour
     public CollectibleController collectibleController;
     
     private float lerpTimer;
-    public float maxWeight = 100f;
     public float barSpeed = 1f;
     
     public Image BackWtBar;
@@ -23,17 +22,17 @@ public class WeightBarTemp : MonoBehaviour
     void Update()
     {
         
-        collectibleController.weight = Mathf.Clamp(collectibleController.weight, 0, maxWeight);
+        collectibleController.weight = Mathf.Clamp(collectibleController.weight, 0, collectibleController.maxWeight);
         UpdateWeightUI();
         
     }
 
     public void UpdateWeightUI()
     {
-        Debug.Log(collectibleController.weight);
+        
         float fillFront = FrontWtBar.fillAmount;
         float fillBack = BackWtBar.fillAmount;
-        float wRatio = collectibleController.weight / maxWeight;
+        float wRatio = collectibleController.weight / collectibleController.maxWeight;
         if(fillBack > wRatio)
         {
             FrontWtBar.fillAmount = wRatio;
