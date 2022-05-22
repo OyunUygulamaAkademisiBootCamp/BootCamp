@@ -55,7 +55,8 @@ Miro Uygulamasında, user story örneği bulunmaktadır.
 - **Sprint board update**: Sprint board screenshotları: 1
 ![Backlog 1](https://github.com/sntahmaz/BootCamp/blob/main/9%20may%C4%B1s%20ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC3.png) 
 ![Backlog 2](https://github.com/sntahmaz/BootCamp/blob/main/9%20may%C4%B1s%20ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC2.png)
--![Backlog 3]([https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/21%20may%C4%B1s%20sprintboard.png](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/1.sprint%2022%20may%C4%B1s.png))
+-![Backlog 3](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/21%20may%C4%B1s%20sprintboard.png)
+-![Backlog 4](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/1.sprint%2022%20may%C4%B1s.png)
 - **Ürün Durumu**: Ekran görüntüleri: 
 - 
 -![Screenshot 1](https://github.com/sntahmaz/BootCamp/blob/main/sisifos%20resmi.png)
@@ -83,9 +84,11 @@ Miro Uygulamasında, user story örneği bulunmaktadır.
 # Sprint 2
 - **Sprint board update**: 2.Sprint board screenshotları:
 -![Backlog 1](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/21%20may%C4%B1s%20sprintboard.png)
+-
 -- **Ürün Durumu**: Ekran görüntüleri: 
+-
 -![Screenshot 1](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/zeus%20ikonu2.png)
--![Screenshot 2](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/oyun%20g%C3%B6r%C3%BCnt%C3%BC.png)
+--![Screenshot 2](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/oyun%20g%C3%B6r%C3%BCnt%C3%BC.png)
 -![Screenshot 3](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/aile%20ikonu.png)
 -![Screenshot 4]
 ---
