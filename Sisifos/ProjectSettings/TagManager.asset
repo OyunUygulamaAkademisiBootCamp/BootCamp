@@ -12,6 +12,7 @@ TagManager:
   - FamilyTag
   - UpTag
   - CovidTag
+  - FinishCollider
   layers:
   - Default
   - TransparentFX

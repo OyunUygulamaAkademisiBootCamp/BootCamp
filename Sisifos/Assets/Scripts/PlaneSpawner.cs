@@ -7,13 +7,16 @@ public class PlaneSpawner : MonoBehaviour
     private float _y;
     private float _x;
     private Vector3 pos;
+    private Vector3 posbitis;
     
     public GameObject planeObj;
+    public GameObject finishPlaneObj;
     public Transform playerTransform;
     public bool isCreated = false;
     
     // Ne kadar plane oluşacağına dair bir değişken. Fakat fonksiyon Update içerisindeyken while/for/?? nasıl kullanılabilir?
-    public int planeCount = 10; 
+    public int planeCount = 1;
+    public int levelPlane = 5;
     
     void Start()
     {
@@ -35,10 +38,12 @@ public class PlaneSpawner : MonoBehaviour
     void PlaneSpawning()
     {
         // Spawn olacak yeni Plane için position (Değerler sahnedeki plane'e göre yapıldı, gerekirse değişebilir.)
-        pos = new Vector3(_x, _y + 20, _z + 34.641f); 
+        pos = new Vector3(_x, _y + 20, _z + 34.641f);
+        posbitis = new Vector3(_x, _y, _z);
+
         
-        // Sonsuz spawndan kaçınmak için isCreated booleanı kullanıldı.
-        if (isCreated == false)
+            // Sonsuz spawndan kaçınmak için isCreated booleanı kullanıldı.
+            if (isCreated == false)
             {
                 /*
                    Player'ın konumuna göre Instantiate yapıldı.
@@ -46,13 +51,28 @@ public class PlaneSpawner : MonoBehaviour
                    100 birim olmasının sebebi ekrandan bakıldığından ufuktaki spawnın bariz belli olmamasıdır. 100 birim değişebilir.
                 */
                 
-                if (playerTransform.position.y >= pos.y - 40)
-                {
-                    Instantiate(planeObj, pos, Quaternion.identity);
-                    isCreated = true; //Plane oluştuktan sonra true çeviriliyor ve aynı plane sonsuza kadar oluşmuyor.
-                }
+                    
+                    if (playerTransform.position.y >= pos.y - 50 && planeCount < levelPlane)
+                    {
+                        planeCount++;
+                        Instantiate(planeObj, pos, Quaternion.identity);
+                        isCreated = true; //Plane oluştuktan sonra true çeviriliyor ve aynı plane sonsuza kadar oluşmuyor.
+                        Debug.Log(planeCount);
+                        Debug.Log(levelPlane);
+                    }
+                    
+                    else if (playerTransform.position.y >= pos.y - 50 && planeCount >= levelPlane)
+                    {
+                        Instantiate(finishPlaneObj, pos, Quaternion.identity);
+                        isCreated = true;
+                        Debug.Log("Finish Plane'i oluşturuldu.");
+                    }
+                    
             }
+
         
+        
+
         // Player, arkasında kalan Plane'den y düzleminde 5 birim uzaklaştığında o Plane'i yok ediyor.
         if (playerTransform.position.y >= pos.y + 5)
             {
@@ -60,13 +80,4 @@ public class PlaneSpawner : MonoBehaviour
             }
         
         }
-    
-    //ToDo: OnBecameInvisible saçma çalışıyor. Bu yüzden üstteki if bloğunu kullandım. Düzeltmenin bir yolu olursa üstteki if bloğundan daha mantıklı olabilir.
-    
-    //void OnBecameInvisible()
-    //{
-    //    Destroy(gameObject);
-    //    Debug.Log("Destroyed");
-    //}
-
 }

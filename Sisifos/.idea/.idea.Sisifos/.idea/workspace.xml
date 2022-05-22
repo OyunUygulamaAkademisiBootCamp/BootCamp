@@ -2,53 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d302e1-22f3-4569-809c-7304a668859d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/FinishLine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/FinishLine.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment 1.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Badice's Junk/Crazy Level (Use This)/Polygonal Foliage Asset Package/Art/Materials/atlass_1_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Badice's Junk/Crazy Level (Use This)/Polygonal Foliage Asset Package/Art/Materials/atlass_1_1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Badice's Junk/Crazy Level (Use This)/Polygonal Foliage Asset Package/Art/Materials/atlass_1_2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Badice's Junk/Crazy Level (Use This)/Polygonal Foliage Asset Package/Art/Materials/atlass_1_2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Badice's Junk/Textures Falan Filan/Free Stylized Textures/Materials/Vol_16_2_Sand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Badice's Junk/Textures Falan Filan/Free Stylized Textures/Materials/Vol_16_2_Sand.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Badice's Junk/Textures Falan Filan/Free Stylized Textures/Materials/Vol_18_2_Metals.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Badice's Junk/Textures Falan Filan/Free Stylized Textures/Materials/Vol_18_2_Metals.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/LowPoly/FREE_HumanLowPoly/Materials_Humans/Underwear.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/LowPoly/FREE_HumanLowPoly/Materials_Humans/Underwear.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ch22_body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Ch22_body.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Ch22_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Ch22_hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Head.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Head.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/New Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/level1base.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/level1base.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/level1base.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/level1base.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/level1ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/level1ground.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/level1ground.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/level1ground.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Collectible.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Collectible.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materials/roadhole.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Materials/roadhole.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materials/roadhole.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Materials/roadhole.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewPlane.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewPlane.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlayerUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlayerUI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/hole.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/hole.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/hole.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/hole.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/money icon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/money icon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/unemploymentIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/unemploymentIcon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/workicon (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/workicon (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BasakScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BasakScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1(One) 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1(One) 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1(One) 1.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1(One) 1.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Materials/Day3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Materials/Day3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Materials/Day3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Materials/Day3.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Shaders/Stylized Sky.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Shaders/Stylized Sky.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Shaders/Stylized Sky.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Shaders/Stylized Sky.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Rock_Diffuse.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Rock_Diffuse.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Rock_Diffuse2.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Rock_Diffuse2.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Rock_Diffuse3.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Rock_Diffuse3.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Rock_Normal.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Rock_Normal.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Rock_Specular.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Rock_Specular.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/roadhole.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/roadhole.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sisifos.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Sisifos.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
@@ -69,8 +35,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -154,7 +120,8 @@
       <workItem from="1653066742287" duration="808000" />
       <workItem from="1653071481760" duration="2682000" />
       <workItem from="1653126276944" duration="642000" />
-      <workItem from="1653134706097" duration="4519000" />
+      <workItem from="1653134706097" duration="4520000" />
+      <workItem from="1653213671668" duration="4283000" />
     </task>
     <servers />
   </component>

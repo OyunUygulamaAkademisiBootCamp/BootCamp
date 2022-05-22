@@ -49,9 +49,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGround: 0
-  forwardSpeed: 3
+  forwardSpeed: 15
   rb: {fileID: 5402126272348667969}
-  horizontalSpeed: 1000
+  horizontalSpeed: 5000
 --- !u!114 &5402126272348667971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,7 +229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6932854587806233606, guid: ee1ec63555270484d9408a6e510ae581, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.012
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6932854587806233606, guid: ee1ec63555270484d9408a6e510ae581, type: 3}
       propertyPath: m_LocalPosition.y
