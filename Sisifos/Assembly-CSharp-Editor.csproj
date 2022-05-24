@@ -41,7 +41,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Editor\SplineEditor.cs" />
+     <Compile Include="Assets\SplineMesh\Scripts\Editor\SplineExtrusionEditor.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -306,14 +307,26 @@
      <Reference Include="Unity.VisualScripting.YamlDotNet">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
-     <Reference Include="unityplastic">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <Reference Include="Unity.Burst.Unsafe">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.Unsafe.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Mdb">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Burst.Cecil.Pdb">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+     </Reference>
      <Reference Include="log4netPlastic">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Rocks">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -323,6 +336,9 @@
      </Reference>
      <Reference Include="ReportGeneratorMerged">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="unityplastic">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -933,23 +949,23 @@
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.TestRunner">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.TestRunner">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <Reference Include="UnityEngine.TestRunner">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Recorder.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
@@ -957,32 +973,23 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <Reference Include="Unity.Formats.Fbx.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ProBuilder">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ProBuilder.Editor">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -993,26 +1000,110 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <Reference Include="Autodesk.Fbx">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Cinemachine">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
      </Reference>
      <Reference Include="com.unity.cinemachine.editor">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Formats.Fbx.Runtime">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Animation.Rigging.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Recorder">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Recorder.Base">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="PPv2URPConverters">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ProBuilder.AddOns.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Autodesk.Fbx.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ProBuilder.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Polybrush.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Polybrush">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Polybrush.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Animation.Rigging">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
@@ -1023,26 +1114,17 @@
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Recorder">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Polybrush.Editor">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Polybrush">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Polybrush.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Recorder.Editor">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Recorder.Base">
-     <HintPath>C:\Users\erayb\Documents\GitHub\OyunUygulamaAkademisiBootCamp\BootCamp\Sisifos\Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

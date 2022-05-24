@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d302e1-22f3-4569-809c-7304a668859d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/FinishLine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/FinishLine.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Environment 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spawner.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spawner.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/virusAnim2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/virusAnim2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ch22_hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Ch22_hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Main Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewPlane.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NewPlane.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/heartAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/heartAnim.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/updown.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/updown.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/updowncontroller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/updowncontroller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/virus.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/virus.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/virusanimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/virusanimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/familyobjectmesh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/familyobjectmesh.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/heart icon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/heart icon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/virus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/virus.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/0f/6a0bf9cf/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -122,6 +126,8 @@
       <workItem from="1653126276944" duration="642000" />
       <workItem from="1653134706097" duration="4520000" />
       <workItem from="1653213671668" duration="4283000" />
+      <workItem from="1653337575735" duration="719000" />
+      <workItem from="1653377406640" duration="11104000" />
     </task>
     <servers />
   </component>
