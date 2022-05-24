@@ -1,99 +1,72 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.PlayerLoop;
+using UnityEngine.TextCore.Text;
 using UnityEngine.UIElements;
 
 public class CharacterMovement : MonoBehaviour
 {
+    public bool isGround;
+    public float forwardSpeed = 5; // Hız değişkeni
+
+    public Rigidbody rb; // Rigidbody değişkeni
+    private Transform tf; // Transform değişkeni
     
-    public float speed = 10;
-    private int line = 1; // 0 = Left, 1 = Middle, 2 = Right
-    private float distance = 1.5f;
+    private Animator anim;
     
-    private Transform tf;
-    private Vector3 charPos;
-    private Vector3 targetcharPos;
-    [SerializeField] private Transform plane;
-    
-    //private float time = 0;
-    
+    public float horizontalSpeed = 1000;
+    private float ScreenWidth;
+
     void Start()
     {
-        tf = transform;
-        if (plane != null)
-        {
-            distance = (plane.localScale.z/3)* 10 ;
-        }
+        rb = GetComponent<Rigidbody>();
 
-        Debug.Log(distance);
+        anim = GetComponentInChildren<Animator>();
+        
+        ScreenWidth = Screen.width;
+
+
     }
 
-    void Update()
+    private void Update()
     {
-        MoveForward(); // force ile yapabiliriz
-        charPos = tf.position;
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && line > 0)
-        {
-            //Daha yumuşak bir geçiş için force uygulanabilir
-            Debug.Log(line);
-            targetcharPos = new Vector3(charPos.x - distance, charPos.y, charPos.z);
-            transform.position = Vector3.Lerp(charPos, targetcharPos, 1.0f);
-            line--;
-            
+        //transform.Translate(Vector3.forward * forwardSpeed);
+        
+            rb.velocity = new Vector3(0, 0, forwardSpeed);
 
-        }
+            int i = 0;
+            //loop over every touch found
+            while (i < Input.touchCount)
+            {
+                if (Input.GetTouch(i).position.x > ScreenWidth / 2)
+                {
+                    //move right
+                    RunCharacter(1.0f);
+                }
 
-        if (Input.GetKeyDown(KeyCode.RightArrow) && line < 2 )
-        {
-            Debug.Log(line);
-            targetcharPos = new Vector3(charPos.x + distance, charPos.y, charPos.z);
-            transform.position = targetcharPos; //Vector3.Lerp(charPos, targetcharPos, 1.0f);
-            line++;
-            
-        }
+                if (Input.GetTouch(i).position.x < ScreenWidth / 2)
+                {
+                    //move left
+                    RunCharacter(-1.0f);
+                }
+
+                i++;
+            }
         
     }
 
-    void MoveForward()
+    public void RunCharacter(float horizontalInput)
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
-    }
-    
-
-    void lineMovement(bool rightMove)
-    {
-        // Left
-        if (!rightMove)
-        {
-            line--;
-            if (line == -1)
-            {
-                line = 0;
-            }
-            Debug.Log("Line: " + line);
-        }
-        // Right
-        else
-        {
-            line++;
-            if (line == 3)
-            {
-                line = 2;
-            }
-            Debug.Log("Line: " + line);
-        }
+        //move player
         
-        // Vector3 targetPos = transform.position.x * Vector3.forward;
-        //
-        //
-        // if (line == 0)
-        // {
-        //     targetPos += Vector3.left * distance;
-        // }
-        // else if (line == 2)
-        // {
-        //     targetPos += Vector3.right * distance;
-        // }
-        //
+        rb.AddForce(new Vector3(horizontalInput * horizontalSpeed * Time.deltaTime, 0, 0));
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+       
     }
 }
