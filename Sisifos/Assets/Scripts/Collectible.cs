@@ -15,11 +15,15 @@ public class Collectible : MonoBehaviour
     {
         //_collectibleController = GameObject.FindObjectOfType<CollectibleController>();
     }
-    
 
-    
-    
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        //TODO: object size 
+        if(other.CompareTag("Player"))
+            gameObject.SetActive(false);
+    }
+
+
     //ToDo:On became invisible karakter collectible'ın üzerine geldiğinde hata veriyor.
     //private void OnBecameInvisible()
     //{
