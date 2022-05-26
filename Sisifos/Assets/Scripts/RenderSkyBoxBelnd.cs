@@ -10,6 +10,8 @@ public class RenderSkyBoxBelnd : MonoBehaviour
     public Material skyThree;
     float timeLeft =3.0f;
     float secondTimeLeft = 6.0f;
+    float thirdTimeLeft = 9.0f;
+    float fourthTimeLeft = 12.0f;
 
 
 
@@ -33,6 +35,15 @@ public class RenderSkyBoxBelnd : MonoBehaviour
         if (secondTimeLeft < 0)
         {
             RenderSettings.skybox = skyThree;
+        }
+        if (thirdTimeLeft < 0)
+        {
+            RenderSettings.skybox = skyOne;
+        }
+        if (fourthTimeLeft < 0)
+        
+        {
+            RenderSettings.skybox = skyTwo;
         }
 
         DynamicGI.UpdateEnvironment();
