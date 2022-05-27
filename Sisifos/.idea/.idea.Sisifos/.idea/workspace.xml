@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d302e1-22f3-4569-809c-7304a668859d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spawner.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spawner.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/virusAnim2.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/virusAnim2.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SpawnManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/heartAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/heartAnim.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/updown.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/updown.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/updowncontroller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/updowncontroller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/virus.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/virus.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/virusanimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/virusanimation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/familyobjectmesh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/familyobjectmesh.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/heart icon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/heart icon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/virus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/virus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/child.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/child.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +114,9 @@
       <workItem from="1653213671668" duration="4283000" />
       <workItem from="1653337575735" duration="719000" />
       <workItem from="1653377406640" duration="11104000" />
+      <workItem from="1653412462250" duration="150000" />
+      <workItem from="1653667069199" duration="1214000" />
+      <workItem from="1653678893320" duration="678000" />
     </task>
     <servers />
   </component>
