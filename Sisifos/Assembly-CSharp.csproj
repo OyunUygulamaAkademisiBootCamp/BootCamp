@@ -63,15 +63,15 @@
     <Compile Include="Assets\Scripts\LineTrail.cs" />
     <Compile Include="Assets\Scripts\PlaneSpawner.cs" />
     <Compile Include="Assets\Scripts\CollectibleController.cs" />
+    <Compile Include="Assets\EndPointParticle.cs" />
     <Compile Include="Assets\Scripts\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\RoadController.cs" />
     <Compile Include="Assets\Scripts\RenderSkyBoxBelnd.cs" />
     <Compile Include="Assets\Scripts\WeightBarTemp.cs" />
     <Compile Include="Assets\Scripts\InstantiateCollectible.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\FinishLine.cs" />
     <Compile Include="Assets\MainMenu.cs" />
-    <Compile Include="Assets\EndPointParticle.cs" />
+    <Compile Include="Assets\FinishLine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
