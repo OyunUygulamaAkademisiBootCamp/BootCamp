@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d302e1-22f3-4569-809c-7304a668859d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_Android.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/child.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/child.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bitis.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bitis.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Sphere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Sphere.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/heart icon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/heart icon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/unemploymentIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/unemploymentIcon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/workicon (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/workicon (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SeymaScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SeymaScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collectible.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WeightBarTemp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WeightBarTemp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +47,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/823fb226a3f9439cb41fdcb61f9c86a1157600/0f/6a0bf9cf/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/347378E2-84D2-4B64-A266-23140F84A20E/eb/8526946c/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -34,8 +57,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PlaneInst.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RoadController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlaneController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Collectible.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/WeightBarTemp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Collectible.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -117,6 +142,7 @@
       <workItem from="1653412462250" duration="150000" />
       <workItem from="1653667069199" duration="1214000" />
       <workItem from="1653678893320" duration="678000" />
+      <workItem from="1653730171169" duration="1782000" />
     </task>
     <servers />
   </component>
@@ -136,6 +162,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

@@ -14,7 +14,7 @@ public class CollectibleController : MonoBehaviour
     public float maxSize;
     public float minSize;
 
-    public float weight;
+    public float boulderWeight;
     public float maxWeight = 100.0f;
 
     public GameObject[] collectibleObjects;
@@ -35,12 +35,11 @@ public class CollectibleController : MonoBehaviour
     {
         planeWidth = plane.transform.localScale.x;
         planeAngle = plane.transform.rotation.x;
-        weight = maxWeight/2;
+        boulderWeight = maxWeight/2;
         _levelController = GameObject.FindObjectOfType<LevelController>();
         currentLevel = _levelController.currentLevel;
         float planeX = plane.transform.position.x;
         collectiblePosXList = new[] {planeX - planeWidth/4f, planeX, planeX + planeWidth/4f};
-        Debug.Log("collectible: " + collectiblePosXList[0] +":" +collectiblePosXList[1] +":" +collectiblePosXList[2]);
         SpawnCollectible();
         
         //(planeX - planeWidth/4) , planeX, planeX + planeWidth / 4
@@ -51,81 +50,17 @@ public class CollectibleController : MonoBehaviour
         
 
     }
+    
 
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log(weight);
-        
-        //
-        // BOYUT BÜYÜLTENLER
-        //
-        
-        if (other.CompareTag("UpTag"))
-        {
-            Destroy(other.gameObject);
-            UpScale();
-            weight += 5;
-        }
-        
-        if (other.CompareTag("CovidTag"))
-        {
-            Destroy(other.gameObject);
-            UpScale();
-            weight += 10;
-        }
-        
-        
-        //
-        // BOYUT KÜÇÜLTENLER
-        //
-        
-        if (other.CompareTag("HealthTag"))
-        {
-            Destroy(other.gameObject);
-            DownScale();
-            weight -= 10;
-        }
-        
-        if (other.CompareTag("FamilyTag"))
-        {
-            Destroy(other.gameObject);
-            DownScale();
-            weight -= 8;
-        }
-        
-        if (other.CompareTag("MoneyTag"))
-        {
-            Destroy(other.gameObject);
-            DownScale();
-            weight -= 7;
-        }
-        
-        if (other.CompareTag("LoveTag"))
-        {
-            Destroy(other.gameObject);
-            DownScale();
-            weight -= 6;
-        }
-        
-        if (other.CompareTag("WorkTag"))
-        {
-            Destroy(other.gameObject);
-            DownScale();
-            weight -= 5;
-        }
-        
-        
-    }
-
-    private void UpScale()
+    public void UpScale(float weight)
     {
         boulder.transform.localScale = new Vector3(
             boulder.transform.localScale.x + sizeMultiplier, 
             boulder.transform.localScale.y + sizeMultiplier,
             boulder.transform.localScale.z + sizeMultiplier
         );
-        
+
+        boulderWeight += weight; 
         if (boulder.transform.localScale.x > maxWeight/50)
         {
             //Oyunu durdur (animasyon vs girsin + Game Over)
@@ -137,13 +72,15 @@ public class CollectibleController : MonoBehaviour
         
     }
     
-    private void DownScale()
+    public void DownScale(float weight)
     {
         boulder.transform.localScale = new Vector3(
             boulder.transform.localScale.x - sizeMultiplier, 
             boulder.transform.localScale.y - sizeMultiplier,
             boulder.transform.localScale.z - sizeMultiplier
             );
+        
+        boulderWeight -= weight; 
 
         if (boulder.transform.localScale.x < maxWeight/800)
         {

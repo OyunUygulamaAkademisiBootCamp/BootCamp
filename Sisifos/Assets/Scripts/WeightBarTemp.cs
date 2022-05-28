@@ -22,7 +22,7 @@ public class WeightBarTemp : MonoBehaviour
     void Update()
     {
         
-        collectibleController.weight = Mathf.Clamp(collectibleController.weight, 0, collectibleController.maxWeight);
+        collectibleController.boulderWeight = Mathf.Clamp(collectibleController.boulderWeight, 0, collectibleController.maxWeight);
         UpdateWeightUI();
         
     }
@@ -32,7 +32,7 @@ public class WeightBarTemp : MonoBehaviour
         
         float fillFront = FrontWtBar.fillAmount;
         float fillBack = BackWtBar.fillAmount;
-        float wRatio = collectibleController.weight / collectibleController.maxWeight;
+        float wRatio = collectibleController.boulderWeight / collectibleController.maxWeight;
         if(fillBack > wRatio)
         {
             FrontWtBar.fillAmount = wRatio;
