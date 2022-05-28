@@ -10,9 +10,7 @@ public class CollectibleController : MonoBehaviour
     public float sizeMultiplier;
     
     public GameObject boulder;
-
-    public float maxSize;
-    public float minSize;
+    
 
     public float boulderWeight;
     public float maxWeight = 100.0f;
@@ -31,6 +29,10 @@ public class CollectibleController : MonoBehaviour
     private int currentLevel;
     private float[] collectiblePosXList;
     private GameObject[] createdCollectibles;
+
+    private int speed;
+    
+    
     void Start()
     {
         planeWidth = plane.transform.localScale.x;
@@ -47,48 +49,65 @@ public class CollectibleController : MonoBehaviour
 
     private void Update()
     {
-        
+        switch (boulderWeight)
+        {
+
+
+
+        }
+
 
     }
     
 
     public void UpScale(float weight)
     {
-        boulder.transform.localScale = new Vector3(
-            boulder.transform.localScale.x + sizeMultiplier, 
-            boulder.transform.localScale.y + sizeMultiplier,
-            boulder.transform.localScale.z + sizeMultiplier
-        );
+        if (boulder.transform.localScale.x <= 2)
+        {
+            boulder.transform.localScale = new Vector3(
+                boulder.transform.localScale.x + sizeMultiplier,
+                boulder.transform.localScale.y + sizeMultiplier,
+                boulder.transform.localScale.z + sizeMultiplier
+            );
+        }
 
         boulderWeight += weight; 
-        if (boulder.transform.localScale.x > maxWeight/50)
+        Debug.Log("Weight: " + boulderWeight);
+
+        
+        if (boulderWeight >= maxWeight)
         {
             //Oyunu durdur (animasyon vs girsin + Game Over)
             Time.timeScale = 0;
         }
         
         Debug.Log("Boyut Büyüdü");
-        
+
         
     }
     
     public void DownScale(float weight)
     {
-        boulder.transform.localScale = new Vector3(
-            boulder.transform.localScale.x - sizeMultiplier, 
-            boulder.transform.localScale.y - sizeMultiplier,
-            boulder.transform.localScale.z - sizeMultiplier
+        if (boulder.transform.localScale.x >= 0.3f)
+        {
+            boulder.transform.localScale = new Vector3(
+                boulder.transform.localScale.x - sizeMultiplier,
+                boulder.transform.localScale.y - sizeMultiplier,
+                boulder.transform.localScale.z - sizeMultiplier
             );
-        
-        boulderWeight -= weight; 
+        }
 
-        if (boulder.transform.localScale.x < maxWeight/800)
+        boulderWeight -= weight; 
+        Debug.Log("Weight: " + boulderWeight);
+
+        if (boulderWeight <= 0)
         {
             //Oyunu durdur (animasyon girsin + Game Over)
             Time.timeScale = 0;
 
         }
         Debug.Log("Boyut Küçüldü");
+
         
     }
 

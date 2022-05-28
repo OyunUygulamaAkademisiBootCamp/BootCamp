@@ -20,6 +20,8 @@ public class CharacterMovement : MonoBehaviour
     public float horizontalSpeed = 1000;
     private float ScreenWidth;
 
+    private CollectibleController _collectible;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -34,7 +36,7 @@ public class CharacterMovement : MonoBehaviour
     private void Update()
     {
         //transform.Translate(Vector3.forward * forwardSpeed);
-        
+            
             rb.velocity = new Vector3(0, 0, forwardSpeed);
 
             int i = 0;

@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
-    // Start is called before the first frame update
     private CollectibleController _collectibleController;
     
 
@@ -26,6 +25,7 @@ public class Collectible : MonoBehaviour
             if (gameObject.CompareTag("Positive"))
             {
                 _collectibleController.UpScale(gameObject.GetComponent<Rigidbody>().mass);
+                
             }else if (gameObject.CompareTag("Negative"))
             {
                 _collectibleController.DownScale(gameObject.GetComponent<Rigidbody>().mass);
@@ -34,10 +34,4 @@ public class Collectible : MonoBehaviour
         }
     }
 
-
-    //ToDo:On became invisible karakter collectible'ın üzerine geldiğinde hata veriyor.
-    //private void OnBecameInvisible()
-    //{
-    //    _collectibleController.relocateCollectible(this.gameObject);
-    //}
 }
