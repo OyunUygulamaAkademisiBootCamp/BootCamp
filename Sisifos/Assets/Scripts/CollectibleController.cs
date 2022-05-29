@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = System.Random;
@@ -81,7 +82,7 @@ public class CollectibleController : MonoBehaviour
         if (boulderWeight >= maxWeight)
         {
             //Oyunu durdur (animasyon vs girsin + Game Over)
-            Time.timeScale = 0;
+            _levelController.Failed(Reason.Overweight);
         }
         
         Debug.Log("Boyut Büyüdü");
@@ -106,8 +107,7 @@ public class CollectibleController : MonoBehaviour
 
         if (boulderWeight <= 0)
         {
-            //Oyunu durdur (animasyon girsin + Game Over)
-            Time.timeScale = 0;
+            _levelController.Failed(Reason.Underweight);
 
         }
         Debug.Log("Boyut Küçüldü");

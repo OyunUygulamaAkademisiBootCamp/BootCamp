@@ -57,8 +57,7 @@ public class PlaneSpawner : MonoBehaviour
                         planeCount++;
                         Instantiate(planeObj, pos, Quaternion.identity);
                         isCreated = true; //Plane oluştuktan sonra true çeviriliyor ve aynı plane sonsuza kadar oluşmuyor.
-                        Debug.Log(planeCount);
-                        Debug.Log(levelPlane);
+                     
                     }
                     
                     else if (playerTransform.position.y >= pos.y - 50 && planeCount >= levelPlane)

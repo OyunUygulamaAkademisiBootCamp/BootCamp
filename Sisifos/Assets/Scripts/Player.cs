@@ -1,17 +1,20 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     private CollectibleController _collectibleController;
+    private LevelController _levelController;
     private Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
     {
         _collectibleController  = GameObject.FindObjectOfType<CollectibleController>();
+        _levelController  = GameObject.FindObjectOfType<LevelController>();
         rb = gameObject.GetComponent<Rigidbody>();
 
     }
@@ -21,7 +24,6 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("trigger enter player");
         if (other.CompareTag("Positive"))
         {
             _collectibleController.UpScale(other.gameObject.GetComponent<Rigidbody>().mass);
@@ -47,14 +49,14 @@ public class Player : MonoBehaviour
             }
             else
             {
-                Time.timeScale = 0;
+                _levelController.Failed(Reason.Obstacle);
 
             }
         }
         
         if (other.CompareTag("Hole"))
         {
-            Time.timeScale = 0;
+            _levelController.Failed(Reason.Hole);
         }
     }
 }

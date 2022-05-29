@@ -40,7 +40,12 @@ public class CharacterMovement : MonoBehaviour
         //transform.Translate(Vector3.forward * forwardSpeed);
             
             rb.velocity = new Vector3(0, 0, forwardSpeed);
-
+            if (updatedSpeed == 0)
+            {
+                forwardSpeed--;
+                if (forwardSpeed < 0)
+                    forwardSpeed = 0;
+            }
             if (updatedSpeed > forwardSpeed)
             {
                 forwardSpeed+=0.1f;
@@ -90,8 +95,8 @@ public class CharacterMovement : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public void Stop()
     {
-       
+        updatedSpeed = 0;
     }
 }
