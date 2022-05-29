@@ -26,6 +26,7 @@ public class CollectibleController : MonoBehaviour
     private float planeWidth;
     private float planeAngle;
     private LevelController _levelController;
+    private CharacterMovement _characterMovement;
     private int currentLevel;
     private float[] collectiblePosXList;
     private GameObject[] createdCollectibles;
@@ -39,6 +40,7 @@ public class CollectibleController : MonoBehaviour
         planeAngle = plane.transform.rotation.x;
         boulderWeight = maxWeight/2;
         _levelController = GameObject.FindObjectOfType<LevelController>();
+        _characterMovement = GameObject.FindObjectOfType<CharacterMovement>();
         currentLevel = _levelController.currentLevel;
         float planeX = plane.transform.position.x;
         collectiblePosXList = new[] {planeX - planeWidth/4f, planeX, planeX + planeWidth/4f};
@@ -72,7 +74,8 @@ public class CollectibleController : MonoBehaviour
         }
 
         boulderWeight += weight; 
-        Debug.Log("Weight: " + boulderWeight);
+        _characterMovement.SpeedDown(Convert.ToSingle(Math.Round(70/weight,1))); //TODO: optimize
+        
 
         
         if (boulderWeight >= maxWeight)
@@ -98,7 +101,8 @@ public class CollectibleController : MonoBehaviour
         }
 
         boulderWeight -= weight; 
-        Debug.Log("Weight: " + boulderWeight);
+        _characterMovement.SpeedUp(Convert.ToSingle(Math.Round(70/weight,1))); //TODO: optimize
+
 
         if (boulderWeight <= 0)
         {

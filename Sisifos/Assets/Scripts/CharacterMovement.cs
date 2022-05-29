@@ -11,12 +11,12 @@ public class CharacterMovement : MonoBehaviour
 {
     public bool isGround;
     public float forwardSpeed = 5; // Hız değişkeni
-
+    
     public Rigidbody rb; // Rigidbody değişkeni
     private Transform tf; // Transform değişkeni
     
     private Animator anim;
-    
+    private float updatedSpeed;
     public float horizontalSpeed = 1000;
     private float ScreenWidth;
 
@@ -30,6 +30,8 @@ public class CharacterMovement : MonoBehaviour
         
         ScreenWidth = Screen.width;
 
+        updatedSpeed = forwardSpeed;
+
 
     }
 
@@ -38,6 +40,14 @@ public class CharacterMovement : MonoBehaviour
         //transform.Translate(Vector3.forward * forwardSpeed);
             
             rb.velocity = new Vector3(0, 0, forwardSpeed);
+
+            if (updatedSpeed > forwardSpeed)
+            {
+                forwardSpeed+=0.1f;
+            }else if (updatedSpeed < forwardSpeed)
+            {
+                forwardSpeed-=0.1f;
+            } 
 
             int i = 0;
             //loop over every touch found
@@ -65,6 +75,19 @@ public class CharacterMovement : MonoBehaviour
         //move player
         
         rb.AddForce(new Vector3(horizontalInput * horizontalSpeed * Time.deltaTime, 0, 0));
+    }
+
+    public void SpeedUp(float speed)
+    {
+        updatedSpeed = updatedSpeed + speed;
+
+    }
+
+    public void SpeedDown(float speed)
+    {
+        
+        updatedSpeed = updatedSpeed - speed ;
+
     }
 
     private void OnCollisionEnter(Collision collision)

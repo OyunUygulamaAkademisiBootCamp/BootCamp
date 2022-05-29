@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,16 +8,15 @@ public class WeightBarTemp : MonoBehaviour
 {
     
     public CollectibleController collectibleController;
-    
-    private float lerpTimer;
-    public float barSpeed = 1f;
-    
-    public Image BackWtBar;
     public Image FrontWtBar;
+    
+    
 
     void Start()
     {
+        FrontWtBar.fillAmount = collectibleController.boulderWeight / collectibleController.maxWeight;
         
+
     }
 
     void Update()
@@ -30,27 +30,19 @@ public class WeightBarTemp : MonoBehaviour
     public void UpdateWeightUI()
     {
         
-        float fillFront = FrontWtBar.fillAmount;
-        float fillBack = BackWtBar.fillAmount;
+        float fillFront = Convert.ToSingle(Math.Round(FrontWtBar.fillAmount,2));
         float wRatio = collectibleController.boulderWeight / collectibleController.maxWeight;
-        if(fillBack > wRatio)
+        if(fillFront > wRatio)
         {
-            FrontWtBar.fillAmount = wRatio;
+            //FrontWtBar.fillAmount = wRatio;
             //BackWtBar.color = Color.blue;
-            lerpTimer += Time.deltaTime;
-            float ratioAmount = lerpTimer / barSpeed;
-            ratioAmount = ratioAmount * ratioAmount;
-            BackWtBar.fillAmount = Mathf.Lerp(fillBack, wRatio, ratioAmount);
+            FrontWtBar.fillAmount -= 0.01f; // Mathf.Lerp(fillBack, wRatio, ratioAmount);
         }
         if(fillFront < wRatio)
         {
             //BackWtBar.color = Color.green;
-            BackWtBar.fillAmount = wRatio;
-            lerpTimer += Time.deltaTime;
-            float ratioAmount = lerpTimer / barSpeed;
-            ratioAmount = ratioAmount * ratioAmount;
-
-            FrontWtBar.fillAmount = Mathf.Lerp(fillFront, BackWtBar.fillAmount, ratioAmount);
+            
+            FrontWtBar.fillAmount += 0.01f; //= Mathf.Lerp(fillFront, BackWtBar.fillAmount, ratioAmount);
         }
     }
     
