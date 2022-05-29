@@ -13,6 +13,10 @@ TagManager:
   - UpTag
   - CovidTag
   - FinishCollider
+  - Positive
+  - Negative
+  - Obstacle
+  - Hole
   layers:
   - Default
   - TransparentFX

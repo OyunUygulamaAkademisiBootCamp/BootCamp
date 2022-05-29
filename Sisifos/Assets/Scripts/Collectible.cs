@@ -22,15 +22,7 @@ public class Collectible : MonoBehaviour
         if (other.CompareTag("Player"))
         {
 
-            if (gameObject.CompareTag("Positive"))
-            {
-                _collectibleController.UpScale(gameObject.GetComponent<Rigidbody>().mass);
-                
-            }else if (gameObject.CompareTag("Negative"))
-            {
-                _collectibleController.DownScale(gameObject.GetComponent<Rigidbody>().mass);
-            }
-            gameObject.SetActive(false);
+           
         }
     }
 
