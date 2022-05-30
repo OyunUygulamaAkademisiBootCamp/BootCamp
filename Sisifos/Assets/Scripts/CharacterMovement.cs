@@ -77,7 +77,7 @@ public class CharacterMovement : MonoBehaviour
 
     public void RunCharacter(float horizontalInput)
     {
-        //move player
+        //horizontal move player
         
         rb.AddForce(new Vector3(horizontalInput * horizontalSpeed * Time.deltaTime, 0, 0));
     }
@@ -85,6 +85,7 @@ public class CharacterMovement : MonoBehaviour
     public void SpeedUp(float speed)
     {
         updatedSpeed = updatedSpeed + speed;
+        Debug.Log("Speed: " + updatedSpeed);
 
     }
 
@@ -92,6 +93,7 @@ public class CharacterMovement : MonoBehaviour
     {
         
         updatedSpeed = updatedSpeed - speed ;
+        Debug.Log("Speed: " + updatedSpeed);
 
     }
 

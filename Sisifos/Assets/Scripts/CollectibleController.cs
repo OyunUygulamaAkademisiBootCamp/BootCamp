@@ -52,12 +52,7 @@ public class CollectibleController : MonoBehaviour
 
     private void Update()
     {
-        switch (boulderWeight)
-        {
-
-
-
-        }
+       
 
 
     }
@@ -76,6 +71,8 @@ public class CollectibleController : MonoBehaviour
 
         boulderWeight += weight; 
         _characterMovement.SpeedDown(Convert.ToSingle(Math.Round(70/weight,1))); //TODO: optimize
+        Debug.Log("Weight: " + boulderWeight);
+
         
 
         
@@ -103,6 +100,7 @@ public class CollectibleController : MonoBehaviour
 
         boulderWeight -= weight; 
         _characterMovement.SpeedUp(Convert.ToSingle(Math.Round(70/weight,1))); //TODO: optimize
+        Debug.Log("Weight: " + boulderWeight);
 
 
         if (boulderWeight <= 0)
