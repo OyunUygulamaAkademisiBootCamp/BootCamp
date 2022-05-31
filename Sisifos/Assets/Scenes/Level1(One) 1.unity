@@ -11002,14 +11002,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774429037}
-  m_LocalRotation: {x: 0.1383017, y: -0, z: -0, w: 0.9903902}
-  m_LocalPosition: {x: 0, y: 18, z: -65.18}
+  m_LocalRotation: {x: -0.20002921, y: -0, z: -0, w: 0.9797899}
+  m_LocalPosition: {x: 0, y: 5, z: 3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 15.899, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -23.077, y: 0, z: 0}
 --- !u!114 &774429041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30641,3 +30641,60 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146079785}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2667673519330162481
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2667673519743258072, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_Name
+      value: 'PlayerwithSoundandParticles(PartikullerindonmemesiicinBoulderileAyriChildrenOlarakEkle '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667673519743258075, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667673519743258075, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667673519743258075, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667673519743258075, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667673519743258075, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667673519743258075, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667673519743258075, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667673519743258075, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667673519743258075, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667673519743258075, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2667673519743258075, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f538ac92957b5894a9bf855aac6dfe24, type: 3}
