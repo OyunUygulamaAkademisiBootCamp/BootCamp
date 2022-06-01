@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b4c031d508a45094c86f4f01e6881f0d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerSounds: {instanceID: 0}
+  - collectPositive: {fileID: 8300000, guid: b140e556546f6a446a9b5a9343c835df, type: 3}
+  - collectNegative: {fileID: 8300000, guid: c79560e5a03b51b419305de5cc7a08ea, type: 3}
+  - finishLine: {fileID: 8300000, guid: 9ea35ff6be1d17d48b00407fc17a7ee2, type: 3}
+  - playerDeath: {fileID: 8300000, guid: c88887bafd51048419ab01e20a31201a, type: 3}
+  - failedLevel: {fileID: 8300000, guid: cb037561dd7e08b43a60947a5fc1366b, type: 3}
+  - pushBoulder: {fileID: 8300000, guid: 9f6e55c215dc7a240b1aef115e8858c0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

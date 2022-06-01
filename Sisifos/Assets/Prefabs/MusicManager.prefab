@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6869942607264780516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6869942607264780517}
+  - component: {fileID: 6869942607264780518}
+  m_Layer: 0
+  m_Name: MusicManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6869942607264780517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6869942607264780516}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6869942607264780518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6869942607264780516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e347c3067739e414381be28a3e810b54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameMusics: {fileID: 0}
+  _musics:
+  - {fileID: 8300000, guid: b4ed5d8650183064abcc3275ad6fa211, type: 3}
+  - {fileID: 8300000, guid: 17303fa6a632c9441b71edad858eee53, type: 3}
+  - {fileID: 8300000, guid: 72e1f9df7f8662441a66c6cbb4e91c52, type: 3}
+  - {fileID: 8300000, guid: 40e71cf635ff3794187874a95bca3da8, type: 3}
+  - {fileID: 8300000, guid: 63db048651bb0914e9d79bb789e2a11b, type: 3}
+  - {fileID: 8300000, guid: 94c641102d065754f900d04547b225a8, type: 3}
+  - {fileID: 8300000, guid: ceeeb5fa6e855aa43997348f8383db85, type: 3}
+  winMenu: {fileID: 8300000, guid: 9dd66755da510b64eac696c551eec25d, type: 3}
+  loseMenu: {fileID: 8300000, guid: 1ce98cb3ed36d8f4bb28fa5049ce59d3, type: 3}
