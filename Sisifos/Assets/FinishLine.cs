@@ -12,6 +12,7 @@ public class FinishLine : MonoBehaviour
             // Leveli geçtiğini gösteren şeyler burada yapılabilir.
             Debug.Log("Tebrikler. Bölümü başarıyla bitirdiniz.");
             Time.timeScale = 0;
+            Camera.main.gameObject.GetComponent<MusicManager>().PlayWinMenuSong();
         }
     }
 }
