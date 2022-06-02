@@ -10,7 +10,7 @@ using UnityEngine.UIElements;
 public class CharacterMovement : MonoBehaviour
 {
     public bool isGround;
-    public float forwardSpeed = 5; // Hız değişkeni
+    public float forwardSpeed = 20; // Hız değişkeni
     
     public Rigidbody rb; // Rigidbody değişkeni
     private Transform tf; // Transform değişkeni
@@ -19,7 +19,7 @@ public class CharacterMovement : MonoBehaviour
     private float updatedSpeed;
     public float horizontalSpeed = 1000;
     private float ScreenWidth;
-
+    private int speedMultiplier = 4;
     private CollectibleController _collectible;
 
     void Start()
@@ -82,23 +82,17 @@ public class CharacterMovement : MonoBehaviour
         rb.AddForce(new Vector3(horizontalInput * horizontalSpeed * Time.deltaTime, 0, 0));
     }
 
-    public void SpeedUp(float speed)
+    public void SpeedChanged(int speed)
     {
-        updatedSpeed = updatedSpeed + speed;
-        Debug.Log("Speed: " + updatedSpeed);
-
+        updatedSpeed =  speedMultiplier * speed;
     }
 
-    public void SpeedDown(float speed)
-    {
-        
-        updatedSpeed = updatedSpeed - speed ;
-        Debug.Log("Speed: " + updatedSpeed);
-
-    }
+    
 
     public void Stop()
     {
         updatedSpeed = 0;
+        gameObject.transform.GetChild(0).GetComponent<Animator>().speed=0;
+        gameObject.transform.GetChild(1).GetComponent<Animator>().speed=0;
     }
 }
