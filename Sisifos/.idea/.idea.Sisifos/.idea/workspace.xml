@@ -2,46 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d302e1-22f3-4569-809c-7304a668859d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/NegativeMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/NegativeMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/PositiveMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/PositiveMaterial.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Badice's Junk/Textures Falan Filan/Free Stylized Textures/Materials/Vol_16_2_Sand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Badice's Junk/Textures Falan Filan/Free Stylized Textures/Materials/Vol_16_2_Sand.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Badice's Junk/Textures Falan Filan/Free Stylized Textures/Materials/Vol_16_2_Sand.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Badice's Junk/Textures Falan Filan/Free Stylized Textures/Materials/Vol_16_2_Sand.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/LowPoly/FREE_HumanLowPoly/Materials_Humans/Armor.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/LowPoly/FREE_HumanLowPoly/Materials_Humans/Armor.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Character/LowPoly/FREE_HumanLowPoly/Textures_Humans/LowPolyArmorTexture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/LowPoly/FREE_HumanLowPoly/Textures_Humans/LowPolyArmorTexture.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CrazyLevel/rock_path_1 Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CrazyLevel/rock_path_1 Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CrazyLevel/rock_path_1 Variant.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CrazyLevel/rock_path_1 Variant.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_10.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_10.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_10.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_10.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_13.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_13.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_13.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_13.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_17.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_17.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_17.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_17.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_18.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_18.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_18.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_18.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_19.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_19.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_19.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_19.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_21.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_21.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_21.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_21.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_24.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_24.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_24.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_24.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_25.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_25.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_25.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_25.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_3.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_3.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_5.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_5.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trees/tree_5.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ErayScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1(One) 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1(One) 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelBase(20Units).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelBase(20Units).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/healtIconAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/healtIconAnim.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/noMoneyAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/noMoneyAnim.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Main Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Main Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/FamilyIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/FamilyIcon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/brokenheart.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/brokenheart.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/healticon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/healticon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/heart icon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/heart icon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/hole.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/hole.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/money icon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/money icon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noFamilyIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noFamilyIcon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noMoneyIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noMoneyIcon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/unemploymentIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/unemploymentIcon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/virus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/virus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/workicon (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/workicon (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Sphere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Sphere.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/EndPoint 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/EndPoint 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/LevelEndFailUI (1).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/LevelEndFailUI (1).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/LevelEndUI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/LevelEndUI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlanePrefabs/Environment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlanePrefabs/Environment.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WeightBar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WeightBar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/zuusss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/zuusss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1(One) 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1(One) 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2(Two)CopyPasteBeforeStart 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2(Two)CopyPasteBeforeStart 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3(Three)CopyPasteBeforeStart.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3(Three)CopyPasteBeforeStart.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SeymaScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SeymaScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Road.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Materials/Sunset3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Materials/Sunset3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Materials/Sunset3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skyboxes/Stylized Sky/Materials/Sunset3.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/moneyAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/moneyAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +171,7 @@
       <workItem from="1653730171169" duration="1782000" />
       <workItem from="1653758931997" duration="8995000" />
       <workItem from="1653929652017" duration="1094000" />
+      <workItem from="1654173324442" duration="9015000" />
     </task>
     <servers />
   </component>

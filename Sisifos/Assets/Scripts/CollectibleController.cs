@@ -31,7 +31,6 @@ public class CollectibleController : MonoBehaviour
     private int currentLevel;
     private float[] collectiblePosXList;
     private GameObject[] createdCollectibles;
-
     private int speed;
     
     
@@ -45,6 +44,7 @@ public class CollectibleController : MonoBehaviour
         currentLevel = _levelController.currentLevel;
         float planeX = plane.transform.position.x;
         collectiblePosXList = new[] {planeX - planeWidth/4f, planeX, planeX + planeWidth/4f};
+
         SpawnCollectible();
         
         //(planeX - planeWidth/4) , planeX, planeX + planeWidth / 4
@@ -82,7 +82,7 @@ public class CollectibleController : MonoBehaviour
             _levelController.Failed(Reason.Overweight);
         }
         
-        Debug.Log("Boyut Büyüdü");
+        //Debug.Log("Boyut Büyüdü");
 
         
     }
@@ -108,7 +108,7 @@ public class CollectibleController : MonoBehaviour
             _levelController.Failed(Reason.Underweight);
 
         }
-        Debug.Log("Boyut Küçüldü");
+        //Debug.Log("Boyut Küçüldü");
 
         
     }
@@ -130,11 +130,11 @@ public class CollectibleController : MonoBehaviour
             GameObject collectibleOb = collectibleObjects[rand];
             int xRand = new Random().Next(0, 3);
             float _x = collectiblePosXList[xRand];
-            Debug.Log("xRand: " + xRand + " _x: " + _x);
+            //Debug.Log("xRand: " + xRand + " _x: " + _x);
             _z = _z + new Random().Next( gap - gapRange, gap + gapRange+1);
             float _y = yAngle * _z + 0.3f;
-            Debug.Log(_x + " : " + _y + " : " + _z);
-            GameObject collectibleObject  =  Instantiate(collectibleOb, new Vector3(_x,_y,_z),  Quaternion.Euler(new Vector3(0, 0, 0)));
+            //Debug.Log(_x + " : " + _y + " : " + _z);
+            GameObject collectibleObject  =  Instantiate(collectibleOb, new Vector3(_x,_y,_z),  Quaternion.Euler(new Vector3(-30, 0, 0)));
             
         } 
         

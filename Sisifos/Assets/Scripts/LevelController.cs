@@ -38,7 +38,8 @@ public class LevelController : MonoBehaviour
 
     public void Failed(Reason reason)
     {
-        _characterMovement.Stop();
+        //Time.timeScale = 0; // OYUNU PAUSE'LUYOR.
+        _characterMovement.Stop(); // HEMEN DURMUYOR !!!!
 
         if (reason.Equals(Reason.Underweight))
         {

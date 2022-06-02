@@ -82,7 +82,7 @@ MonoBehaviour:
   finishPlaneObj: {fileID: 9124928724601286981, guid: 358b256b2ad21f84ca1d57b8fb0d13d8, type: 3}
   playerTransform: {fileID: 0}
   isCreated: 0
-  planeCount: 0
+  planeCount: 1
   levelPlane: 10
 --- !u!1001 &1232833756571993928
 PrefabInstance:
