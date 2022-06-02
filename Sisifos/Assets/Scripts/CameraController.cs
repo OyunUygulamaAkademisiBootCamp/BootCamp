@@ -10,13 +10,13 @@ public class CameraController : MonoBehaviour {
 
     void Start ()
     {
-        //offset = transform.position - player.transform.position;
+        offset = transform.position - player.transform.position;
         
     }
 
     void LateUpdate ()
     {
-        zeus.transform.position = player.transform.position + zeusOffset;
+        //zeus.transform.position = player.transform.position + zeusOffset;
         transform.position = player.transform.position + offset;
     }
 }
