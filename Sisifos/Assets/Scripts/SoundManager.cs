@@ -12,7 +12,7 @@ public class SoundManager : MonoBehaviour
   
 
     public AudioSource playerSounds;
-    [SerializeField] AudioClip collectPositive, collectNegative, finishLine, playerDeath, failedLevel, pushBoulder;
+    [SerializeField] AudioClip collectPositive, collectNegative, finishLine, playerDeath, failedLevel, pushBoulder, brokenBones, sisifosScream;
 
 
  
@@ -57,10 +57,22 @@ public class SoundManager : MonoBehaviour
     {
         playerSounds.clip = pushBoulder;
         playerSounds.Play();
-    }  
+    }
+
+    public void BrokenBones()
+    {
+        playerSounds.clip = brokenBones;
+        playerSounds.Play();
+    }
+
+    public void SisifosScream()
+    {
+        playerSounds.clip = sisifosScream;
+        playerSounds.Play();
+    }
 
 
-    
 
-    
+
+
 }

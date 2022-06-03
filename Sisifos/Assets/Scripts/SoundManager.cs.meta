@@ -11,6 +11,7 @@ MonoImporter:
   - playerDeath: {fileID: 8300000, guid: c88887bafd51048419ab01e20a31201a, type: 3}
   - failedLevel: {fileID: 8300000, guid: cb037561dd7e08b43a60947a5fc1366b, type: 3}
   - pushBoulder: {fileID: 8300000, guid: 9f6e55c215dc7a240b1aef115e8858c0, type: 3}
+  - brokenBones: {fileID: 8300000, guid: 5e272ba4bef5d254294036b45fa50afe, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
