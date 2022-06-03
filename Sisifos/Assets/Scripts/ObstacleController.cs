@@ -56,17 +56,17 @@ public class ObstacleController : MonoBehaviour
             GameObject obstacleOb = obstacleObjects[rand];
             int xRand = new Random().Next(0, 3);
             float _x = obstaclePosXList[xRand];
-            Debug.Log("xRand: " + xRand + " _x: " + _x);
+            //Debug.Log("xRand: " + xRand + " _x: " + _x);
             _z = _z + new Random().Next( gap - gapRange, gap + gapRange+1);
             float _y = yAngle * _z + 0.2f;
-            Debug.Log(_x + " : " + _y + " : " + _z);
+            //Debug.Log(_x + " : " + _y + " : " + _z);
             if (obstacleOb.CompareTag("Hole"))
             {
-                GameObject obstacleObject  =  Instantiate(obstacleOb, new Vector3(_x,_y,_z),  Quaternion.Euler (30, 180, 0));
+                GameObject obstacleObject  =  Instantiate(obstacleOb, new Vector3(_x,_y,_z),  Quaternion.identity);
             }
             else
             {
-                GameObject obstacleObject  =  Instantiate(obstacleOb, new Vector3(_x,_y,_z),  Quaternion.Euler(30,0,0));
+                GameObject obstacleObject  =  Instantiate(obstacleOb, new Vector3(_x,_y,_z),  Quaternion.identity);
    
             }
             

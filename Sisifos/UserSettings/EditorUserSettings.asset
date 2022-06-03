@@ -6,34 +6,54 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 0005550352005a0a5d0c0a7447270944434e1b2b7b797069282a4c30bbb8626d
+      value: 02095003520c0c0855590f7011770e44441549297f7c273678781f35e7e4676b
       flags: 0
     RecentlyUsedSceneGuid-1:
-      value: 5a050c5003015e0e5b0f5a7448765b44174e4f29747f7567757e446abae3623d
+      value: 5652505256505d5a090a5871407508444e154d727f2974637b7f1963e7b9363c
       flags: 0
     RecentlyUsedSceneGuid-2:
-      value: 51530d515403590f590f0971482709444f1640792f2a70677b2a4467e0b3653d
+<<<<<<< Updated upstream
+      value: 0005550352005a0a5d0c0a7447270944434e1b2b7b797069282a4c30bbb8626d
       flags: 0
     RecentlyUsedSceneGuid-3:
-      value: 52015100000c515d0e59087a45710a44101519297c702760297f1c6be6e2603a
-      flags: 0
-    RecentlyUsedSceneGuid-4:
+      value: 5a050c5003015e0e5b0f5a7448765b44174e4f29747f7567757e446abae3623d
+=======
       value: 5b05550304560f58580f5f26127b5d44434e4d7c742c20347a7f1f62b3e5363c
       flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 51530d515403590f590f0971482709444f1640792f2a70677b2a4467e0b3653d
+>>>>>>> Stashed changes
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5a050c5003015e0e5b0f5a7448765b44174e4f29747f7567757e446abae3623d
+      flags: 0
     RecentlyUsedSceneGuid-5:
+<<<<<<< Updated upstream
+      value: 52015100000c515d0e59087a45710a44101519297c702760297f1c6be6e2603a
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 5b05550304560f58580f5f26127b5d44434e4d7c742c20347a7f1f62b3e5363c
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 0054555150075e5f0f0a5c7243220c4443151a7f2e7d22662c2f1c62e7b86139
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 55570303030458085b595e7a11770a424516402c2a717e637c2f4965e1b8676a
+=======
       value: 0054555150075e5f0f0a5c7243220c4443151a7f2e7d22662c2f1c62e7b86139
       flags: 0
     RecentlyUsedSceneGuid-6:
-      value: 55570303030458085b595e7a11770a424516402c2a717e637c2f4965e1b8676a
+      value: 02095003520c0c0855590f7011770e44441549297f7c273678781f35e7e4676b
       flags: 0
     RecentlyUsedSceneGuid-7:
-      value: 5204015250515e5a5a5a5a7713770814464e1a7c7e2977697f7d4f35e3e26460
+      value: 52015100000c515d0e59087a45710a44101519297c702760297f1c6be6e2603a
       flags: 0
     RecentlyUsedSceneGuid-8:
-      value: 5a545054540d5d025f5d0a7b46205944464f4a7f7c7a2462742a4960e1b0613b
+      value: 5204015250515e5a5a5a5a7713770814464e1a7c7e2977697f7d4f35e3e26460
+>>>>>>> Stashed changes
       flags: 0
     RecentlyUsedSceneGuid-9:
-      value: 01570c0052010d5e5c0f5570467b0d444415482e2e7e7165747f4e63bae1653d
+      value: 5652505256505d5a090a5871407508444e154d727f2974637b7f1963e7b9363c
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
