@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -4916177271378595129}
   m_Layer: 0
   m_Name: noMoney
-  m_TagString: Positive
+  m_TagString: Negative
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

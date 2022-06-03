@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4353086818393125974}
   m_Layer: 0
   m_Name: virusIcon 1 1
-  m_TagString: Positive
+  m_TagString: Negative
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

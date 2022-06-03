@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d302e1-22f3-4569-809c-7304a668859d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingArea.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingArea.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level_1_Prefabs/EndPoint 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level_1_Prefabs/EndPoint 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BasakSceneYeni.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BasakSceneYeni.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SeymaScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SeymaScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndPointParticle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndPointParticle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sisifos.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Sisifos.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +24,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../SundayFinal/BallsToCup/Assets/Scripts/LevelController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RenderSkyBoxBelnd.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -163,6 +132,7 @@
       <workItem from="1653929652017" duration="1094000" />
       <workItem from="1654173324442" duration="9015000" />
       <workItem from="1654238240198" duration="13262000" />
+      <workItem from="1654299713697" duration="324000" />
     </task>
     <servers />
   </component>
@@ -192,7 +162,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
