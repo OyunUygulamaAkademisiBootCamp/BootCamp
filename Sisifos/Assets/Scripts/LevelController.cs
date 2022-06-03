@@ -8,21 +8,25 @@ using UnityEngine.SceneManagement;
 public class LevelController : MonoBehaviour
 {
     public int currentLevel = 0;
-    public int[] roadLengths;
-    public int[] collectibleCounts;
-    public bool inGame;
-    public GameObject[] environmentObjects;
     public GameObject playerObject;
-    public GameObject underweightObj;
-    private int _roadLength;
-    private int _collectibleCount;
+    public GameObject winPanel;
+    public GameObject failPanel;
     private CharacterMovement _characterMovement;
     private AsyncOperation sceneAsync;
+    private int index;
+    private CollectibleController _collectibleController;
+    private ObstacleController _obstacleController;
+    private AnimationController _animationController;
 
 
     void Start()
     {
+        index = SceneManager.GetActiveScene().buildIndex;
         _characterMovement = playerObject.GetComponent<CharacterMovement>();
+        currentLevel = 0;// index - 1;
+        Debug.Log("currentLevel: " +currentLevel);
+        _collectibleController = FindObjectOfType<CollectibleController>();
+        _animationController = FindObjectOfType<AnimationController>();
     }
 
     // Update is called once per frame
@@ -33,82 +37,72 @@ public class LevelController : MonoBehaviour
 
     public void Won()
     {
-        currentLevel++;
+        winPanel.SetActive(true);
     }
 
     public void Failed(Reason reason)
     {
         //Time.timeScale = 0; // OYUNU PAUSE'LUYOR.
-        _characterMovement.Stop(); // HEMEN DURMUYOR !!!!
+        _characterMovement.Stop(); // HEMEN DURMUYOR !!!!  //ş: 
 
-        if (reason.Equals(Reason.Underweight))
+        switch (reason)
         {
-            underweightObj.GetComponent<Animation>().Play();
-        }else if (reason.Equals(reason == Reason.Overweight))
-        {
+            case Reason.Hole:
+                Debug.Log("Reason:" + Reason.Hole);
+                _animationController.HoleAnimation();
+                failPanel.SetActive(true);
+                //Time.timeScale = 0;
+                break;
+            case Reason.Obstacle:
+                Debug.Log("Reason:" + Reason.Obstacle);
+                //TODO: animasyon eklenecek
+                failPanel.SetActive(true);
+                //Time.timeScale = 0;
+                break;
+            case Reason.Overweight:
+                Debug.Log("Reason:" + Reason.Overweight);
+
+                //TODO: animasyon eklenecek
+                failPanel.SetActive(true);
+                //Time.timeScale = 0;
+                break;
+            case Reason.Underweight:
+                Debug.Log("Reason:" + Reason.Underweight);
+                _animationController.ZeusAnimation();
+                //failPanel.SetActive(true);
+                //Time.timeScale = 0;
+                break;
             
-        }else if (reason.Equals(reason == Reason.Hole))
-        {
-            
-        }else if (reason.Equals(reason == Reason.Obstacle))
-        {
-
         }
-        
-    }
-
-    public void Play(bool newLevel)
-    {
-        if (newLevel)
-        {
-            StartCoroutine(loadScene(currentLevel));
-
-        }
-        else
-        {
-         //TODO:relocate gaps obstacles and collectibles   
-        }
-        
-    }
-    //https://stackoverflow.com/questions/45798666/move-transfer-gameobject-to-another-scene
-    IEnumerator loadScene(int index)
-    {
-        Debug.Log("index:" + index);
-        AsyncOperation scene = SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
-        scene.allowSceneActivation = false;
-        sceneAsync = scene;
-
-        //Wait until we are done loading the scene
-        while (scene.progress < 0.9f)
-        {
-            Debug.Log("Loading scene " + " [][] Progress: " + scene.progress);
-            yield return null;
-        }
-        OnFinishedLoadingAllScene();
     }
     
-    void enableScene(int index)
+    
+    public void LoadNextLevel()
     {
-        //Activate the Scene
-        sceneAsync.allowSceneActivation = true;
-
-
-        Scene sceneToLoad = SceneManager.GetSceneByBuildIndex(index);
-        if (sceneToLoad.IsValid())
-        {
-            Debug.Log("Scene is Valid");
-            SceneManager.MoveGameObjectToScene(gameObject, sceneToLoad);
-            SceneManager.SetActiveScene(sceneToLoad);
-        }
+        winPanel.SetActive(false);
+        SceneManager.UnloadSceneAsync(index);
+        SceneManager.LoadScene(index + 1);
     }
 
-    void OnFinishedLoadingAllScene()
+    public void RestartLevel()
     {
-        Debug.Log("Done Loading Scene");
-        enableScene(currentLevel);
-        SceneManager.UnloadSceneAsync(currentLevel - 1);
-        Debug.Log("Scene Activated!");
+        winPanel.SetActive(false);
+        
+        //TODO: relocate everything
+        //SceneManager.LoadScene(index);
+        _collectibleController.RelocateCollectible();
+        _obstacleController.RelocateObstacles();
+
     }
+
+    public void ReturnMainMenu()
+    {
+        SceneManager.LoadScene(0);
+        winPanel.SetActive(false);
+        SceneManager.UnloadSceneAsync(index);
+    }
+    
+   
     
 
     

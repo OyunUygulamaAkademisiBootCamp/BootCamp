@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using DefaultNamespace;
 using UnityEngine;
 
+
+// All trigger controls here
 public class Player : MonoBehaviour
 {
     private CollectibleController _collectibleController;
@@ -24,6 +26,7 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Player Trigger: " + other.tag);
         if (other.CompareTag("Positive"))
         {
             _collectibleController.UpScale(other.gameObject.GetComponent<Rigidbody>().mass);
@@ -57,6 +60,11 @@ public class Player : MonoBehaviour
         if (other.CompareTag("Hole"))
         {
             _levelController.Failed(Reason.Hole);
+        }
+
+        if (other.CompareTag("Finish"))
+        {
+            _levelController.Won();
         }
     }
 }

@@ -1,23 +1,21 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
-
+[RequireComponent(typeof(AudioSource))]
 public class SoundManager : MonoBehaviour
 {
-    //Player componenti ile baðlanacak.
-    //audio source'un bulunduðu objeyi tanýmlamayý unutma
-
+    //Player componenti ile baï¿½lanacak.
+    //audio source'un bulunduï¿½u objeyi tanï¿½mlamayï¿½ unutma
     
-
-  
-
-    public AudioSource playerSounds;
+    private AudioSource playerSounds;
     [SerializeField] AudioClip collectPositive, collectNegative, finishLine, playerDeath, failedLevel, pushBoulder, brokenBones, sisifosScream;
 
-
- 
-    
-
+    void Start()
+    {
+        playerSounds = gameObject.GetComponent<AudioSource>();
+    }
 
     public void CollectPositive()
     {

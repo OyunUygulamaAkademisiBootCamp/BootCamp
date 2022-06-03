@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Random = System.Random;
 
@@ -22,7 +23,7 @@ public class ObstacleController : MonoBehaviour
     private CharacterMovement _characterMovement;
     private int currentLevel;
     private float[] obstaclePosXList;
-    private GameObject[] createdObstacles;
+    private List<GameObject> createdObstacles;
 
     private int speed;
     // Start is called before the first frame update
@@ -35,12 +36,34 @@ public class ObstacleController : MonoBehaviour
         currentLevel = _levelController.currentLevel;
         float planeX = plane.transform.position.x;
         obstaclePosXList = new[] {planeX - planeWidth/4f, planeX, planeX + planeWidth/4f};
+        createdObstacles =  new List<GameObject>();
         SpawnObstacle();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    public void RelocateObstacles()
+    {
+        float yAngle = Convert.ToSingle(Math.Tan(30 * Math.PI / 180)); //tODO : plane angle
+        float _z = 10;
+        int gap = obstacleGaps[currentLevel];
+        int gapRange = gapRanges[currentLevel];
+        for (int i = 0; i < obstacleObjects.Length ; i++)
+        {
+            int xRand = new Random().Next(0, 3);
+            float _x = obstaclePosXList[xRand];
+            //Debug.Log("xRand: " + xRand + " _x: " + _x);
+            _z = _z + new Random().Next( gap - gapRange, gap + gapRange+1);
+            float _y = yAngle * _z + 0.2f;
+            GameObject gameOb = obstacleObjects[i];
+            gameOb.transform.position = new Vector3(_x, _y, _z);
+            gameOb.SetActive(true);
+        }
         
     }
     
@@ -50,6 +73,7 @@ public class ObstacleController : MonoBehaviour
         float _z = 10;
         int gap = obstacleGaps[currentLevel];
         int gapRange = gapRanges[currentLevel];
+        Debug.Log("obstacleCount: " +  obstacleCounts[currentLevel]);
         for (int i = 0; i < obstacleCounts[currentLevel]; i++)
         {
             int rand = new Random().Next(0, obstacleKindNumbers[currentLevel]);
@@ -63,11 +87,13 @@ public class ObstacleController : MonoBehaviour
             if (obstacleOb.CompareTag("Hole"))
             {
                 GameObject obstacleObject  =  Instantiate(obstacleOb, new Vector3(_x,_y,_z),  Quaternion.identity);
+                createdObstacles.Add(obstacleObject);
             }
             else
             {
                 GameObject obstacleObject  =  Instantiate(obstacleOb, new Vector3(_x,_y,_z),  Quaternion.identity);
-   
+                createdObstacles.Add(obstacleOb);
+
             }
             
         } 

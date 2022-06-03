@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,6 +16,7 @@ public class CollectibleController : MonoBehaviour
 
     public float boulderWeight;
     public float maxWeight = 100.0f;
+    public float minWeight = 10.0f;
 
     public GameObject[] collectibleObjects;
     public int[] collectibleGaps;
@@ -30,7 +32,7 @@ public class CollectibleController : MonoBehaviour
     private CharacterMovement _characterMovement;
     private int currentLevel;
     private float[] collectiblePosXList;
-    private GameObject[] createdCollectibles;
+    private List<GameObject> createdCollectibles;
     private int speed;
     
     
@@ -44,9 +46,10 @@ public class CollectibleController : MonoBehaviour
         currentLevel = _levelController.currentLevel;
         float planeX = plane.transform.position.x;
         collectiblePosXList = new[] {planeX - planeWidth/4f, planeX, planeX + planeWidth/4f};
-
-        SpawnCollectible();
+        createdCollectibles = new List<GameObject>();
         
+        SpawnCollectible();
+
         //(planeX - planeWidth/4) , planeX, planeX + planeWidth / 4
     }
 
@@ -57,7 +60,6 @@ public class CollectibleController : MonoBehaviour
 
     }
     
-
     public void UpScale(float weight)
     {
         if (boulder.transform.localScale.x <= 2)
@@ -103,7 +105,7 @@ public class CollectibleController : MonoBehaviour
         Debug.Log("Weight: " + boulderWeight);
 
 
-        if (boulderWeight <= 0)
+        if (boulderWeight <= 10)
         {
             _levelController.Failed(Reason.Underweight);
 
@@ -113,8 +115,24 @@ public class CollectibleController : MonoBehaviour
         
     }
 
-    void RelocateCollectible()
+    public void RelocateCollectible()
     {
+        float yAngle = Convert.ToSingle(Math.Tan(30 * Math.PI / 180)); //tODO : plane angle
+        float _z = 10;
+        int gap = collectibleGaps[currentLevel];
+        int gapRange = gapRanges[currentLevel];
+        for (int i = 0; i < createdCollectibles.Count; i++)
+        {
+            int xRand = new Random().Next(0, 3);
+            float _x = collectiblePosXList[xRand];
+            //Debug.Log("xRand: " + xRand + " _x: " + _x);
+            _z = _z + new Random().Next( gap - gapRange, gap + gapRange+1);
+            float _y = yAngle * _z + 0.3f;
+            GameObject gameOb = createdCollectibles[i];
+            gameOb.transform.position = new Vector3(_x, _y, _z);
+            gameOb.SetActive(true);
+
+        }
         
     }
 
@@ -135,7 +153,8 @@ public class CollectibleController : MonoBehaviour
             float _y = yAngle * _z + 0.3f;
             //Debug.Log(_x + " : " + _y + " : " + _z);
             GameObject collectibleObject  =  Instantiate(collectibleOb, new Vector3(_x,_y,_z),  Quaternion.Euler(new Vector3(-30, 0, 0)));
-            
+            createdCollectibles.Add(collectibleObject);
+
         } 
         
     }

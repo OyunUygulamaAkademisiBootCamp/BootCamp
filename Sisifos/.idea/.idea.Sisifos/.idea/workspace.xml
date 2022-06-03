@@ -2,59 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d302e1-22f3-4569-809c-7304a668859d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/NegativeMaterial.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/NegativeMaterial.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/PositiveMaterial.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/PositiveMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingArea.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingArea.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/healtIconAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/healtIconAnim.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/noMoneyAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/noMoneyAnim.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Main Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Character/Main Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/FamilyIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/FamilyIcon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/brokenheart.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/brokenheart.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/healticon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/healticon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/heart icon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/heart icon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/hole.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/hole.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/money icon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/money icon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noFamilyIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noFamilyIcon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noMoneyIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noMoneyIcon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/unemploymentIcon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/unemploymentIcon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/virus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/virus.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/workicon (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/workicon (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule (1).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Capsule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Cube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Sphere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Deneme/Sphere.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Environment.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/EndPoint 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/EndPoint 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/LevelEndFailUI (1).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/LevelEndFailUI (1).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/LevelEndUI.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelEnd/LevelEndUI.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlanePrefabs/Environment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlanePrefabs/Environment.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WeightBar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WeightBar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/zuusss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/zuusss.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1(One) 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1(One) 1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2(Two)CopyPasteBeforeStart 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2(Two)CopyPasteBeforeStart 1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3(Three)CopyPasteBeforeStart.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3(Three)CopyPasteBeforeStart.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level_1_Prefabs/EndPoint 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level_1_Prefabs/EndPoint 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BasakSceneYeni.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BasakSceneYeni.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SeymaScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SeymaScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AnimationController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndPointParticle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EndPointParticle.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/moneyAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/moneyAnimation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sisifos.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Sisifos.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-firstpass.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +41,23 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../SundayFinal/BallsToCup/Assets/Scripts/LevelController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RenderSkyBoxBelnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/SeymaScene.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -84,9 +66,17 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/RoadController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlaneController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/WeightBarTemp.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Collectible.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scenes/SeymaScene.unity" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EndPointParticle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AnimationController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Reason.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -172,6 +162,7 @@
       <workItem from="1653758931997" duration="8995000" />
       <workItem from="1653929652017" duration="1094000" />
       <workItem from="1654173324442" duration="9015000" />
+      <workItem from="1654238240198" duration="13262000" />
     </task>
     <servers />
   </component>
@@ -181,6 +172,16 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -191,6 +192,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

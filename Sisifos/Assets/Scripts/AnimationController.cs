@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[RequireComponent(typeof(SoundManager))]
 public class AnimationController : MonoBehaviour
 {
     [SerializeField] private Animator zuusAnim;
@@ -14,14 +14,27 @@ public class AnimationController : MonoBehaviour
     public GameObject losePanel;
 
     public Animator animator_blink;
+    private SoundManager sm;
+    
 
-    public SoundManager sm;
+    
+    
+    private void Start()
+    {
+        zuus.SetActive(false);
+        //Camera.SetupCurrent(mainCam);
+        mainCam.gameObject.SetActive(true);
+        sideCam.gameObject.SetActive(false);
+        sm = gameObject.GetComponent<SoundManager>();
+    }
 
     
 
-    public void FadetoNewCameraPos()
+    void FadetoNewCameraPos()
     {
         animator_blink.SetTrigger("Blink");
+        mainCam.gameObject.SetActive(false);
+        sideCam.gameObject.SetActive(true);
     }
 
     public void OnFadeComplete()
@@ -29,7 +42,7 @@ public class AnimationController : MonoBehaviour
 
     }
 
-    IEnumerator ChangeCameraPos()
+    public IEnumerator ChangeCameraPos()
     {
         sm.SisifosScream();
         var _cameraPos = sideCam.gameObject.transform.position;
@@ -50,35 +63,17 @@ public class AnimationController : MonoBehaviour
 
     }
     
-  
-    private void Start()
+
+    public void HoleAnimation()
     {
-        zuus.SetActive(false);
-        //Camera.SetupCurrent(mainCam);
-        mainCam.gameObject.SetActive(true);
-        sideCam.gameObject.SetActive(false);
+        FadetoNewCameraPos();
+        StartCoroutine(ChangeCameraPos());
+
     }
-    private void OnTriggerEnter(Collider other)
+    public void ZeusAnimation()
     {
-        //kýrmýzý taraftayken hole için
-        if (other.CompareTag("Hole"))
-        {
-            zuus.SetActive(true);
-            zuusAnim.Play("ZeusStrike");
-            Debug.Log("düseyrumm");
-            Destroy(other.gameObject);
-        }
-
-        //mavi taraftayken hole için
-        if (other.CompareTag("Hole"))
-        {
-            FadetoNewCameraPos();
-            //Camera.SetupCurrent(sideCam);
-            mainCam.gameObject.SetActive(false);
-            sideCam.gameObject.SetActive(true);
-            StartCoroutine(ChangeCameraPos());
-           
-
-        }
+        zuus.SetActive(true);
+        zuusAnim.Play("ZeusStrike");
+        
     }
 }
