@@ -17,27 +17,28 @@ public class LevelController : MonoBehaviour
     private CollectibleController _collectibleController;
     private ObstacleController _obstacleController;
     private AnimationController _animationController;
+    private RoadController _roadController;
+    private SoundManager sm; 
+
 
 
     void Start()
     {
         index = SceneManager.GetActiveScene().buildIndex;
         _characterMovement = playerObject.GetComponent<CharacterMovement>();
-        currentLevel = 0;// index - 1;
-        Debug.Log("currentLevel: " +currentLevel);
+        currentLevel = 0; // index - 1;
+        Debug.Log("currentLevel: " + currentLevel);
         _collectibleController = FindObjectOfType<CollectibleController>();
         _animationController = FindObjectOfType<AnimationController>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //TODO
+        _obstacleController = FindObjectOfType<ObstacleController>();
+        _roadController = FindObjectOfType<RoadController>();
+        sm = FindObjectOfType<SoundManager>();
     }
 
     public void Won()
     {
         winPanel.SetActive(true);
+        
     }
 
     public void Failed(Reason reason)
@@ -50,20 +51,18 @@ public class LevelController : MonoBehaviour
             case Reason.Hole:
                 Debug.Log("Reason:" + Reason.Hole);
                 _animationController.HoleAnimation();
-                failPanel.SetActive(true);
+                
                 //Time.timeScale = 0;
                 break;
             case Reason.Obstacle:
                 Debug.Log("Reason:" + Reason.Obstacle);
                 //TODO: animasyon eklenecek
-                failPanel.SetActive(true);
                 //Time.timeScale = 0;
                 break;
             case Reason.Overweight:
                 Debug.Log("Reason:" + Reason.Overweight);
 
                 //TODO: animasyon eklenecek
-                failPanel.SetActive(true);
                 //Time.timeScale = 0;
                 break;
             case Reason.Underweight:
@@ -72,8 +71,9 @@ public class LevelController : MonoBehaviour
                 //failPanel.SetActive(true);
                 //Time.timeScale = 0;
                 break;
-            
         }
+        failPanel.SetActive(true);
+        sm.FailedLevel();
     }
     
     
@@ -86,13 +86,14 @@ public class LevelController : MonoBehaviour
 
     public void RestartLevel()
     {
+        SceneManager.LoadScene(index);        
         winPanel.SetActive(false);
-        
-        //TODO: relocate everything
-        //SceneManager.LoadScene(index);
-        _collectibleController.RelocateCollectible();
-        _obstacleController.RelocateObstacles();
 
+        /*//TODO: relocate everything
+         _collectibleController.RelocateCollectible();
+        _obstacleController.RelocateObstacles();
+        playerObject.transform.position = new Vector3(-0.23f, 1.10f, 1.21f);
+*/
     }
 
     public void ReturnMainMenu()

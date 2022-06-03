@@ -73,7 +73,6 @@ public class ObstacleController : MonoBehaviour
         float _z = 10;
         int gap = obstacleGaps[currentLevel];
         int gapRange = gapRanges[currentLevel];
-        Debug.Log("obstacleCount: " +  obstacleCounts[currentLevel]);
         for (int i = 0; i < obstacleCounts[currentLevel]; i++)
         {
             int rand = new Random().Next(0, obstacleKindNumbers[currentLevel]);

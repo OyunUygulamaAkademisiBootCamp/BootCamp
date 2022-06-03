@@ -11,13 +11,14 @@ public class Player : MonoBehaviour
     private CollectibleController _collectibleController;
     private LevelController _levelController;
     private Rigidbody rb;
-
+    private SoundManager sm; 
     // Start is called before the first frame update
     void Start()
     {
         _collectibleController  = GameObject.FindObjectOfType<CollectibleController>();
         _levelController  = GameObject.FindObjectOfType<LevelController>();
         rb = gameObject.GetComponent<Rigidbody>();
+        sm = gameObject.GetComponent<SoundManager>();
 
     }
 
@@ -26,17 +27,19 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Player Trigger: " + other.tag);
         if (other.CompareTag("Positive"))
         {
             _collectibleController.UpScale(other.gameObject.GetComponent<Rigidbody>().mass);
+            sm.CollectPositive();
             other.gameObject.SetActive(false);
+            
                 
         } 
         
         if (other.CompareTag("Negative"))
         {
             _collectibleController.DownScale(other.gameObject.GetComponent<Rigidbody>().mass);
+            sm.CollectNegative();
             other.gameObject.SetActive(false);
 
         }
@@ -44,7 +47,7 @@ public class Player : MonoBehaviour
         if (other.CompareTag("Obstacle"))
         {
             Debug.Log("Obstacle");
-            
+
 
             if (other.gameObject.GetComponent<Rigidbody>().mass <= rb.mass)
             {
@@ -65,6 +68,7 @@ public class Player : MonoBehaviour
         if (other.CompareTag("Finish"))
         {
             _levelController.Won();
+            sm.FinishLine();
         }
     }
 }

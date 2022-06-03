@@ -15,6 +15,7 @@ public class RoadController : MonoBehaviour
     private Vector3 initialPosition;
     private Color[] colors = new []{Color.black, Color.blue, Color.cyan, Color.green, Color.red,Color.magenta, Color.white, Color.blue, Color.cyan, Color.red};
     private float relocateDistanceY, relocateDistanceZ, deltaY,deltaZ;
+    private 
     
     // Start is called before the first frame update
     void Start()
@@ -38,7 +39,6 @@ public class RoadController : MonoBehaviour
             float _z = i * deltaZ;
             
             GameObject createdPlane =  Instantiate(plane, new Vector3(0,_y,_z),  Quaternion.Euler(new Vector3(planeAngle, 0, 0)));
-            createdPlane.GetComponent<Renderer>().material.color = colors[i];
             
         }
         transform.position = initialPosition;
