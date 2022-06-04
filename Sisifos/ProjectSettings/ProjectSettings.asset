@@ -792,7 +792,7 @@ PlayerSettings:
     Build: 0
     Collab: 0
     Game Performance: 0
-    Legacy Analytics: 1
+    Legacy Analytics: 0
     Purchasing: 0
     UDP: 0
     UNet: 1
@@ -810,10 +810,10 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 2
-  cloudProjectId: 38df9a02-a8b4-4a35-90be-c955ddc0a196
+  cloudProjectId: 8febd2ef-4a22-40a1-8b2a-2b0f52a384e0
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Sisifos
+  projectName: Sisifos(Sisyphus)
   organizationId: oua-tak-m77
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

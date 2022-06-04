@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &285323809 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8775068515874436626, guid: 8499fc83f702aaf43bf6992428a8c765, type: 3}
-  m_PrefabInstance: {fileID: 1365341759}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &516233393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -624,6 +619,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec4cdbb763acd6c448872c0ab0557a29, type: 3}
+--- !u!1 &614787463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1005890142781997844, guid: ec4cdbb763acd6c448872c0ab0557a29, type: 3}
+  m_PrefabInstance: {fileID: 614787462}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &785823490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -885,11 +885,6 @@ PrefabInstance:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1324533438268014785, guid: 56e340f8763232342a9970c6d6825583, type: 3}
   m_PrefabInstance: {fileID: 985171911}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1186486654 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1005890142695406303, guid: ec4cdbb763acd6c448872c0ab0557a29, type: 3}
-  m_PrefabInstance: {fileID: 614787462}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1365341759
 PrefabInstance:
@@ -1374,19 +1369,15 @@ PrefabInstance:
     - target: {fileID: 494196845600220761, guid: fee98c89733dcaf41bb95c8eb7d87971, type: 3}
       propertyPath: winPanel
       value: 
-      objectReference: {fileID: 1186486654}
+      objectReference: {fileID: 614787463}
     - target: {fileID: 494196845600220761, guid: fee98c89733dcaf41bb95c8eb7d87971, type: 3}
       propertyPath: failPanel
       value: 
-      objectReference: {fileID: 285323809}
+      objectReference: {fileID: 1572061800}
     - target: {fileID: 494196845600220761, guid: fee98c89733dcaf41bb95c8eb7d87971, type: 3}
       propertyPath: playerObject
       value: 
       objectReference: {fileID: 530526410}
-    - target: {fileID: 494196845600220761, guid: fee98c89733dcaf41bb95c8eb7d87971, type: 3}
-      propertyPath: underweightObj
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 494196845600220762, guid: fee98c89733dcaf41bb95c8eb7d87971, type: 3}
       propertyPath: m_Name
       value: LevelController
