@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using DefaultNamespace;
 using UnityEngine;
+using UnityEngine.Analytics;
+using UnityEngine.SceneManagement;
 
 
 // All trigger controls here
@@ -15,6 +17,11 @@ public class Player : MonoBehaviour
     private bool isDangerZone = false;
     private float boulderWeight;
     
+
+  
+
+   
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +30,8 @@ public class Player : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody>();
         sm = gameObject.GetComponent<SoundManager>();
 
+       
+        
     }
 
     // Update is called once per frame
@@ -40,7 +49,8 @@ public class Player : MonoBehaviour
             _collectibleController.UpScale(other.gameObject.GetComponent<Rigidbody>().mass);
             sm.CollectNegative();
             other.gameObject.SetActive(false);
-            
+            //AnalyticsResult analyticsResult = Analytics.CustomEvent("CollectNegative" + //negativeobjectcounts;
+            //Debug.Log("analyticsResults:" + analyticsResult);
                 
         } 
         
@@ -49,9 +59,11 @@ public class Player : MonoBehaviour
             _collectibleController.DownScale(other.gameObject.GetComponent<Rigidbody>().mass);
             sm.CollectPositive();
             other.gameObject.SetActive(false);
+            //AnalyticsResult analyticsResult = Analytics.CustomEvent("CollectPositive" + //positiveobjectcounts;
+            //Debug.Log("analyticsResults:" + analyticsResult);
 
         }
-        
+
         if (other.CompareTag("Obstacle"))
         {
             Debug.Log("Obstacle");
@@ -64,6 +76,7 @@ public class Player : MonoBehaviour
             else
             {
                 _levelController.Failed(Reason.Obstacle);
+                
 
             }
         }
@@ -73,6 +86,12 @@ public class Player : MonoBehaviour
             if (isDangerZone == true)
             {
                 _levelController.Failed(Reason.Hole);
+                AnalyticsResult analyticsResult = Analytics.CustomEvent("DiedHole", new Dictionary<string, object>{
+                    { "Level", _levelController.GetCurrentLevel() },
+                    {"Position", Mathf.RoundToInt(transform.position.x/3f) }
+                }
+                );
+                Debug.Log("analyticsResults:" + analyticsResult);
             }
         }
 
@@ -80,6 +99,8 @@ public class Player : MonoBehaviour
         {
             _levelController.Won();
             sm.FinishLine();
+            //AnalyticsResult analyticsResult = Analytics.CustomEvent("LevelWin" + myLevel);
+            //Debug.Log("analyticsResults:" + analyticsResult);
         }
     }
 

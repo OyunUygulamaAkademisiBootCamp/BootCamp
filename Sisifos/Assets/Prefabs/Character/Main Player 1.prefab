@@ -9749,6 +9749,7 @@ MonoBehaviour:
   boulder: {fileID: 5402126273821279128}
   boulderWeight: 0
   maxWeight: 100
+  minWeight: 10
   collectibleObjects:
   - {fileID: 3900297296497833239, guid: a384db6051c2b469985232e0fa83cc89, type: 3}
   - {fileID: 4145952571149253483, guid: 86276e43239f142e49cfd9006f6e20d0, type: 3}
@@ -10025,6 +10026,10 @@ PrefabInstance:
     - target: {fileID: 373573208197222242, guid: 3062d56953f077c4fb9269841e3ffafa, type: 3}
       propertyPath: m_Name
       value: Zeus
+      objectReference: {fileID: 0}
+    - target: {fileID: 373573208197222242, guid: 3062d56953f077c4fb9269841e3ffafa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1037202811147949528, guid: 3062d56953f077c4fb9269841e3ffafa, type: 3}
       propertyPath: m_RootOrder

@@ -9691,6 +9691,9 @@ GameObject:
   - component: {fileID: 5402126272348667969}
   - component: {fileID: 1489073940}
   - component: {fileID: 1489073941}
+  - component: {fileID: 530526418}
+  - component: {fileID: 530526417}
+  - component: {fileID: 530526423}
   m_Layer: 0
   m_Name: Main Player
   m_TagString: Untagged
@@ -9749,14 +9752,22 @@ MonoBehaviour:
   boulder: {fileID: 5402126273821279128}
   boulderWeight: 0
   maxWeight: 100
+  minWeight: 10
   collectibleObjects:
-  - {fileID: 3900297296497833239, guid: a384db6051c2b469985232e0fa83cc89, type: 3}
-  - {fileID: 4145952571149253483, guid: 86276e43239f142e49cfd9006f6e20d0, type: 3}
-  - {fileID: 8183168394376406674, guid: b17263a0dccf346a59cd457d1a26e403, type: 3}
-  - {fileID: 2472729098712527426, guid: e54041fab22aa436c92c3cd248ae410c, type: 3}
+  - {fileID: 956167275513322469, guid: 9a7fcf1ddca21d941bad14397db6b023, type: 3}
+  - {fileID: 7509087936206558596, guid: 0c5dc3a33f8ce464397167bb4370ea5f, type: 3}
+  - {fileID: 3879730754653417187, guid: fc4751a07f749614aa92668819f73e2e, type: 3}
+  - {fileID: 8235960946467229911, guid: a18432569938436469eaf2fb99c6e35d, type: 3}
+  - {fileID: 1884041865142517316, guid: b7d029edf5e9a6649addf58c2cdc5aea, type: 3}
+  - {fileID: 2861346347924239626, guid: 700d394206a456a459b6fb9477eaecfc, type: 3}
+  - {fileID: 836162058980822747, guid: d3a7caa072ce43645ae2863a447b93e8, type: 3}
+  - {fileID: 5516468182271853833, guid: 36d05d40e7bb11e4182f463bac8eadb4, type: 3}
+  - {fileID: 2718622397797504863, guid: bbc7dcdbfa123e2499476b2c1bfb0883, type: 3}
+  - {fileID: 5776600287473108751, guid: 1fef4c0cf033c9c40b95a967c559e5fe, type: 3}
+  - {fileID: 5761708523270315199, guid: 292b54ced44a5ef4783f4457a9b74d7b, type: 3}
   collectibleGaps: 07000000
   gapRanges: 03000000
-  collectibleKindNumbers: 04000000
+  collectibleKindNumbers: 0b000000
   collectibleCounts: 3c000000
   plane: {fileID: 0}
 --- !u!54 &5402126272348667969
@@ -9800,6 +9811,140 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7f332739310240a8841dd22b1ea5d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &530526418
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5402126272348667974}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &530526417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5402126272348667974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c031d508a45094c86f4f01e6881f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectPositive: {fileID: 8300000, guid: b140e556546f6a446a9b5a9343c835df, type: 3}
+  collectNegative: {fileID: 8300000, guid: c79560e5a03b51b419305de5cc7a08ea, type: 3}
+  finishLine: {fileID: 8300000, guid: 9ea35ff6be1d17d48b00407fc17a7ee2, type: 3}
+  playerDeath: {fileID: 8300000, guid: c88887bafd51048419ab01e20a31201a, type: 3}
+  failedLevel: {fileID: 8300000, guid: cb037561dd7e08b43a60947a5fc1366b, type: 3}
+  pushBoulder: {fileID: 8300000, guid: 9f6e55c215dc7a240b1aef115e8858c0, type: 3}
+  brokenBones: {fileID: 8300000, guid: 5e272ba4bef5d254294036b45fa50afe, type: 3}
+  sisifosScream: {fileID: 8300000, guid: e5abd9135199ef442874f680b81bbb9e, type: 3}
+--- !u!114 &530526423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5402126272348667974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d6ccfb36b4ecf44b6e4d74423b04b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zuusAnim: {fileID: 0}
+  zuus: {fileID: 0}
+  mainCam: {fileID: 0}
+  sideCam: {fileID: 0}
+  losePanel: {fileID: 0}
+  animator_blink: {fileID: 7764788952188621985, guid: bd20a55587ffd4b8cb31cc037957552b, type: 3}
 --- !u!1 &5402126273821279128
 GameObject:
   m_ObjectHideFlags: 0

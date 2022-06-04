@@ -20,6 +20,8 @@ public class LevelController : MonoBehaviour
     private RoadController _roadController;
     private SoundManager sm; 
 
+    
+
 
 
     void Start()
@@ -104,7 +106,10 @@ public class LevelController : MonoBehaviour
     }
     
    
-    
+    public int GetCurrentLevel()
+    {
+        return currentLevel;
+    }
 
     
 }
