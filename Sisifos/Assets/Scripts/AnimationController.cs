@@ -54,7 +54,7 @@ public class AnimationController : MonoBehaviour
             counter++;
             yield return new WaitForSeconds(0.1f);
         }
-
+        
         mainCam.gameObject.SetActive(true);
         sideCam.gameObject.SetActive(false);
         losePanel.SetActive(true);
@@ -74,6 +74,5 @@ public class AnimationController : MonoBehaviour
     {
         zuus.SetActive(true);
         zuusAnim.Play("ZeusStrike");
-        
     }
 }
