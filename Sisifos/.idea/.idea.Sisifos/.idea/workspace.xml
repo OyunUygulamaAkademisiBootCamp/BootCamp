@@ -4,8 +4,19 @@
     <list default="true" id="46d302e1-22f3-4569-809c-7304a668859d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/Family 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/Family 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/brokenheart 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/brokenheart 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/health 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/health 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/heart.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/heart.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/money 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/money 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noFamily 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noFamily 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noMoney.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/noMoney.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/unemployment 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/unemployment 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/virusIcon 1 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/virusIcon 1 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/work.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CollectiblePrefabs/work.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level_1_Prefabs/EndPoint 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level_1_Prefabs/EndPoint 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +144,7 @@
       <workItem from="1654173324442" duration="9015000" />
       <workItem from="1654238240198" duration="13262000" />
       <workItem from="1654299713697" duration="942000" />
-      <workItem from="1654339569473" duration="1252000" />
+      <workItem from="1654339569473" duration="3501000" />
     </task>
     <servers />
   </component>

@@ -17,15 +17,15 @@ public class SoundManager : MonoBehaviour
         playerSounds = gameObject.GetComponent<AudioSource>();
     }
 
-    public void CollectPositive()
-    {
-        playerSounds.clip = collectPositive;
-        playerSounds.Play();
-    }
-   
     public void CollectNegative()
     {
         playerSounds.clip = collectNegative;
+        playerSounds.Play();
+    }
+   
+    public void CollectPositive()
+    {
+        playerSounds.clip = collectPositive;
         playerSounds.Play();
 
     }

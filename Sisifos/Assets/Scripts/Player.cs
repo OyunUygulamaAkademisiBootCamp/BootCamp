@@ -11,7 +11,10 @@ public class Player : MonoBehaviour
     private CollectibleController _collectibleController;
     private LevelController _levelController;
     private Rigidbody rb;
-    private SoundManager sm; 
+    private SoundManager sm;
+    private bool isDangerZone = false;
+    private float boulderWeight;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -23,23 +26,28 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    
+
+    private void Update()
+    {
+        boulderWeight = _collectibleController.boulderWeight;
+        DangerZone();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Positive"))
+        if (other.CompareTag("Negative"))
         {
             _collectibleController.UpScale(other.gameObject.GetComponent<Rigidbody>().mass);
-            sm.CollectPositive();
+            sm.CollectNegative();
             other.gameObject.SetActive(false);
             
                 
         } 
         
-        if (other.CompareTag("Negative"))
+        if (other.CompareTag("Positive"))
         {
             _collectibleController.DownScale(other.gameObject.GetComponent<Rigidbody>().mass);
-            sm.CollectNegative();
+            sm.CollectPositive();
             other.gameObject.SetActive(false);
 
         }
@@ -62,13 +70,28 @@ public class Player : MonoBehaviour
         
         if (other.CompareTag("Hole"))
         {
-            _levelController.Failed(Reason.Hole);
+            if (isDangerZone == true)
+            {
+                _levelController.Failed(Reason.Hole);
+            }
         }
 
         if (other.CompareTag("Finish"))
         {
             _levelController.Won();
             sm.FinishLine();
+        }
+    }
+
+    void DangerZone()
+    {
+        if (boulderWeight >= 20 && boulderWeight <= 80)
+        {
+            isDangerZone = false;
+        }
+        else
+        {
+            isDangerZone = true;
         }
     }
 }
