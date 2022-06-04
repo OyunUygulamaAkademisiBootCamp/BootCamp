@@ -76,7 +76,13 @@ public class Player : MonoBehaviour
             else
             {
                 _levelController.Failed(Reason.Obstacle);
-                
+
+                AnalyticsResult analyticsResult = Analytics.CustomEvent("DiedObstacle", new Dictionary<string, object>{
+                    { "Level", _levelController.GetCurrentLevel() }
+                }
+               );
+                Debug.Log("analyticsResults:" + analyticsResult);
+
 
             }
         }
@@ -99,8 +105,11 @@ public class Player : MonoBehaviour
         {
             _levelController.Won();
             sm.FinishLine();
-            //AnalyticsResult analyticsResult = Analytics.CustomEvent("LevelWin" + myLevel);
-            //Debug.Log("analyticsResults:" + analyticsResult);
+            AnalyticsResult analyticsResult = Analytics.CustomEvent("WinGame", new Dictionary<string, object>{
+                    { "Level", _levelController.GetCurrentLevel() }
+                }
+               );
+            Debug.Log("analyticsResults:" + analyticsResult);
         }
     }
 
