@@ -68,23 +68,20 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Obstacle");
 
-
-            if (other.gameObject.GetComponent<Rigidbody>().mass <= rb.mass)
-            {
-                other.gameObject.SetActive(false);
-            }
-            else
+            if (!isDangerZone)
             {
                 _levelController.Failed(Reason.Obstacle);
 
                 AnalyticsResult analyticsResult = Analytics.CustomEvent("DiedObstacle", new Dictionary<string, object>{
-                    { "Level", _levelController.GetCurrentLevel() }
-                }
-               );
+                        { "Level", _levelController.GetCurrentLevel() }
+                    }
+                );
                 Debug.Log("analyticsResults:" + analyticsResult);
-
-
+            } 
+            else{
+                other.gameObject.SetActive(false);
             }
+            
         }
         
         if (other.CompareTag("Hole"))

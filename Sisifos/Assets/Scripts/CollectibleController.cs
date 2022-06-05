@@ -72,7 +72,7 @@ public class CollectibleController : MonoBehaviour
         }
 
         boulderWeight += weight; 
-        _characterMovement.SpeedChanged(Convert.ToInt32((maxWeight-boulderWeight)*10/maxWeight)); //TODO: optimize
+        _characterMovement.SpeedChanged(Convert.ToInt32((maxWeight-boulderWeight)*10/maxWeight)+1); //TODO: optimize
         //Debug.Log("Weight: " + boulderWeight);
 
         
@@ -101,7 +101,7 @@ public class CollectibleController : MonoBehaviour
         }
 
         boulderWeight -= weight; 
-        _characterMovement.SpeedChanged(Convert.ToInt32((maxWeight-boulderWeight)*10/maxWeight)); //TODO: optimize
+        _characterMovement.SpeedChanged(Convert.ToInt32((maxWeight-boulderWeight)*10/maxWeight)+1); //TODO: optimize
         //Debug.Log("Weight: " + boulderWeight);
 
 
