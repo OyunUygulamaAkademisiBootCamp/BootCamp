@@ -113,6 +113,8 @@ public class Player : MonoBehaviour
         }
     }
 
+
+   
     void DangerZone()
     {
         if (boulderWeight >= 20 && boulderWeight <= 80)
