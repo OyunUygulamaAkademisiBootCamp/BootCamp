@@ -11,7 +11,9 @@
                 android:value="ADMOB_APP_ID"/>-->
 		
         <!-- APPLOVIN -->
-        
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="YOUR_APPLOVIN_SDK_KEY_HERE" />
 
     </application>
 
