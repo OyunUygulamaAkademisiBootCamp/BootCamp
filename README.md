@@ -114,5 +114,10 @@ instantiate kodu yazılmalı ve test edilmelidir.
 3. Sprint için Backlog'a daha fazla zaman ayrılmalıdır. 2. sprinte göre çalışmalarımız biraz daha hızlı olması ve eklenen her gelişmenin test edilmesine ve böylelikle hataları daha erken fark edilmesi olanak sağlamaya karar verdik.
 
 # Sprint 3
+- **Sprint Notları**:  User Story'ler product backlog ve tamamlanmış(done) sütunun  içinde kırmızı itemlerle belirtilerek yazılmıştır. Kırmızı item'lera tıklandığında hikayelerin detayları okunabilir.
+- **Sprint içinde tamamlanması tahmin edilen puan**:100 Puan
+- **Puan tamamlama mantığı**:Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in  total 95 puan ile tamamlanması kararı alındı.
+- **Backlog düzeni ve Story seçimleri**: Miro uygulamasında 3.Sprint Boarda görünen Backlog'umuzda genel yapılacak işler sarı renkte gösterilmiştir. Yapılacaklar kısmı ise yeşil renkte düzenlenmiştir.In progress sütunu kırmızı renk ile gösterilmiş ve üzerinde çalışması devam eden işleri göstermektedir.Done sütunuda mavi renk ile gösterilmiştir.Tagların üzerinde bulunan kırmızı itemler usery story'i oldugunu göstermektedir.
 
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp,Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği Word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats]
 ---
