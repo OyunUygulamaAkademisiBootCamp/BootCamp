@@ -11,11 +11,13 @@ public class Tutorial : MonoBehaviour
     public GameObject panel;
     private float ScreenWidth;
     private PlaneSpawner _planeSpawner;
+    private Player _player;
     
     // Start is called before the first frame update
     void Start()
     {
         _planeSpawner = FindObjectOfType<PlaneSpawner>();
+        _player = FindObjectOfType<Player>();
         ScreenWidth = Screen.width;
     }
 
@@ -25,7 +27,13 @@ public class Tutorial : MonoBehaviour
         //Tutorial'ı hızlıca bitiremeyenler için level uzunluğu arttırma
         if (_planeSpawner.planeCount >= _planeSpawner.levelPlane - 3 && index != 5)
         {
+            Debug.Log("Level plane added");
             _planeSpawner.levelPlane += 5;
+        }
+        else
+        {
+            Debug.Log("pC: " + _planeSpawner.planeCount + ", lP: " + _planeSpawner.levelPlane + ", index: " + index);
+            
         }
     
         switch (index)
@@ -130,11 +138,11 @@ public class Tutorial : MonoBehaviour
         {
             negative = true;
         }
-        else if (index == 3 && other.CompareTag("Hole"))
+        else if (index == 3 && other.CompareTag("Hole") && !_player.isDangerZone)
         {
             hole = true;
         }
-        else if (index == 4 && other.CompareTag("Obstacle"))
+        else if (index == 4 && other.CompareTag("Obstacle") && _player.isDangerZone )
         {
             obstacle = true;
         }

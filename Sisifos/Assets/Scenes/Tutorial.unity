@@ -276,7 +276,7 @@ PrefabInstance:
     - target: {fileID: 5402126272348667971, guid: ed694887552ef224a994e6c93f18617d, type: 3}
       propertyPath: plane
       value: 
-      objectReference: {fileID: 985171912}
+      objectReference: {fileID: 1174041059}
     - target: {fileID: 5402126272348667974, guid: ed694887552ef224a994e6c93f18617d, type: 3}
       propertyPath: m_Name
       value: Main Player
@@ -863,15 +863,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56e340f8763232342a9970c6d6825583, type: 3}
---- !u!1 &985171912 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1324533438268014785, guid: 56e340f8763232342a9970c6d6825583, type: 3}
-  m_PrefabInstance: {fileID: 985171911}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1053760612 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7003448911479691433, guid: d36c8d75530234c2d92cb100bee1112b, type: 3}
   m_PrefabInstance: {fileID: 7003448911651718349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1174041059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7222244399819563402, guid: 3c9d704bb50b94f6e9c468c28dffb321, type: 3}
+  m_PrefabInstance: {fileID: 1938994522}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1225992193 stripped
 GameObject:
@@ -1119,7 +1119,7 @@ PrefabInstance:
     - target: {fileID: 8656574417496251601, guid: 3a044743949cb3640985e507c2b83e36, type: 3}
       propertyPath: plane
       value: 
-      objectReference: {fileID: 985171912}
+      objectReference: {fileID: 1174041059}
     - target: {fileID: 8656574417496251601, guid: 3a044743949cb3640985e507c2b83e36, type: 3}
       propertyPath: obstacleObjects.Array.size
       value: 2

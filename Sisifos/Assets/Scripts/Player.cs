@@ -14,9 +14,9 @@ public class Player : MonoBehaviour
     private LevelController _levelController;
     private Rigidbody rb;
     private SoundManager sm;
-    private bool isDangerZone = false;
+    public bool isDangerZone = false;
     private float boulderWeight;
-    
+    private bool isTutorial;
 
   
 
@@ -29,9 +29,11 @@ public class Player : MonoBehaviour
         _levelController  = GameObject.FindObjectOfType<LevelController>();
         rb = gameObject.GetComponent<Rigidbody>();
         sm = gameObject.GetComponent<SoundManager>();
+        isTutorial = PlayerPrefs.GetInt("Tutorial", 0) == 0;
 
-       
-        
+
+
+
     }
 
     // Update is called once per frame
@@ -68,9 +70,13 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Obstacle");
 
+            
             if (!isDangerZone)
             {
-                _levelController.Failed(Reason.Obstacle);
+                if (!isTutorial)
+                {
+                    _levelController.Failed(Reason.Obstacle);
+                }
 
                 AnalyticsResult analyticsResult = Analytics.CustomEvent("DiedObstacle", new Dictionary<string, object>{
                         { "Level", _levelController.GetCurrentLevel() }
@@ -88,7 +94,10 @@ public class Player : MonoBehaviour
         {
             if (isDangerZone == true)
             {
-                _levelController.Failed(Reason.Hole);
+                if (!isTutorial)
+                {
+                    _levelController.Failed(Reason.Hole);
+                }
                 AnalyticsResult analyticsResult = Analytics.CustomEvent("DiedHole", new Dictionary<string, object>{
                     { "Level", _levelController.GetCurrentLevel() },
                     {"Position", Mathf.RoundToInt(transform.position.x/3f) }

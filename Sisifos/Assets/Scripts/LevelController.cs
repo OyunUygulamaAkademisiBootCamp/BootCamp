@@ -14,7 +14,6 @@ public class LevelController : MonoBehaviour
     private CollectibleController _collectibleController;
     private ObstacleController _obstacleController;
     private AnimationController _animationController;
-    private RoadController _roadController;
     private SoundManager sm;
     private MusicManager mm;
 
@@ -31,7 +30,6 @@ public class LevelController : MonoBehaviour
         _collectibleController = FindObjectOfType<CollectibleController>();
         _animationController = FindObjectOfType<AnimationController>();
         _obstacleController = FindObjectOfType<ObstacleController>();
-        _roadController = FindObjectOfType<RoadController>();
         sm = FindObjectOfType<SoundManager>();
         mm = FindObjectOfType<MusicManager>();
         
