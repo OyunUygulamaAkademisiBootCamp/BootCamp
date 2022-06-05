@@ -717,6 +717,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 530526418, guid: ed694887552ef224a994e6c93f18617d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 530526423, guid: ed694887552ef224a994e6c93f18617d, type: 3}
       propertyPath: zuus
       value: 
@@ -1022,7 +1026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   planeObj: {fileID: 1073806692}
-  finishPlaneObj: {fileID: 8306199574957367167, guid: e0c360f6e0180ed4cb6bc0c5b7ae7397, type: 3}
+  finishPlaneObj: {fileID: 1324125395190543502, guid: e0c360f6e0180ed4cb6bc0c5b7ae7397, type: 3}
   playerTransform: {fileID: 837454117}
   isCreated: 0
   planeCount: 4
@@ -1035,7 +1039,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073806692}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.65}
+  m_LocalPosition: {x: -0.23, y: 0.002, z: 0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1286,15 +1290,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4828036835051326701, guid: e2d466a21da340a46b3977d77a8ce1a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 4828036835051326701, guid: e2d466a21da340a46b3977d77a8ce1a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.002
       objectReference: {fileID: 0}
     - target: {fileID: 4828036835051326701, guid: e2d466a21da340a46b3977d77a8ce1a7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.65
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4828036835051326701, guid: e2d466a21da340a46b3977d77a8ce1a7, type: 3}
       propertyPath: m_LocalRotation.w
