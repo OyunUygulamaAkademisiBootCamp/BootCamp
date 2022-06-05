@@ -17,6 +17,7 @@ TagManager:
   - Negative
   - Obstacle
   - Hole
+  - SlowDown
   layers:
   - Default
   - TransparentFX

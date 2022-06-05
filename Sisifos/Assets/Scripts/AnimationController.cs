@@ -6,6 +6,7 @@ public class AnimationController : MonoBehaviour
 {
     [SerializeField] private Animator zuusAnim;
     [SerializeField] private GameObject zuus;
+    [SerializeField] private GameObject blinkAnimPrefab;
 
 
     public Camera mainCam;
@@ -32,6 +33,7 @@ public class AnimationController : MonoBehaviour
 
     void FadetoNewCameraPos()
     {
+        blinkAnimPrefab.SetActive(true);
         animator_blink.SetTrigger("Blink");
         mainCam.gameObject.SetActive(false);
         sideCam.gameObject.SetActive(true);
