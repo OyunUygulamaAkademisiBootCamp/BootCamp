@@ -30,16 +30,13 @@ public class Player : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody>();
         sm = gameObject.GetComponent<SoundManager>();
         isTutorial = PlayerPrefs.GetInt("Tutorial", 0) == 0;
-
-
-
-
     }
 
     // Update is called once per frame
 
     private void Update()
     {
+        
         boulderWeight = _collectibleController.boulderWeight;
         DangerZone();
     }

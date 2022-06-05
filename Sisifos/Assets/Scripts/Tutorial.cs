@@ -16,7 +16,6 @@ public class Tutorial : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _planeSpawner = FindObjectOfType<PlaneSpawner>();
         _player = FindObjectOfType<Player>();
         ScreenWidth = Screen.width;
     }
@@ -24,17 +23,14 @@ public class Tutorial : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        _planeSpawner = FindObjectOfType<PlaneSpawner>();
+
         //Tutorial'ı hızlıca bitiremeyenler için level uzunluğu arttırma
-        if (_planeSpawner.planeCount >= _planeSpawner.levelPlane - 3 && index != 5)
+        if (_planeSpawner.planeCount >= _planeSpawner.levelPlane && index != 5)
         {
-            Debug.Log("Level plane added");
-            _planeSpawner.levelPlane += 5;
+            _planeSpawner.levelPlane += 2;
         }
-        else
-        {
-            Debug.Log("pC: " + _planeSpawner.planeCount + ", lP: " + _planeSpawner.levelPlane + ", index: " + index);
-            
-        }
+        
     
         switch (index)
         {
@@ -53,7 +49,6 @@ public class Tutorial : MonoBehaviour
                     {
                         right = true;
                     }
-
                     i++;
                 }
 
@@ -62,7 +57,6 @@ public class Tutorial : MonoBehaviour
                     popups[index].SetActive(false);
                     index++;
                 }
-
                 break;
             //pozitif objeler
             case 1:
@@ -72,7 +66,6 @@ public class Tutorial : MonoBehaviour
                     popups[index].SetActive(false);
                     index++;
                 }
-
                 break;
             //negatif objeler
             case 2:
@@ -82,7 +75,6 @@ public class Tutorial : MonoBehaviour
                     popups[index].SetActive(false);
                     index++;
                 }
-
                 break;
             //hole
             case 3:
@@ -92,7 +84,6 @@ public class Tutorial : MonoBehaviour
                     popups[index].SetActive(false);
                     index++;
                 }
-
                 break;
             //obstacle
             case 4:
@@ -102,7 +93,6 @@ public class Tutorial : MonoBehaviour
                     popups[index].SetActive(false);
                     index++;
                 }
-
                 break;
             //weight
             case 5:
@@ -111,7 +101,6 @@ public class Tutorial : MonoBehaviour
                 {
                     done = true;
                 }
-
                 break;
 
         }
@@ -121,11 +110,6 @@ public class Tutorial : MonoBehaviour
             panel.SetActive(false);
             PlayerPrefs.SetInt("Tutorial", 1);
         }
-        
-
-
-
-
     }
 
     private void OnTriggerEnter(Collider other)

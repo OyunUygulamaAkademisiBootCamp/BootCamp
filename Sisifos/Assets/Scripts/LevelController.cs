@@ -16,11 +16,7 @@ public class LevelController : MonoBehaviour
     private AnimationController _animationController;
     private SoundManager sm;
     private MusicManager mm;
-
     
-
-
-
     void Start()
     {
         index = SceneManager.GetActiveScene().buildIndex;
@@ -57,10 +53,7 @@ public class LevelController : MonoBehaviour
                 break;
             case Reason.Obstacle:
                 Debug.Log("Reason:" + Reason.Obstacle);
-               
                 _animationController.ZeusAnimation();
-
-                
                 break;
             case Reason.Overweight:
                 Debug.Log("Reason:" + Reason.Overweight);
@@ -79,8 +72,18 @@ public class LevelController : MonoBehaviour
     public void LoadNextLevel()
     {
         winPanel.SetActive(false);
-        SceneManager.UnloadSceneAsync(index);
-        SceneManager.LoadScene(index + 1);
+        if (index == 7)
+        {
+            Debug.Log("index sıfırlandı");
+            index = 0;
+            SceneManager.LoadScene(index + 1);
+            SceneManager.UnloadSceneAsync(7);
+        }
+        else
+        {
+            SceneManager.LoadScene(index + 1);
+            SceneManager.UnloadSceneAsync(index);
+        }
     }
 
     public void RestartLevel()

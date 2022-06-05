@@ -53,5 +53,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 63db048651bb0914e9d79bb789e2a11b, type: 3}
   - {fileID: 8300000, guid: 94c641102d065754f900d04547b225a8, type: 3}
   - {fileID: 8300000, guid: ceeeb5fa6e855aa43997348f8383db85, type: 3}
+  - {fileID: 8300000, guid: 17303fa6a632c9441b71edad858eee53, type: 3}
   winMenu: {fileID: 8300000, guid: 9dd66755da510b64eac696c551eec25d, type: 3}
   loseMenu: {fileID: 8300000, guid: 1ce98cb3ed36d8f4bb28fa5049ce59d3, type: 3}

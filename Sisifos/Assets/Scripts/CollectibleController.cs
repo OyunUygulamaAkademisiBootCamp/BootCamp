@@ -34,6 +34,8 @@ public class CollectibleController : MonoBehaviour
     private float[] collectiblePosXList;
     private List<GameObject> createdCollectibles;
     private int speed;
+    private bool isTutorial;
+
     
     
     void Start()
@@ -47,19 +49,13 @@ public class CollectibleController : MonoBehaviour
         float planeX = plane.transform.position.x;
         collectiblePosXList = new[] {planeX - planeWidth/4f, planeX, planeX + planeWidth/4f};
         createdCollectibles = new List<GameObject>();
+        isTutorial = PlayerPrefs.GetInt("Tutorial", 0) == 0;
         
         SpawnCollectible();
 
         //(planeX - planeWidth/4) , planeX, planeX + planeWidth / 4
     }
 
-    private void Update()
-    {
-       
-
-
-    }
-    
     public void UpScale(float weight)
     {
         if (boulder.transform.localScale.x <= 2)
@@ -78,7 +74,7 @@ public class CollectibleController : MonoBehaviour
         
 
         
-        if (boulderWeight >= maxWeight)
+        if (boulderWeight >= maxWeight && !isTutorial)
         {
             //Oyunu durdur (animasyon vs girsin + Game Over)
             _levelController.Failed(Reason.Overweight);
@@ -105,7 +101,7 @@ public class CollectibleController : MonoBehaviour
         //Debug.Log("Weight: " + boulderWeight);
 
 
-        if (boulderWeight <= 10)
+        if (boulderWeight <= minWeight && !isTutorial)
         {
             _levelController.Failed(Reason.Underweight);
 

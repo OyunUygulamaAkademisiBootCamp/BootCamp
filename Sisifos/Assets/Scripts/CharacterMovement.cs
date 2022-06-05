@@ -19,7 +19,7 @@ public class CharacterMovement : MonoBehaviour
     private float updatedSpeed;
     public float horizontalSpeed = 1000;
     private float ScreenWidth;
-    private int speedMultiplier = 3;
+    private int speedMultiplier = 2;
     private CollectibleController _collectible;
 
     void Start()
@@ -84,7 +84,7 @@ public class CharacterMovement : MonoBehaviour
 
     public void SpeedChanged(int speed)
     {
-        updatedSpeed =  speedMultiplier * speed;
+        updatedSpeed =  speedMultiplier * speed + 6;
     }
 
     

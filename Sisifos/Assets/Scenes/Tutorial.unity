@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.50398177, g: 0.7965214, b: 0.9949359, a: 1}
+  m_IndirectSpecularColor: {r: 0.5039817, g: 0.7965214, b: 0.9949359, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -277,6 +277,10 @@ PrefabInstance:
       propertyPath: plane
       value: 
       objectReference: {fileID: 1174041059}
+    - target: {fileID: 5402126272348667971, guid: ed694887552ef224a994e6c93f18617d, type: 3}
+      propertyPath: collectibleCounts.Array.data[0]
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 5402126272348667974, guid: ed694887552ef224a994e6c93f18617d, type: 3}
       propertyPath: m_Name
       value: Main Player
@@ -405,6 +409,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1005890141568270137, guid: ec4cdbb763acd6c448872c0ab0557a29, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1800573986}
+    - target: {fileID: 1005890141568270137, guid: ec4cdbb763acd6c448872c0ab0557a29, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadNextLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1005890142467675491, guid: ec4cdbb763acd6c448872c0ab0557a29, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1800573986}
+    - target: {fileID: 1005890142467675491, guid: ec4cdbb763acd6c448872c0ab0557a29, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReturnMainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1005890142703820203, guid: ec4cdbb763acd6c448872c0ab0557a29, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1800573986}
+    - target: {fileID: 1005890142703820203, guid: ec4cdbb763acd6c448872c0ab0557a29, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartLevel
+      objectReference: {fileID: 0}
     - target: {fileID: 1005890142781997832, guid: ec4cdbb763acd6c448872c0ab0557a29, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1125,6 +1153,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8656574417496251601, guid: 3a044743949cb3640985e507c2b83e36, type: 3}
+      propertyPath: obstacleCounts.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8656574417496251601, guid: 3a044743949cb3640985e507c2b83e36, type: 3}
       propertyPath: obstacleObjects.Array.data[0]
       value: 
       objectReference: {fileID: 7007310185637827097, guid: 35e79ce520c5eb64a821efcb981ba33d, type: 3}
@@ -1453,6 +1485,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fee98c89733dcaf41bb95c8eb7d87971, type: 3}
+--- !u!114 &1800573986 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 494196845600220761, guid: fee98c89733dcaf41bb95c8eb7d87971, type: 3}
+  m_PrefabInstance: {fileID: 1800573985}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2cb569a6bcfe46cfa2344994973bfa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1938994522
 PrefabInstance:
   m_ObjectHideFlags: 0

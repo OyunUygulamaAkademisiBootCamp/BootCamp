@@ -9694,6 +9694,7 @@ GameObject:
   - component: {fileID: 530526418}
   - component: {fileID: 530526417}
   - component: {fileID: 530526423}
+  - component: {fileID: 3128953282264777544}
   m_Layer: 0
   m_Name: Main Player
   m_TagString: Untagged
@@ -9811,6 +9812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7f332739310240a8841dd22b1ea5d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDangerZone: 0
 --- !u!82 &530526418
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9946,6 +9948,30 @@ MonoBehaviour:
   sideCam: {fileID: 0}
   losePanel: {fileID: 0}
   animator_blink: {fileID: 7764788952188621985, guid: bd20a55587ffd4b8cb31cc037957552b, type: 3}
+--- !u!114 &3128953282264777544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5402126272348667974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e347c3067739e414381be28a3e810b54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameMusics: {fileID: 530526418}
+  _musics:
+  - {fileID: 8300000, guid: b4ed5d8650183064abcc3275ad6fa211, type: 3}
+  - {fileID: 8300000, guid: 17303fa6a632c9441b71edad858eee53, type: 3}
+  - {fileID: 8300000, guid: 72e1f9df7f8662441a66c6cbb4e91c52, type: 3}
+  - {fileID: 8300000, guid: 40e71cf635ff3794187874a95bca3da8, type: 3}
+  - {fileID: 8300000, guid: 63db048651bb0914e9d79bb789e2a11b, type: 3}
+  - {fileID: 8300000, guid: 94c641102d065754f900d04547b225a8, type: 3}
+  - {fileID: 8300000, guid: ceeeb5fa6e855aa43997348f8383db85, type: 3}
+  - {fileID: 8300000, guid: 17303fa6a632c9441b71edad858eee53, type: 3}
+  winMenu: {fileID: 8300000, guid: 9dd66755da510b64eac696c551eec25d, type: 3}
+  loseMenu: {fileID: 8300000, guid: 1ce98cb3ed36d8f4bb28fa5049ce59d3, type: 3}
 --- !u!1 &5402126273821279128
 GameObject:
   m_ObjectHideFlags: 0
