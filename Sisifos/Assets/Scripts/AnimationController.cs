@@ -16,6 +16,8 @@ public class AnimationController : MonoBehaviour
 
     public Animator animator_blink;
     private SoundManager sm;
+    private MusicManager mm;
+    private int failCounter;
     
 
     
@@ -27,6 +29,9 @@ public class AnimationController : MonoBehaviour
         mainCam.gameObject.SetActive(true);
         sideCam.gameObject.SetActive(false);
         sm = gameObject.GetComponent<SoundManager>();
+        mm = gameObject.GetComponent<MusicManager>();
+        AMR.AMRSDK.setOnInterstitialDismiss(OnInterstitialDismiss);
+
     }
 
     
@@ -59,22 +64,58 @@ public class AnimationController : MonoBehaviour
         
         mainCam.gameObject.SetActive(true);
         sideCam.gameObject.SetActive(false);
-        losePanel.SetActive(true);
+        
         sm.BrokenBones();
-
+        ShowInterstitial();
 
     }
     
 
     public void HoleAnimation()
     {
+        failCounter++;
         FadetoNewCameraPos();
         StartCoroutine(ChangeCameraPos());
 
     }
     public void ZeusAnimation()
     {
+        failCounter++;
         zuus.SetActive(true);
         zuusAnim.Play("ZeusStrike");
+        
+        //yield return new  WaitForSeconds(0.3f);
+        ShowInterstitial();
+
+
     }
+
+    private void LoseScreen()
+    {
+        losePanel.SetActive(true);
+        mm.PlayLoseMenuSong();
+
+    }
+
+    private void ShowInterstitial()
+    {
+        Time.timeScale = 0;
+        if (failCounter % 3 == 1)
+        {
+            if (AMR.AMRSDK.isInterstitialReady())
+                AMR.AMRSDK.showInterstitial();
+            else
+                LoseScreen();
+        }else
+            LoseScreen();
+        
+        
+    }
+
+    public void OnInterstitialDismiss()
+    {
+        LoseScreen();
+        AMR.AMRSDK.loadInterstitial();
+    }
+
 }

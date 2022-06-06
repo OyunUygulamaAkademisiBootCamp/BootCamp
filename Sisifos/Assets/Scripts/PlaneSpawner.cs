@@ -9,7 +9,6 @@ public class PlaneSpawner : MonoBehaviour
     private Vector3 pos;
     private Vector3 posbitis;
     
-    public GameObject planeObj;
     public GameObject finishPlaneObj;
     public Transform playerTransform;
     public bool isCreated = false;
@@ -37,6 +36,7 @@ public class PlaneSpawner : MonoBehaviour
 
     void PlaneSpawning()
     {
+        //TODO: 20 34.641 değişecek
         // Spawn olacak yeni Plane için position (Değerler sahnedeki plane'e göre yapıldı, gerekirse değişebilir.)
         pos = new Vector3(_x, _y + 20, _z + 34.641f);
         posbitis = new Vector3(_x, _y, _z);
@@ -55,7 +55,7 @@ public class PlaneSpawner : MonoBehaviour
                     if (playerTransform.position.y >= pos.y - 50 && planeCount < levelPlane)
                     {
                         planeCount++;
-                        Instantiate(planeObj, pos, Quaternion.identity);
+                        Instantiate(gameObject, pos, Quaternion.identity);
                         isCreated = true; //Plane oluştuktan sonra true çeviriliyor ve aynı plane sonsuza kadar oluşmuyor.
                      
                     }
