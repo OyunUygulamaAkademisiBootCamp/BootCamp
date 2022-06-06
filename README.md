@@ -15,7 +15,8 @@ Unity 77
 ## Ürün İsmi
 
 -Sisifos
-(https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/WhatsApp%20Video%202022-06-06%20at%2014.22.04.mp4)
+-![Screenshot 1](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/gif1%20%20ana%20men%C3%BC.gif)
+-![Screenshot 2](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/gif2%20ana%20men%C3%BC.gif)
 
 ## Ürün Açıklaması
 
