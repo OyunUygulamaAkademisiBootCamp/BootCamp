@@ -102,7 +102,7 @@ Miro Uygulamasında, user story örneği bulunmaktadır.
 -
 -![Screenshot 1](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/zeus%20ikonu2.png)
 --![Screenshot 2](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/oyun%20g%C3%B6r%C3%BCnt%C3%BC.png)
--![Screenshot 3](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/aile%20ikonu.png)
+-![Screenshot 3](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/aile%20ikonu%20k%C3%BC%C3%A7%C3%BCk.jpeg)
 -
 - **Sprint Review**: 
 2. sprint süresince; 1.level tasarlanmış, 2.ve 3. levelin taslakları oluşturulmuştur.Level içinde karakterin kullandığı zeminin sonsuz yineleme olması sağlanmış ve çevredeki objelerin rastgele dağıtılması sağlanmıştır.Oyuncu için , zeminde engeller ve bariyerler kullanılmış ve test edilmiştir.Toplanabilir objeler tasarlanmış ve level tasarımıda kullanılmıştır.Uygun ses içerikleri bulunmuş, galibiyet,ölüm veya bitiş durumlarında kullanılması için kayıt edilmiştir.Animasyon oluşturulmuş kameradaki hatalar giderilmiştir.
