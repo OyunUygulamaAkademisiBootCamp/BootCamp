@@ -72,7 +72,7 @@ public class LevelController : MonoBehaviour
             case Reason.Obstacle:
                 Debug.Log("Reason:" + Reason.Obstacle);
                 _animationController.ZeusAnimation();
-                timeLeft = 2.3f;
+                timeLeft = 1f;
                 break;
             case Reason.Overweight:
                 Debug.Log("Reason:" + Reason.Overweight);

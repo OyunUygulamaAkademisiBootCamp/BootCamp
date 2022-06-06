@@ -46,7 +46,7 @@ public class CharacterMovement : MonoBehaviour
             rb.velocity = new Vector3(0, 0, forwardSpeed);
             if (updatedSpeed == 0)
             {
-                forwardSpeed--;
+                forwardSpeed-=5;
                 if (forwardSpeed < 0)
                     forwardSpeed = 0;
             }

@@ -75,7 +75,7 @@ public class Player : MonoBehaviour
                 if (!isTutorial)
                 {
                     _levelController.Failed(Reason.Obstacle);
-
+                    other.GetComponentInChildren<ParticleSystem>().Play();
                 }
 
                 AnalyticsResult analyticsResult = Analytics.CustomEvent("DiedObstacle", new Dictionary<string, object>{

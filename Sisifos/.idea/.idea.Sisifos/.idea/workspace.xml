@@ -3,16 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="46d302e1-22f3-4569-809c-7304a668859d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sisifos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-firstpass.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GvhProjectSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level_1_Prefabs/Main Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level_1_Prefabs/Main Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +28,58 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.9/Tests/Runtime/NetworkShowHideTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.9/Editor/NetworkManagerEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9B8FC45-2A6F-4A2D-BA24-640D0133AFC0/2c/831a0bd4/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.multiplayer.tools@1.0.0-pre.7/NetStats/Runtime/Dispatch/MetricCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.economy@2.0.3/Runtime/Generated/Runtime/Apis/PurchasesApiRequests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlaneSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RenderSkyBoxBelnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.cloudcode@2.0.0/Runtime/com.unity.services.cloudcode.internal/Models/BasicErrorResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.economy@2.0.3/Runtime/Generated/Runtime/Apis/CurrenciesApiRequests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.ccd.management@2.1.0/Editor/Apis/PermissionsApiRequests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@3.2.2/PostProcessing/Runtime/Effects/Grain.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.ccd.management@2.1.0/Editor/Apis/ReleasesApiRequests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.analytics@4.0.1/Runtime/ObsoleteAPI/Events.deprecated.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../SundayFinal/BallsToCup/Assets/Scripts/LevelController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scenes/Level_3.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Animation/CoroutineTween.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../SundayFinal/BallsToCup/Assets/Scripts/Ball.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.economy@2.0.3/Runtime/Generated/Runtime/Models/SetPlayerCurrencyBalance400OneOf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.multiplayer.tools@1.0.0-pre.7/NetStats/Runtime/Units/Units.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.economy@2.0.3/Runtime/Generated/Runtime/Models/PlayerPurchaseVirtualResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.cloudsave@2.0.0/Runtime/Generated/Runtime/Models/BadRequestOneOfErrorResponse.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.multiplayer.tools@1.0.0-pre.7/NetStatsReporting/Runtime/TestData/Definitions/Nouns.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RenderSkyBoxBelnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.9/Tests/Editor/InterpolatorTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIElements/PanelRaycaster.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.analytics@4.0.1/Runtime/IAnalyticsService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.cloudsave@2.0.0/Runtime/Generated/Runtime/Apis/DataApiRequests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@1.2.3/Unity.Collections/UnsafeText.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@3.2.2/PostProcessing/Runtime/PostProcessProfile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Prefabs/Level_1_Prefabs/ObstacleController.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.6.12/Tests/Editor/AchievementUnlockedTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@1.0.0-pre.9/Components/Interpolator/BufferedLinearInterpolator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/seyma/Documents/GitHub/BootCamp/Sisifos/Assets/Scripts/AnimationController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -49,10 +95,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/AnimationController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CollectibleController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Reason.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -171,6 +217,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
