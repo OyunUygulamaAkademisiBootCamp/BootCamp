@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2cb569a6bcfe46cfa2344994973bfa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLevel: 0
+  currentLevel: 5
   playerObject: {fileID: 0}
   winPanel: {fileID: 0}
   failPanel: {fileID: 0}

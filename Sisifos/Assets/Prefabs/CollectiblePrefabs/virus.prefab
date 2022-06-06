@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6696242753285132463}
   - component: {fileID: 8865654757688665189}
   - component: {fileID: 8865654757688665190}
-  - component: {fileID: 4728637386370878284}
   - component: {fileID: 1077397443}
+  - component: {fileID: 1960683452}
   m_Layer: 0
   m_Name: virus
   m_TagString: Positive
@@ -107,19 +107,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!135 &4728637386370878284
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6920306907595359664}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.360264
-  m_Center: {x: -0.003472507, y: 0.004118562, z: -0.014381232}
 --- !u!54 &1077397443
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -136,3 +123,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!65 &1960683452
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6920306907595359664}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7121196, y: 2.720528, z: 3.6763763}
+  m_Center: {x: -0.0034725666, y: 0.0041185617, z: -0.052635014}

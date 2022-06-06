@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1403703532286206098}
-  - component: {fileID: 6212146301104001665}
   - component: {fileID: 7993742669665877227}
+  - component: {fileID: 1192932501}
   m_Layer: 0
   m_Name: heart
   m_TagString: Positive
@@ -34,19 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &6212146301104001665
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5516468182271853833}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.0020120298
-  m_Center: {x: -0.00006791344, y: 0.002695384, z: -0.00028831413}
 --- !u!54 &7993742669665877227
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -63,6 +50,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!65 &1192932501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5516468182271853833}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8283882, y: 1.3861077, z: 0.11621094}
+  m_Center: {x: -0.012981415, y: -0.1125052, z: -0.008758545}
 --- !u!1001 &2901732210342675828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73,6 +73,18 @@ PrefabInstance:
     - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
       propertyPath: m_LocalPosition.x
