@@ -12,13 +12,19 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_1.unity
     guid: 5cd43e4add4306748b583a2366d0e9bd
   - enabled: 1
-    path: Assets/Scenes/Level2Env.unity
-    guid: 9486f4756a6685d4a97c873787998c6e
+    path: Assets/Scenes/Level_2.unity
+    guid: c4ae75310bf67d6459ca7169ec1c9865
   - enabled: 1
-    path: Assets/Scenes/BasakSceneYeni.unity
-    guid: bf8f74de1a9268242b0db67596308a1e
+    path: Assets/Scenes/Level_3.unity
+    guid: 2b9716044ae38d649a83cb676c94b31e
   - enabled: 1
-    path: Assets/Scenes/SeymaScene.unity
-    guid: 15545d7a7465c47d09b62a19242fab08
+    path: Assets/Scenes/Level_4.unity
+    guid: 9082e02e83f973741a6378a4fb18735d
+  - enabled: 1
+    path: Assets/Scenes/Level_5.unity
+    guid: f864be11de3d1684cada2e483287022d
+  - enabled: 1
+    path: Assets/Scenes/Level_6.unity
+    guid: 10efe98fc7d85254fbac08a0d6a8db4b
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: ae6e16177ec374232bca038fa43e3f03, type: 2}
