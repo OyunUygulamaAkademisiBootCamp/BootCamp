@@ -25,13 +25,20 @@ public class AnimationController : MonoBehaviour
     private void Start()
     {
         zuus.SetActive(false);
-        //Camera.SetupCurrent(mainCam);
         mainCam.gameObject.SetActive(true);
         sideCam.gameObject.SetActive(false);
         sm = gameObject.GetComponent<SoundManager>();
         mm = gameObject.GetComponent<MusicManager>();
         AMR.AMRSDK.setOnInterstitialDismiss(OnInterstitialDismiss);
 
+        StartCoroutine(_waiter());
+
+    }
+
+    IEnumerator _waiter()
+    {
+      
+        yield return new WaitForSeconds(2);
     }
 
     
@@ -83,6 +90,8 @@ public class AnimationController : MonoBehaviour
         failCounter++;
         zuus.SetActive(true);
         zuusAnim.Play("ZeusStrike");
+        _waiter();
+        sm.PlayZeusStrike();
         
         //yield return new  WaitForSeconds(0.3f);
         ShowInterstitial();

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5085841, g: 0.36464065, b: 0.32896066, a: 1}
+  m_IndirectSpecularColor: {r: 0.50858426, g: 0.3646409, b: 0.32896096, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -840,7 +840,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5324d034a783e4c912c26023488209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planeObj: {fileID: 1021022078}
   finishPlaneObj: {fileID: 1324125395190543502, guid: e0c360f6e0180ed4cb6bc0c5b7ae7397, type: 3}
   playerTransform: {fileID: 4758433}
   isCreated: 0
@@ -2223,9 +2222,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6482080883124503872, guid: 54255a388c4db0c4499a548d5be54aec, type: 3}
+      propertyPath: levelPlane
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482080883124503872, guid: 54255a388c4db0c4499a548d5be54aec, type: 3}
       propertyPath: finishPlaneObj
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1324125395190543502, guid: e0c360f6e0180ed4cb6bc0c5b7ae7397, type: 3}
     - target: {fileID: 6482080883124503872, guid: 54255a388c4db0c4499a548d5be54aec, type: 3}
       propertyPath: playerTransform
       value: 

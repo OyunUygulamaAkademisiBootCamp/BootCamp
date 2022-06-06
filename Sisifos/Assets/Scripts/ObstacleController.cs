@@ -38,6 +38,9 @@ public class ObstacleController : MonoBehaviour
         obstaclePosXList = new[] {planeX - planeWidth/4f, planeX, planeX + planeWidth/4f};
         createdObstacles =  new List<GameObject>();
         SpawnObstacle();
+
+        //TODO kaldýrýlacak
+        PlayerPrefs.SetInt("Tutorial", 1);
         
     }
 

@@ -3,7 +3,9 @@ guid: 7c5324d034a783e4c912c26023488209
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - finishPlaneObj: {fileID: 1324125395190543502, guid: e0c360f6e0180ed4cb6bc0c5b7ae7397, type: 3}
+  - playerTransform: {fileID: 5402126272348667968, guid: ed694887552ef224a994e6c93f18617d, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

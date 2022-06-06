@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 5923200908433817606}
   m_Layer: 0
   m_Name: Plane__3_ (1)
-  m_TagString: Untagged
+  m_TagString: SlowDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -368,7 +368,7 @@ GameObject:
   - component: {fileID: 673116326740008497}
   m_Layer: 0
   m_Name: FinishLine
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

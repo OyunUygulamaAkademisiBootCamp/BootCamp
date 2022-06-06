@@ -14,6 +14,7 @@ public class CharacterMovement : MonoBehaviour
     
     public Rigidbody rb; // Rigidbody değişkeni
     private Transform tf; // Transform değişkeni
+    private SoundManager sm;
     
     private Animator anim;
     private float updatedSpeed;
@@ -21,6 +22,8 @@ public class CharacterMovement : MonoBehaviour
     private float ScreenWidth;
     private int speedMultiplier = 2;
     private CollectibleController _collectible;
+
+    
 
     void Start()
     {
@@ -32,6 +35,7 @@ public class CharacterMovement : MonoBehaviour
 
         updatedSpeed = forwardSpeed;
 
+        sm = GetComponent<SoundManager>();
 
     }
 
@@ -80,6 +84,7 @@ public class CharacterMovement : MonoBehaviour
         //horizontal move player
         
         rb.AddForce(new Vector3(horizontalInput * horizontalSpeed * Time.deltaTime, 0, 0));
+        sm.PushBoulder();
     }
 
     public void SpeedChanged(int speed)

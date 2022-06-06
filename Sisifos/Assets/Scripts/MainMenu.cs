@@ -29,6 +29,52 @@ public class MainMenu : MonoBehaviour
         
     }
 
+    public void OpenMainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void OpenLevelOne()
+    {
+        SceneManager.LoadScene(1);
+            }
+
+    public void OpenLevelTwo()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void OpenLevelThree()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void OpenLevelFour()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public void OpenLevelFive()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    public void OpenLevelSix()
+    {
+        SceneManager.LoadScene(6);
+    }
+
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void QuitGame()
     {
         Debug.Log("Quit!!");

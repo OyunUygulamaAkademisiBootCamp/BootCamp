@@ -54,6 +54,7 @@ public class CollectibleController : MonoBehaviour
         SpawnCollectible();
 
         //(planeX - planeWidth/4) , planeX, planeX + planeWidth / 4
+
     }
 
     public void UpScale(float weight)

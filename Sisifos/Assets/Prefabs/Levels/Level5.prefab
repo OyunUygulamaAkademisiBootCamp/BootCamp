@@ -654,6 +654,7 @@ GameObject:
   - component: {fileID: 4731666657443704590}
   - component: {fileID: 2948006796445608045}
   - component: {fileID: 5661339415337998767}
+  - component: {fileID: 1495861714}
   m_Layer: 0
   m_Name: _RoadPlane
   m_TagString: Untagged
@@ -728,6 +729,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1495861714
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341278826014101161}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000001, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0.00000059604645, z: 0}
 --- !u!1 &1480164648881742621
 GameObject:
   m_ObjectHideFlags: 0
@@ -20686,6 +20700,7 @@ GameObject:
   - component: {fileID: 4828036834843212346}
   - component: {fileID: 4828036834843212344}
   - component: {fileID: 4828036834843212345}
+  - component: {fileID: 1321260018}
   m_Layer: 0
   m_Name: _RoadPlane
   m_TagString: Untagged
@@ -20760,6 +20775,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1321260018
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828036834843212347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000001, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: -0.00000011920929, z: 0}
 --- !u!1 &4828036834872233264
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,13 +5,9 @@ using UnityEngine;
 public class RenderSkyBoxBelnd : MonoBehaviour
 {
     public Material[] materialList;
-    //public Material skyOne;
-    //public Material skyTwo;
-    //public Material skyThree;
-    float timeLeft = 3.0f;
-    float secondTimeLeft = 6.0f;
-    float thirdTimeLeft = 9.0f;
-    float fourthTimeLeft = 12.0f;
+    
+   
+    
 
 
 
@@ -34,32 +30,7 @@ public class RenderSkyBoxBelnd : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        // if (timeLeft < 0)
-        // {
-        //     print("skyTwo");
-        //     RenderSettings.skybox = skyTwo;
-        // }
-        //
-        // if (timeLeft + 3 < 0)
-        // {
-        //     print("skyThree");
-        //     RenderSettings.skybox = skyThree;
-        // }
-        // if (timeLeft + 6 < 0)
-        // {
-        //     print("skyOne");
-        //     RenderSettings.skybox = skyOne;
-        // }
-        // if (fourthTimeLeft < 0)
-        //
-        // {
-        //     RenderSettings.skybox = skyTwo;
-        // }
-
-        //DynamicGI.UpdateEnvironment();
-    }
+   
 
 
 }

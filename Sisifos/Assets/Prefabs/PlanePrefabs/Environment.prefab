@@ -78,8 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5324d034a783e4c912c26023488209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planeObj: {fileID: 1232833757995839513}
-  finishPlaneObj: {fileID: 9124928724601286981, guid: 358b256b2ad21f84ca1d57b8fb0d13d8, type: 3}
+  finishPlaneObj: {fileID: 1324125395190543502, guid: e0c360f6e0180ed4cb6bc0c5b7ae7397, type: 3}
   playerTransform: {fileID: 0}
   isCreated: 0
   planeCount: 1
