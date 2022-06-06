@@ -75,6 +75,7 @@ public class Player : MonoBehaviour
                 if (!isTutorial)
                 {
                     _levelController.Failed(Reason.Obstacle);
+
                 }
 
                 AnalyticsResult analyticsResult = Analytics.CustomEvent("DiedObstacle", new Dictionary<string, object>{

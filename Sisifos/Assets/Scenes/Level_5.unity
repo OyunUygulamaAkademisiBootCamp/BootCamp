@@ -400,7 +400,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 319539cf1b09c3f409c882d2158c40e4, type: 2}
+  sharedProfile: {fileID: 11400000, guid: c34e96a6669dbfc4f8a311771fa71249, type: 2}
 --- !u!4 &216333468
 Transform:
   m_ObjectHideFlags: 0
@@ -1225,10 +1225,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MusicManager
       objectReference: {fileID: 0}
-    - target: {fileID: 6869942607264780516, guid: 21d3731695984a4449736dc3ae7cb60b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6869942607264780517, guid: 21d3731695984a4449736dc3ae7cb60b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1402,6 +1398,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a044743949cb3640985e507c2b83e36, type: 3}
+--- !u!1 &1530276236 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7764788952188621986, guid: bd20a55587ffd4b8cb31cc037957552b, type: 3}
+  m_PrefabInstance: {fileID: 1922849338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1530276237 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7764788952188621985, guid: bd20a55587ffd4b8cb31cc037957552b, type: 3}
+  m_PrefabInstance: {fileID: 1922849338}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1560604040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1519,10 +1525,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 530526418, guid: ed694887552ef224a994e6c93f18617d, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 530526423, guid: ed694887552ef224a994e6c93f18617d, type: 3}
       propertyPath: zuus
       value: 
@@ -1543,6 +1545,14 @@ PrefabInstance:
       propertyPath: losePanel
       value: 
       objectReference: {fileID: 1560604041}
+    - target: {fileID: 530526423, guid: ed694887552ef224a994e6c93f18617d, type: 3}
+      propertyPath: animator_blink
+      value: 
+      objectReference: {fileID: 1530276237}
+    - target: {fileID: 530526423, guid: ed694887552ef224a994e6c93f18617d, type: 3}
+      propertyPath: blinkAnimPrefab
+      value: 
+      objectReference: {fileID: 1530276236}
     - target: {fileID: 5402126272348667968, guid: ed694887552ef224a994e6c93f18617d, type: 3}
       propertyPath: m_RootOrder
       value: 2
