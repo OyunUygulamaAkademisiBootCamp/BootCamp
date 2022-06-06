@@ -1,3 +1,5 @@
+using System;
+using System.Linq.Expressions;
 using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -16,6 +18,8 @@ public class LevelController : MonoBehaviour
     private AnimationController _animationController;
     private SoundManager sm;
     private MusicManager mm;
+    private float timeLeft;
+    private bool isAnimPlay;
     
     void Start()
     {
@@ -28,20 +32,33 @@ public class LevelController : MonoBehaviour
         _obstacleController = FindObjectOfType<ObstacleController>();
         sm = FindObjectOfType<SoundManager>();
         mm = FindObjectOfType<MusicManager>();
-        
         ShowBanner();
+    }
+
+    private void Update()
+    {
+        if (isAnimPlay)
+        {
+            timeLeft -= Time.deltaTime;
+            if (timeLeft < 0)
+            {
+                OpenFailScreen();
+            }
+        }
+
+        
     }
 
     public void Won()
     {
         winPanel.SetActive(true);
         mm.PlayWinMenuSong();
-        
-        
     }
 
     public void Failed(Reason reason)
     {
+        
+        isAnimPlay = true;
         //Time.timeScale = 0; // OYUNU PAUSE'LUYOR.
         _characterMovement.Stop(); // HEMEN DURMUYOR !!!!  //ş: 
 
@@ -49,25 +66,37 @@ public class LevelController : MonoBehaviour
         {
             case Reason.Hole:
                 Debug.Log("Reason:" + Reason.Hole);
+                timeLeft = 2.3f;
                 _animationController.HoleAnimation();
                 break;
             case Reason.Obstacle:
                 Debug.Log("Reason:" + Reason.Obstacle);
                 _animationController.ZeusAnimation();
+                timeLeft = 2.3f;
                 break;
             case Reason.Overweight:
                 Debug.Log("Reason:" + Reason.Overweight);
                 _animationController.HoleAnimation();
+                timeLeft = 2.3f;
                 break;
             case Reason.Underweight:
                 Debug.Log("Reason:" + Reason.Underweight);
                 _animationController.ZeusAnimation();
+                timeLeft = 2.3f;
                 break;
         }
+
+       
+        
+    }
+
+    private void OpenFailScreen()
+    {
+        isAnimPlay = false;
         failPanel.SetActive(true);
         sm.FailedLevel();
+       
     }
-    
     
     public void LoadNextLevel()
     {
@@ -88,14 +117,8 @@ public class LevelController : MonoBehaviour
 
     public void RestartLevel()
     {
-        SceneManager.LoadScene(index);        
+        SceneManager.LoadScene(index);
         winPanel.SetActive(false);
-
-        /*//TODO: relocate everything
-         _collectibleController.RelocateCollectible();
-        _obstacleController.RelocateObstacles();
-        playerObject.transform.position = new Vector3(-0.23f, 1.10f, 1.21f);
-*/
     }
 
     public void ReturnMainMenu()
@@ -118,6 +141,4 @@ public class LevelController : MonoBehaviour
         AMR.AMRSDK.showBanner();
     }
     
-    
-
 }

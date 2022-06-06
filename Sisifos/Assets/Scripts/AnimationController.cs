@@ -73,7 +73,7 @@ public class AnimationController : MonoBehaviour
         sideCam.gameObject.SetActive(false);
         
         sm.BrokenBones();
-        ShowInterstitial();
+        //TODO: ShowInterstitial();
 
     }
     
@@ -94,7 +94,7 @@ public class AnimationController : MonoBehaviour
         sm.PlayZeusStrike();
         
         //yield return new  WaitForSeconds(0.3f);
-        ShowInterstitial();
+        //TODO: ShowInterstitial();
 
 
     }
@@ -124,6 +124,7 @@ public class AnimationController : MonoBehaviour
     public void OnInterstitialDismiss()
     {
         LoseScreen();
+        Time.timeScale = 1;
         AMR.AMRSDK.loadInterstitial();
     }
 

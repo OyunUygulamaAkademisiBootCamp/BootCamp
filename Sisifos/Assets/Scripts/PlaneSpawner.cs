@@ -62,7 +62,7 @@ public class PlaneSpawner : MonoBehaviour
                     
                     else if (playerTransform.position.y >= pos.y - 50 && planeCount >= levelPlane)
                     {
-                        Instantiate(finishPlaneObj, pos, Quaternion.identity);
+                        Instantiate(finishPlaneObj, new Vector3(transform.position.x,transform.position.y, transform.position.z), Quaternion.identity);
                         isCreated = true;
                         Debug.Log("Finish Plane'i oluşturuldu.");
                     }
@@ -74,9 +74,9 @@ public class PlaneSpawner : MonoBehaviour
 
         // Player, arkasında kalan Plane'den y düzleminde 5 birim uzaklaştığında o Plane'i yok ediyor.
         if (playerTransform.position.y >= pos.y + 5)
-            {
-                Destroy(gameObject);
-            }
-        
+        {
+            Destroy(gameObject);
         }
+    
+    }
 }

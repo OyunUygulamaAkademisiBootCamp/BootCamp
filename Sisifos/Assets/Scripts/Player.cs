@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
         _levelController  = GameObject.FindObjectOfType<LevelController>();
         rb = gameObject.GetComponent<Rigidbody>();
         sm = gameObject.GetComponent<SoundManager>();
-        isTutorial = PlayerPrefs.GetInt("Tutorial", 0) == 0;
+        isTutorial = false; //TODO: PlayerPrefs.GetInt("Tutorial", 0) == 0;
     }
 
     // Update is called once per frame
@@ -91,7 +91,7 @@ public class Player : MonoBehaviour
         
         if (other.CompareTag("Hole"))
         {
-            if (isDangerZone == true)
+            if (isDangerZone)
             {
                 if (!isTutorial)
                 {
