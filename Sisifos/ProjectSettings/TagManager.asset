@@ -18,6 +18,7 @@ TagManager:
   - Obstacle
   - Hole
   - SlowDown
+  - TutorialEnd
   layers:
   - Default
   - TransparentFX

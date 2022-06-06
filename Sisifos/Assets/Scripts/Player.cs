@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     private float boulderWeight;
     private bool isTutorial;
 
+    [SerializeField] private GameObject tutorialUI;
+
   
 
    
@@ -114,6 +116,18 @@ public class Player : MonoBehaviour
                );
             Debug.Log("analyticsResults:" + analyticsResult);
         }
+
+        if (other.CompareTag("TutorialEnd"))
+        {
+            tutorialUI.SetActive(true);
+            sm.FinishLine();
+            AnalyticsResult analyticsResult = Analytics.CustomEvent("EndTutorial", new Dictionary<string, object>{
+                    { "Level", _levelController.GetCurrentLevel() }
+                }
+               );
+            Debug.Log("analyticsResults:" + analyticsResult);
+        }
+
     }
 
 
