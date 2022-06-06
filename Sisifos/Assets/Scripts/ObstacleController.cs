@@ -40,7 +40,7 @@ public class ObstacleController : MonoBehaviour
         SpawnObstacle();
 
         //TODO kaldýrýlacak
-        PlayerPrefs.SetInt("Tutorial", 1);
+       // PlayerPrefs.SetInt("Tutorial", 1);
         
     }
 
