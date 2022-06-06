@@ -43,7 +43,7 @@ public class LevelController : MonoBehaviour
     public void Failed(Reason reason)
     {
         //Time.timeScale = 0; // OYUNU PAUSE'LUYOR.
-        _characterMovement.Stop(); // HEMEN DURMUYOR !!!!  //ş: 
+        _characterMovement.Stop();// HEMEN DURMUYOR !!!!  //ş: 
 
         switch (reason)
         {

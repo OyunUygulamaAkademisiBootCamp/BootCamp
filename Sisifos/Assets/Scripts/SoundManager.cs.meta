@@ -13,6 +13,7 @@ MonoImporter:
   - brokenBones: {fileID: 8300000, guid: 5e272ba4bef5d254294036b45fa50afe, type: 3}
   - sisifosScream: {fileID: 8300000, guid: e5abd9135199ef442874f680b81bbb9e, type: 3}
   - playZeusStrike: {fileID: 8300000, guid: 5e41e6300a266ba43b81005115855687, type: 3}
+  - obstacleExplode: {fileID: 8300000, guid: 23c7a0eed539c5f4c9e78bd21614f503, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

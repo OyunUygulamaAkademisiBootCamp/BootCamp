@@ -9769,7 +9769,7 @@ MonoBehaviour:
   collectibleGaps: 0a0000000900000008000000070000000600000005000000
   gapRanges: 010000000100000002000000020000000300000003000000
   collectibleKindNumbers: 05000000070000000700000009000000090000000b000000
-  collectibleCounts: 23000000320000003c00000046000000500000005a000000
+  collectibleCounts: 28000000320000003c00000046000000500000005a000000
   plane: {fileID: 0}
 --- !u!54 &5402126272348667969
 Rigidbody:
@@ -9813,6 +9813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isDangerZone: 0
+  tutorialUI: {fileID: 0}
 --- !u!82 &530526418
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9929,7 +9930,7 @@ MonoBehaviour:
   pushBoulder: {fileID: 8300000, guid: 9f6e55c215dc7a240b1aef115e8858c0, type: 3}
   brokenBones: {fileID: 8300000, guid: 5e272ba4bef5d254294036b45fa50afe, type: 3}
   sisifosScream: {fileID: 8300000, guid: e5abd9135199ef442874f680b81bbb9e, type: 3}
-  playZeusStrike: {fileID: 0}
+  playZeusStrike: {fileID: 8300000, guid: 5e41e6300a266ba43b81005115855687, type: 3}
 --- !u!114 &530526423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9942,8 +9943,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8d6ccfb36b4ecf44b6e4d74423b04b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zuusAnim: {fileID: 4790162614361596296}
-  zuus: {fileID: 5140051239463567115}
+  zuusAnim: {fileID: 0}
+  zuus: {fileID: 0}
   blinkAnimPrefab: {fileID: 0}
   mainCam: {fileID: 0}
   sideCam: {fileID: 0}
@@ -9970,7 +9971,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 63db048651bb0914e9d79bb789e2a11b, type: 3}
   - {fileID: 8300000, guid: 94c641102d065754f900d04547b225a8, type: 3}
   - {fileID: 8300000, guid: ceeeb5fa6e855aa43997348f8383db85, type: 3}
-  - {fileID: 8300000, guid: 17303fa6a632c9441b71edad858eee53, type: 3}
   winMenu: {fileID: 8300000, guid: 9dd66755da510b64eac696c551eec25d, type: 3}
   loseMenu: {fileID: 8300000, guid: 1ce98cb3ed36d8f4bb28fa5049ce59d3, type: 3}
 --- !u!1 &5402126273821279128
@@ -10264,16 +10264,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3062d56953f077c4fb9269841e3ffafa, type: 3}
---- !u!95 &4790162614361596296 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 1323028961, guid: 3062d56953f077c4fb9269841e3ffafa, type: 3}
-  m_PrefabInstance: {fileID: 4790162615541887081}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5140051239463567115 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 373573208197222242, guid: 3062d56953f077c4fb9269841e3ffafa, type: 3}
-  m_PrefabInstance: {fileID: 4790162615541887081}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5485087421713900977 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1037202811147949528, guid: 3062d56953f077c4fb9269841e3ffafa, type: 3}

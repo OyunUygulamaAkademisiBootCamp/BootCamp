@@ -10,7 +10,7 @@ public class SoundManager : MonoBehaviour
     //audio source'un bulundu�u objeyi tan�mlamay� unutma
     
     private AudioSource playerSounds;
-    [SerializeField] AudioClip collectPositive, collectNegative, finishLine, playerDeath, failedLevel, pushBoulder, brokenBones, sisifosScream, playZeusStrike;
+    [SerializeField] AudioClip collectPositive, collectNegative, finishLine, playerDeath, failedLevel, pushBoulder, brokenBones, sisifosScream, playZeusStrike, obstacleExplode;
 
     void Start()
     {
@@ -72,6 +72,12 @@ public class SoundManager : MonoBehaviour
     public void PlayZeusStrike()
     {
         playerSounds.clip = playZeusStrike;
+        playerSounds.Play();
+    }
+
+    public void ObstacleExplode()
+    {
+        playerSounds.clip = obstacleExplode;
         playerSounds.Play();
     }
 

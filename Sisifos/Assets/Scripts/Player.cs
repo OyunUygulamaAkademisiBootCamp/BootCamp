@@ -20,10 +20,14 @@ public class Player : MonoBehaviour
 
     [SerializeField] private GameObject tutorialUI;
 
-  
+    private 
 
-   
-    
+
+
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +35,8 @@ public class Player : MonoBehaviour
         _levelController  = GameObject.FindObjectOfType<LevelController>();
         rb = gameObject.GetComponent<Rigidbody>();
         sm = gameObject.GetComponent<SoundManager>();
-        isTutorial = PlayerPrefs.GetInt("Tutorial", 0) == 0;
+        //isTutorial = PlayerPrefs.GetInt("Tutorial", 0) == 0;
+        isTutorial = false;
     }
 
     // Update is called once per frame
@@ -75,8 +80,15 @@ public class Player : MonoBehaviour
                 if (!isTutorial)
                 {
                     _levelController.Failed(Reason.Obstacle);
+                    var A = other.GetComponentInChildren<ParticleSystem>();
+                    Debug.Log(A);
+                    A.Play();
+                    sm.ObstacleExplode();
+                    
+                    
+                   
                 }
-
+               
                 AnalyticsResult analyticsResult = Analytics.CustomEvent("DiedObstacle", new Dictionary<string, object>{
                         { "Level", _levelController.GetCurrentLevel() }
                     }
@@ -96,6 +108,7 @@ public class Player : MonoBehaviour
                 if (!isTutorial)
                 {
                     _levelController.Failed(Reason.Hole);
+                   
                 }
                 AnalyticsResult analyticsResult = Analytics.CustomEvent("DiedHole", new Dictionary<string, object>{
                     { "Level", _levelController.GetCurrentLevel() },
@@ -103,6 +116,7 @@ public class Player : MonoBehaviour
                 }
                 );
                 Debug.Log("analyticsResults:" + analyticsResult);
+
             }
         }
 
