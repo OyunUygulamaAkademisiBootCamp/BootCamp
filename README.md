@@ -136,23 +136,34 @@ instantiate kodu yazılmalı ve test edilmelidir.
 -![Screenshot 3](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/newWeightBar.png)
 -![Screenshot 4](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/zeus-%C5%9Fim%C5%9Fek%20animasyon_.gif)
 -![Screenshot 5](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/level%205%20tasar%C4%B1mm.png)
+-![Screenshot 6](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/favori%20level_.gif)
 
-[youtube video](https://www.youtube.com/shorts/0iNcW1QtKdE)
+-*[youtube video](https://www.youtube.com/shorts/0iNcW1QtKdE) bknz.
 
 - **Sprint Review**: 
 -3. sprint süresince  backlogdaki işlerin %95'i tamamlanmıştır.
+-Oyun kurgusu, sifosun son .apk dosyasına istenilen şekilde aktarılmıştır.
+-Kullanıcının oyun sırasında karşılaştığı engeller var ve bu zorluklar oyuncudaki rekabet hissini tetikleyecek şekilde tasarlandı.
+-Tasarım ve yazılım kısmı paralel ilerlemiştir.
+-Oyun içerisinde kullanılan objelerin bir kısmı Sisifos oyunumuz  için tasarlanmıştır.
+-Çıkan ürün, akademinin standarlarına ve hyper casual mekaniğine uygun tasarlanmıştır.
 
 -Çıkan ürünün testinde bazı levellerde hatalar alınmıştır.Bu hataların en kısa sürede  giderilmesi kararına varılmıştır
 3 sprint boyunca toplam kazanılan puan 265 dir. 
 
 - **Sprint Retrospective:**
+-
 -  *Neler iyi gitti?*
--  Backlogtaki çoğu iş zamanında tamamlanmıştır.
--  
+-Backlogtaki işlerin %98 tamamlanmıştır.
+-Takım ile son sprintte daha verimli çalışılmış ve testler yapılarak hatalar ayıklanmaya çalışılmıştır.
+-Yapılacak işler konusunda hızlı kararlar alınmıştır. Hata alınan veya üzerinde uzun bir çalışma istenen konularda hızlı aksiyon alınarak alternatif yollar bulunmuş çözüme kavuşturulmuştur.
 
 - *Hangi Sorunlar ile Karşılaştık?*
-- Son kontroller sırasında,Levellerdeki planeSpawner de sorun yaşadık.
+-Son kontroller sırasında;
+-Levellerdeki planeSpawner de sorun yaşadık.
+-Levellerde Event System eksik olması hataya yol açmıştır. 
+-  Ara geçişlerde problem yaşanması, bazı objelerin görünürlüğünün olmaması ve test sırasında kullanıcı ara yüzünde  hatalar alınmıştır.
 
-
-- *Neler Geliştirilmeli?*
-- Her level tasarlandıktan sonra , kontrol edilmesi  ve geçiş sahnesinin eklenmesi daha uygun olabilirdi.Yapılan hataları erken fark etme fırsatımız olabilir bu şekilde erken müdahale edebilirdik.
+-  *Neler Geliştirilmeli?*
+Her level tasarlandıktan sonra , kontrol edilmesi  ve geçiş sahnesinin eklenmesi daha uygun olabilirdi.Yapılan hataları erken fark etme fırsatımız olabilir bu şekilde erken müdahale edebilirdik.
+-Proje planlamasının, daha ayrıntılı planlanması kararına varılmıştır
