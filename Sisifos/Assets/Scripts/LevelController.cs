@@ -66,7 +66,7 @@ public class LevelController : MonoBehaviour
         {
             case Reason.Hole:
                 Debug.Log("Reason:" + Reason.Hole);
-                timeLeft = 2.3f;
+                timeLeft = 2f;
                 _animationController.HoleAnimation();
                 break;
             case Reason.Obstacle:
@@ -77,7 +77,7 @@ public class LevelController : MonoBehaviour
             case Reason.Overweight:
                 Debug.Log("Reason:" + Reason.Overweight);
                 _animationController.HoleAnimation();
-                timeLeft = 2.3f;
+                timeLeft = 2f;
                 break;
             case Reason.Underweight:
                 Debug.Log("Reason:" + Reason.Underweight);
@@ -100,6 +100,7 @@ public class LevelController : MonoBehaviour
     
     public void LoadNextLevel()
     {
+        failPanel.SetActive(false);
         winPanel.SetActive(false);
         if (index == 7)
         {
@@ -107,7 +108,10 @@ public class LevelController : MonoBehaviour
             index = 0;
             SceneManager.LoadScene(index + 1);
             SceneManager.UnloadSceneAsync(7);
-        }
+        }else if (index == 6)
+        {
+            //TODO:Levels ended
+        } 
         else
         {
             SceneManager.LoadScene(index + 1);
@@ -119,12 +123,15 @@ public class LevelController : MonoBehaviour
     {
         SceneManager.LoadScene(index);
         winPanel.SetActive(false);
+        failPanel.SetActive(false);
+
     }
 
     public void ReturnMainMenu()
     {
         SceneManager.LoadScene(0);
         winPanel.SetActive(false);
+        failPanel.SetActive(false);
         SceneManager.UnloadSceneAsync(index);
     }
     
