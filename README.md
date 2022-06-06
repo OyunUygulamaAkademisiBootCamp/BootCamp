@@ -55,6 +55,7 @@ Miro Uygulamasında, user story örneği bulunmaktadır.
 - **Sprint board update**: Sprint board screenshotları: 1
 ![Backlog 1](https://github.com/sntahmaz/BootCamp/blob/main/9%20may%C4%B1s%20ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC3.png) 
 ![Backlog 2](https://github.com/sntahmaz/BootCamp/blob/main/9%20may%C4%B1s%20ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC2.png)
+![Burndown grafik](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/1.sprint%20burndown.png)
 
 -![Backlog 3](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/1.sprint%2022%20may%C4%B1s.png)
 - **Ürün Durumu**: Ekran görüntüleri: 
@@ -92,6 +93,7 @@ Miro Uygulamasında, user story örneği bulunmaktadır.
 - **Sprint board update**: 2.Sprint board screenshotları:
 -![Backlog 1](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/21%20may%C4%B1s%20sprintboard.png)
 -![Backlog 2](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/24%20may%C4%B1s%20sprint2%20g%C3%B6r%C3%BCnt%C3%BC.png)
+-![Burndown grafik](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/2.sprintburdown.png)
 
 -- **Ürün Durumu**: Ekran görüntüleri: 
 -
@@ -119,5 +121,24 @@ instantiate kodu yazılmalı ve test edilmelidir.
 - **Puan tamamlama mantığı**:Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in  total 95 puan ile tamamlanması kararı alındı.
 - **Backlog düzeni ve Story seçimleri**: Miro uygulamasında 3.Sprint Boarda görünen Backlog'umuzda genel yapılacak işler sarı renkte gösterilmiştir. Yapılacaklar kısmı ise yeşil renkte düzenlenmiştir.In progress sütunu kırmızı renk ile gösterilmiş ve üzerinde çalışması devam eden işleri göstermektedir.Done sütunuda mavi renk ile gösterilmiştir.Tagların üzerinde bulunan kırmızı itemler usery story'i oldugunu göstermektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp,Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği Word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats]
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp,Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği Word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 3 Daily Scrum Chats](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/Daily%20Scrum-Sprint%203.docx)
 ---
+- **Sprint board update**: 3.Sprint board screenshotları:
+- -![Backlog 1](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/5%20HAZ%C4%B0RAN3.SPR%C4%B0NT.png)
+
+-- **Ürün Durumu**: Ekran görüntüleri: 
+-
+-![Screenshot 1](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/oyun%20g%C3%B6r%C3%BCnt%C3%BC.png)
+-![Screenshot 2](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/Oyun%20sonu%20partik%C3%BCller_.gif)
+-![Screenshot 3](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/newWeightBar.png)
+-![Screenshot 4](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/zeus-%C5%9Fim%C5%9Fek%20animasyon_.gif)
+-![Screenshot 5](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/level%205%20tasar%C4%B1mm.png)
+-![youtube video](https://www.youtube.com/shorts/0iNcW1QtKdE)
+- **Sprint Review**: 
+
+
+- **Sprint Retrospective:**
+-  *Neler iyi gitti?* 
+
+
+- *Neler Geliştirilmeli?*
