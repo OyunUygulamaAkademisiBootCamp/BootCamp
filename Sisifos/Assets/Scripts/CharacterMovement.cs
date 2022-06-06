@@ -76,6 +76,11 @@ public class CharacterMovement : MonoBehaviour
 
                 i++;
             }
+
+            if(forwardSpeed > 0)
+        {
+            sm.PushBoulder();
+        } 
         
     }
 
@@ -84,7 +89,7 @@ public class CharacterMovement : MonoBehaviour
         //horizontal move player
         
         rb.AddForce(new Vector3(horizontalInput * horizontalSpeed * Time.deltaTime, 0, 0));
-        sm.PushBoulder();
+        
     }
 
     public void SpeedChanged(int speed)
