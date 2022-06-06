@@ -24,14 +24,14 @@ Unity 77
 
 - Hyper Casual
 - Gittikçe zorlaşan leveller
-- karakterin koşma sırasında , toplanabilir objeleri toplaması ve
-- engellerden kaçınma
+- Kullanıcı; karakter koşma sırasında taşı yavarlayarak ,  objeleri toplar,engellerden kaçınarak leveli tamamlar.
+- Kullanıcı aynı zamanda ağırlık ve hız parametrelerine konttrol ederek oyunu oynar.
 
 ## Hedef Kitle
 
 - Runner oyun sevenler
 - 10 - 65 yaş arası kullanıcılar
-- 
+- Felsefe sevenler
 
 ## Product Backlog URL
 
@@ -138,10 +138,19 @@ instantiate kodu yazılmalı ve test edilmelidir.
 [youtube video](https://www.youtube.com/shorts/0iNcW1QtKdE)
 
 - **Sprint Review**: 
+-3. sprint süresince  backlogdaki işlerin %95'i tamamlanmıştır.
 
+-Çıkan ürünün testinde bazı levellerde hatalar alınmıştır.Bu hataların en kısa sürede  giderilmesi kararına varılmıştır
+3 sprint boyunca toplam kazanılan puan 265 dir. 
 
 - **Sprint Retrospective:**
--  *Neler iyi gitti?* 
+-  *Neler iyi gitti?*
+-  Backlogtaki çoğu iş zamanında tamamlanmıştır.
+-  
+
+- *Hangi Sorunlar ile Karşılaştık?*
+- Son kontroller sırasında,Levellerdeki planeSpawner de sorun yaşadık.
 
 
 - *Neler Geliştirilmeli?*
+- Her level tasarlandıktan sonra , kontrol edilmesi  ve geçiş sahnesinin eklenmesi daha uygun olabilirdi.Yapılan hataları erken fark etme fırsatımız olabilir bu şekilde erken müdahale edebilirdik.
