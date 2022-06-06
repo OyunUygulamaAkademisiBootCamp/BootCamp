@@ -14,7 +14,7 @@ Unity 77
 
 ## Ürün İsmi
 
---Sisifos -- düzenlenecek
+--Sisifos
 
 ## Ürün Açıklaması
 
@@ -31,6 +31,7 @@ Unity 77
 
 - Runner oyun sevenler
 - 10 - 65 yaş arası kullanıcılar
+- 
 
 ## Product Backlog URL
 
@@ -78,7 +79,7 @@ Miro Uygulamasında, user story örneği bulunmaktadır.
    
 
 -**Diğer Notlar**:
-- N/A
+- unity 2021.3.1f1 
 
 ---
 
@@ -133,7 +134,9 @@ instantiate kodu yazılmalı ve test edilmelidir.
 -![Screenshot 3](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/newWeightBar.png)
 -![Screenshot 4](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/zeus-%C5%9Fim%C5%9Fek%20animasyon_.gif)
 -![Screenshot 5](https://github.com/OyunUygulamaAkademisiBootCamp/BootCamp/blob/main/level%205%20tasar%C4%B1mm.png)
--![youtube video](https://www.youtube.com/shorts/0iNcW1QtKdE)
+
+[youtube video](https://www.youtube.com/shorts/0iNcW1QtKdE)
+
 - **Sprint Review**: 
 
 
