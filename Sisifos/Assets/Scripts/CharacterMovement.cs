@@ -92,8 +92,14 @@ public class CharacterMovement : MonoBehaviour
         updatedSpeed =  speedMultiplier * speed + 6;
     }
 
-    
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("SlowDown"))
+        {
+            updatedSpeed = 2f;
+        }
+;    }
     public void Stop()
     {
         updatedSpeed = 0;

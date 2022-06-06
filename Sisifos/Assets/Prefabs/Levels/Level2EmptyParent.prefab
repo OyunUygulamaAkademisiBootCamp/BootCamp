@@ -45,12 +45,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5324d034a783e4c912c26023488209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planeObj: {fileID: 6482080883124503878}
-  finishPlaneObj: {fileID: 0}
+  finishPlaneObj: {fileID: 1324125395190543502, guid: e0c360f6e0180ed4cb6bc0c5b7ae7397, type: 3}
   playerTransform: {fileID: 0}
   isCreated: 0
   planeCount: 1
-  levelPlane: 5
+  levelPlane: 10
 --- !u!1001 &6482080883617891375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -114,10 +113,51 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 241520439512700, guid: 5d91ad58a75fec947b131b595db4a1a5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5d91ad58a75fec947b131b595db4a1a5, type: 3}
+--- !u!1 &6481842670437517905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 241520439512702, guid: 5d91ad58a75fec947b131b595db4a1a5, type: 3}
+  m_PrefabInstance: {fileID: 6482080883617891375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &829528057
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6481842670437517905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000001, y: 2.252972e-16, z: 10}
+  m_Center: {x: -0.0000025331974, y: -0.000000834465, z: 0}
 --- !u!4 &7362658259137627544 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4600867464549204407, guid: 5d91ad58a75fec947b131b595db4a1a5, type: 3}
   m_PrefabInstance: {fileID: 6482080883617891375}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7974790639387704462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3988183682454485153, guid: 5d91ad58a75fec947b131b595db4a1a5, type: 3}
+  m_PrefabInstance: {fileID: 6482080883617891375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &646751762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7974790639387704462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5324d034a783e4c912c26023488209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finishPlaneObj: {fileID: 1324125395190543502, guid: e0c360f6e0180ed4cb6bc0c5b7ae7397, type: 3}
+  playerTransform: {fileID: 0}
+  isCreated: 0
+  planeCount: 1
+  levelPlane: 10
