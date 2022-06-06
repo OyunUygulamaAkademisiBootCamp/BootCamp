@@ -61,8 +61,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8283882, y: 1.3861077, z: 0.11621094}
-  m_Center: {x: -0.012981415, y: -0.1125052, z: -0.008758545}
+  m_Size: {x: 0.8283882, y: 1.2550621, z: 0.11621094}
+  m_Center: {x: -0.012981415, y: -0.046982408, z: -0.008758545}
 --- !u!1001 &2901732210342675828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70,21 +70,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1403703532286206098}
     m_Modifications:
+    - target: {fileID: 633060778, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 633060778, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -92,7 +100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00263
+      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: 2372092521388016585, guid: d3c5b6c23430a3448b146ad636056ee1, type: 3}
       propertyPath: m_LocalPosition.z
