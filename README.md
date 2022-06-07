@@ -7,7 +7,7 @@ Unity 77
 ## Takım Elemanları
 
 
-- Başak Dilara Çevik:Developer (Product Owner)
+- Başak Dilara Çevik:Develop - Product Owner
 - Eray Aybek: Developer 
 - Gamze Kılıç: Scrum Master
 - Şeyma Nur Tahmaz: Developer
@@ -81,8 +81,8 @@ Miro Uygulamasında, user story örneği bulunmaktadır.
    
 
 -**Diğer Notlar**:
-- unity 2021.3.1f1 
-
+- versiyon unity 2021.3.1f1 
+-Oyunumuza ek çalışma olarak Analytics ve reklam da ekledik.
 ---
 
 # Sprint 2
